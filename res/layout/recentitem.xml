@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/recentItemIcon"
+        android:layout_width="?android:attr/listPreferredItemHeight"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="1dip"
+        android:layout_marginRight="2dip"
+        android:src="@drawable/recent_item_book" />
+
+    <TextView
+        android:id="@+id/recentItemName"
+        style="@style/browser_item_title"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/recentItemIcon"
+        android:gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/recentItemInfo"
+        style="@style/browser_item_info"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/recentItemName"
+        android:layout_toRightOf="@+id/recentItemIcon"
+        android:gravity="top|left" />
+
+    <TextView
+        android:id="@+id/recentItemfileSize"
+        style="@style/browser_item_info"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/recentItemName"
+        android:layout_toRightOf="@+id/recentItemIcon"
+        android:gravity="top|right" />
+
+</RelativeLayout>

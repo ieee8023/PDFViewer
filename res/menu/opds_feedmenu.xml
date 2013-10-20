@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/opdsgoto"
+        android:alphabeticShortcut="g"
+        android:title="@string/opdsgoto"/>
+    <item
+        android:id="@+id/opdsupfolder"
+        android:alphabeticShortcut="u"
+        android:title="@string/opdsupfolder"/>
+    <item
+        android:id="@+id/opdsrefreshfolder"
+        android:alphabeticShortcut="r"
+        android:title="@string/opdsrefreshfolder"/>
+    <item
+        android:id="@+id/opdsprevfolder"
+        android:alphabeticShortcut="p"
+        android:title="@string/opdsprevfolder"/>
+    <item
+        android:id="@+id/opdsnextfolder"
+        android:alphabeticShortcut="n"
+        android:title="@string/opdsnextfolder"/>
+    <item
+        android:id="@+id/opds_feed_add"
+        android:alphabeticShortcut="a"
+        android:title="@string/opds_feed_add"/>
+    <item
+        android:id="@+id/opds_feed_edit"
+        android:alphabeticShortcut="e"
+        android:title="@string/opds_feed_edit"/>
+    <item
+        android:id="@+id/opds_feed_delete"
+        android:alphabeticShortcut="d"
+        android:title="@string/opds_feed_delete"/>
+    <item
+        android:id="@+id/opdsclose"
+        android:alphabeticShortcut="c"
+        android:title="@string/opdsclose"/>
+</menu>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="pref_ui_category">User interface</string>
+    <string name="pref_ui_category_summary">User interface settings</string>
+
+    <string name="pref_lang_title">Language</string>
+    <string name="pref_lang_summary">User interface language (restart required)</string>
+
+    <string name="list_lang_default">System</string>
+    <string name="list_lang_en">English</string>
+    <string name="list_lang_de">German (Deutsch)</string>
+    <string name="list_lang_es">Spanish (Español)</string>
+    <string name="list_lang_fr">French (Française)</string>
+    <string name="list_lang_it">Italian (Italiano)</string>
+    <string name="list_lang_nl">Dutch (Nederlands)</string>
+    <string name="list_lang_ru">Russian (Русский)</string>
+    <string name="list_lang_uk">Ukrainian (Український)</string>
+    <string name="list_lang_zh">Chinese (中文简体)</string>
+    <string name="list_lang_iw">Hebrew (עברית)</string>
+
+    <string name="pref_loadrecent_title">Load recent</string>
+    <string name="pref_loadrecent_summary">On app start, load last opened book</string>
+
+    <string name="pref_confirmclose_title">Confirm closing</string>
+    <string name="pref_confirmclose_summary">Ask close confirmation on Back pressed</string>
+
+    <string name="pref_brightness_title">Brightness</string>
+    <string name="pref_brightness_summary">Set the overall image brightness (0&#8211;100)</string>
+
+    <string name="pref_brightnessnightmodeonly_title">Brightness in night mode</string>
+    <string name="pref_brightnessnightmodeonly_summary">Apply brightness setting only in night mode</string>
+
+    <string name="pref_keepscreenon_title">Keep screen On</string>
+    <string name="pref_keepscreenon_summary">Do not turn screen off when reading (do not hibernate)</string>
+
+    <string name="pref_fullscreen_title">Full screen</string>
+    <string name="pref_fullscreen_summary">Hide status bar</string>
+
+    <string name="pref_title_title">Show Title</string>
+    <string name="pref_title_summary">Show document title (requires reopening the document)</string>
+
+    <string name="pref_pageintitle_title">Page in title</string>
+    <string name="pref_pageintitle_summary">Show page number in title bar</string>
+
+    <string name="pref_pagenumbertoastposition_title">Position of page number toast</string>
+    <string name="pref_pagenumbertoastposition_summary">Position of page number toast</string>
+
+    <string name="pref_zoomtoastposition_title">Position of zoom toast</string>
+    <string name="pref_zoomtoastposition_summary">Position of zoom toast</string>
+
+    <string name="list_toastposition_invisible">Do not show</string>
+    <string name="list_toastposition_lefttop">Left top corner</string>
+    <string name="list_toastposition_righttop">Right top corner</string>
+    <string name="list_toastposition_leftbottom">Left bottom corner</string>
+    <string name="list_toastposition_bottom">Bottom</string>
+    <string name="list_toastposition_righbottom">Right bottom corner</string>
+
+    <string name="pref_showanimicon_title">Show animation icon</string>
+    <string name="pref_showanimicon_summary">Show animation or dragging icon when animations or dragging are enabled</string>
+
+</resources>

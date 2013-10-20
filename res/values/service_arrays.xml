@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string-array name="list_clear_recent_mode" translatable="false">
+        <item>@string/list_clear_recent_mode_clear_recent_list</item>
+        <item>@string/list_clear_recent_mode_delete_bookmarks</item>
+        <item>@string/list_clear_recent_mode_delete_book_settings</item>
+        <item>@string/list_clear_recent_mode_delete_cached_data</item>
+    </string-array>
+
+    <string-array name="list_crop_actions" translatable="false">
+        <item>@string/manual_cropping_current</item>
+        <item>@string/manual_cropping_even</item>
+        <item>@string/manual_cropping_even_symm</item>
+        <item>@string/manual_cropping_all</item>
+        <item>@string/manual_cropping_remove_current</item>
+        <item>@string/manual_cropping_remove_all</item>
+        </string-array>
+
+</resources>

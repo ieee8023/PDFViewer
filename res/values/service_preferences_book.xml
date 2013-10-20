@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string translatable="false" name="pref_book_id">book</string>
+
+    <string translatable="false" name="pref_book_firstpageoffset_id">book_firstpageoffset</string>
+    <string translatable="false" name="pref_book_firstpageoffset_defvalue">1</string>
+    <string translatable="false" name="pref_book_firstpageoffset_minvalue">1</string>
+    <string translatable="false" name="pref_book_firstpageoffset_maxvalue">2147483647</string>
+
+    <string translatable="false" name="pref_book_nightmode_id">book_nightmode</string>
+
+    <string translatable="false" name="pref_book_posimages_in_nightmode_id">book-posimages-in-nightmode</string>
+
+    <string translatable="false" name="pref_book_contrast_id">book_contrast</string>
+
+    <string translatable="false" name="pref_book_gamma_id">book_gamma</string>
+
+    <string translatable="false" name="pref_book_exposure_id">book_exposure</string>
+
+    <string translatable="false" name="pref_book_autolevels_id">book_autolevels</string>
+
+    <string translatable="false" name="pref_book_splitpages_id">book_splitpages</string>
+
+    <string translatable="false" name="pref_book_splitpages_rtl_id">book_splitpages_rtl</string>
+
+    <string translatable="false" name="pref_book_croppages_id">book_croppages</string>
+
+    <string translatable="false" name="pref_book_rotation_id">book_rotation</string>
+
+    <string-array name="pref_book_rotation_entries" translatable="false">
+        <item>@string/list_rotation_unspecified</item>
+        <item>@string/list_rotation_land</item>
+        <item>@string/list_rotation_port</item>
+    </string-array>
+
+    <string-array name="pref_book_rotation_values" translatable="false">
+        <item>@string/pref_rotation_unspecified</item>
+        <item>@string/pref_rotation_land</item>
+        <item>@string/pref_rotation_port</item>
+    </string-array>
+
+    <string translatable="false" name="pref_book_viewmode_id">book_viewmode</string>
+
+    <string translatable="false" name="pref_book_align_id">book_align</string>
+
+    <string translatable="false" name="pref_book_animation_type_id">book_animationType</string>
+
+</resources>

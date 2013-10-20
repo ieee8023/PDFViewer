@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="pref_rotation_title">Rotation mode</string>
+    <string name="pref_rotation_summary">How to change rotation</string>
+
+    <string name="list_rotation_unspecified">Unspecified</string>
+    <string name="list_rotation_land">Force landscape</string>
+    <string name="list_rotation_port">Force portrait</string>
+    <string name="list_rotation_user">User</string>
+    <string name="list_rotation_behind">Inherit from background</string>
+    <string name="list_rotation_auto">Automatic</string>
+    <string name="list_rotation_nosensor">No sensor</string>
+    <string name="list_rotation_sensor_landscape">Force landscape but sense flipping</string>
+    <string name="list_rotation_sensor_portrait">Force portrait but sense flipping</string>
+    <string name="list_rotation_reverse_landscape">Force reverse landscape</string>
+    <string name="list_rotation_reverse_portrait">Force reverse portrait</string>
+    <string name="list_rotation_full_sensor">Full sensor</string>
+
+    <string name="pref_render_category">Rendering</string>
+    <string name="pref_render_category_summary">Rendering settings</string>
+
+    <string name="pref_book_category">Book settings</string>
+    <string name="pref_book_category_summary">Current book settings</string>
+
+    <string name="pref_firstpageoffset_title">First page offset</string>
+    <string name="pref_firstpageoffset_summary">Index of first page shown to user</string>
+
+    <string name="pref_splitpages_title">Split pages</string>
+    <string name="pref_splitpages_summary">Split landscape pages into two portrait pages</string>
+
+    <string name="pref_splitpages_rtl_title">Split pages right-to-left</string>
+    <string name="pref_splitpages_rtl_summary">Split landscape pages into two portrait pages right-to-left</string>
+
+    <string name="pref_croppages_title">Crop pages (auto)</string>
+    <string name="pref_croppages_summary">Automatically crop empty margins in order to maximize content magnification</string>
+
+    <string name="pref_viewmode_title">Document view mode</string>
+    <string name="pref_viewmode_summary">View document as single pages or as a continuous scroll</string>
+
+    <string name="list_viewmode_vertical_scroll">Vertical scroll</string>
+    <string name="list_viewmode_horizontal_scroll">Horizontal scroll</string>
+    <string name="list_viewmode_single_page">Single page</string>
+
+    <string name="pref_singlepage_category">Single page settings</string>
+    <string name="pref_singlepage_category_summary">View modes for single pages only</string>
+
+    <string name="pref_align_title">Page fitting</string>
+    <string name="pref_align_summary">How to fit pages to the screen</string>
+
+    <string name="list_align_by_width">Fit to width</string>
+    <string name="list_align_by_height">Fit to height</string>
+    <string name="list_align_auto">Automatic</string>
+
+    <string name="pref_animationtype_title">Page transition</string>
+    <string name="pref_animationtype_summary">Select the animation for page transition in sigle page mode</string>
+
+    <string name="list_animation_none">None</string>
+    <string name="list_animation_curler_simple">Simple curler</string>
+    <string name="list_animation_curler_dynamic">Dynamic curler</string>
+    <string name="list_animation_curler_natural">Natural curler</string>
+    <string name="list_animation_slider">Slider</string>
+    <string name="list_animation_fader">Fade in</string>
+    <string name="list_animation_squeezer">Squeeze</string>
+    <string name="list_animation_slider2">Slide over</string>
+
+    <string name="pref_postprocessing_category" >Post&#8211;processing effects</string>
+    <string name="pref_postprocessing_summary">Additional effects to enhance page viewing</string>
+
+    <string name="pref_nightmode_title">Night mode</string>
+    <string name="pref_nightmode_summary">White text on black background (negative image)</string>
+
+    <string name="pref_posimages_in_nightmode_title">Positive images in night mode</string>
+    <string name="pref_posimages_in_nightmode_summary">Show gray-scaled images in night mode (do not invert image colors)</string>
+
+    <string name="pref_contrast_title">Contrast</string>
+    <string name="pref_contrast_summary">Contrast correction level (0 &#8211; 1000, 100 by default)</string>
+
+    <string name="pref_gamma_title">Gamma</string>
+    <string name="pref_gamma_summary">Gamma correction level (0 &#8211; 200, 100 by default)</string>
+
+    <string name="pref_exposure_title">Exposure</string>
+    <string name="pref_exposure_summary">Exposure correction level (0 &#8211; 200, 100 by default)</string>
+
+    <string name="pref_autolevels_title">Auto levels</string>
+    <string name="pref_autolevels_summary">Use auto levels correction</string>
+
+</resources>
