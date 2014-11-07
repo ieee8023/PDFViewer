@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="pref_brbrfiletypesscreen_title">"Типы файлов"</string>
+    <string name="pref_brbrfiletypesscreen_summary">"Типы файлов для отображения"</string>
+    <string name="pref_ft_djvu_summary">"Показывать DjVu файлы"</string>
+    <string name="pref_ft_pdf_summary">"Показывать PDF файлы"</string>
+    <string name="pref_ft_xps_summary">"Показывать XPS файлы"</string>
+    <string name="pref_ft_cbx_summary">"Показывать CBZ и CBR файлы"</string>
+    <string name="pref_ft_fb2_summary">"Показывать FB2 файлы"</string>
+    <string name="pref_ft_epub_summary">"Показывать EPUB файлы"</string>
+    <string name="pref_ft_rtf_summary">"Показывать RTF файлы"</string>
+
+</resources>

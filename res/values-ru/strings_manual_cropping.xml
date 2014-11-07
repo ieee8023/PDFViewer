@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="manual_cropping_title">"Ручная обрезка:"</string>
+    <string name="manual_cropping_even">"Все (не)четные страницы"</string>
+    <string name="manual_cropping_even_symm">"Все страницы, симметрично"</string>
+    <string name="manual_cropping_all">"Все страницы"</string>
+    <string name="manual_cropping_reset">"Сбросить настройки"</string>
+    <string name="manual_cropping_setauto">"Установить автообрезку"</string>
+    <string name="manual_cropping_remove_current">"Убрать с текущей страницы"</string>
+    <string name="manual_cropping_remove_all">"Убрать со всех страниц"</string>
+    <string name="manual_cropping_back">"Вернуться к выбору области"</string>
+
+</resources>

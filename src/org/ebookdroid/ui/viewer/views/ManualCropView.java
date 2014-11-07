@@ -27,7 +27,7 @@ import org.emdev.ui.actions.ActionMethod;
 import org.emdev.ui.actions.IActionController;
 import org.emdev.utils.MathUtils;
 
-import the.pdfviewer3.R;
+import the.pdfviewerx.R;
 
 public class ManualCropView extends View {
 

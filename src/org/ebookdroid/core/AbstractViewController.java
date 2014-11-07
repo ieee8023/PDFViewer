@@ -40,7 +40,7 @@ import org.emdev.ui.actions.params.Constant;
 import org.emdev.ui.progress.IProgressIndicator;
 import org.emdev.utils.LengthUtils;
 
-import the.pdfviewer3.R;
+import the.pdfviewerx.R;
 
 public abstract class AbstractViewController extends AbstractComponentController<IView> implements IViewController {
 

@@ -1,11 +1,10 @@
 package org.ebookdroid.core.curl;
 
 import org.ebookdroid.core.SinglePageController;
-
 import org.emdev.utils.enums.ResourceConstant;
 
-import the.pdfviewer3.EBookDroidApp;
-import the.pdfviewer3.R;
+import the.pdfviewerx.EBookDroidApp;
+import the.pdfviewerx.R;
 
 public enum PageAnimationType implements ResourceConstant {
 

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+<!--<string name="smb">"SMB Browser"</string>-->
+<!--<string name="smb_error_title">"SMB Error"</string>-->
+<!--<string name="smb_addserver_title">"Adding new server"</string>-->
+<!--<string name="smb_addserver_ok">"Add"</string>-->
+<!--<string name="smb_addserver_alias">"Alias:"</string>-->
+<!--<string name="smb_addserver_address">"Address:"</string>-->
+<!--<string name="smb_addserver_share">"Share:"</string>-->
+<!--<string name="smb_addserver_auth">"Authorization required"</string>-->
+<!--<string name="smb_authserver_domain">"Domain:"</string>-->
+<!--<string name="smb_authserver_username">"Username:"</string>-->
+<!--<string name="smb_authserver_password">"Password:"</string>-->
+<!--<string name="smb_editserver_title">"Edit server"</string>-->
+<!--<string name="smb_editserver_ok">"Update"</string>-->
+<!--<string name="smb_deleteserver_title">"Delete servers"</string>-->
+<!--<string name="smb_deleteserver_msg">"Do you really want to delete selected servers?"</string>-->
+<!--<string name="smb_deleteserver_ok">"Delete"</string>-->
+<!--<string name="smb_add_new_server">"Add new server"</string>-->
+<!--<string name="smb_edit">"Edit"</string>-->
+<!--<string name="smb_delete">"Delete"</string>-->
+
+</resources>

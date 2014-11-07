@@ -12,7 +12,7 @@ import java.io.File;
 import org.emdev.ui.progress.IProgressIndicator;
 import org.emdev.ui.tasks.BaseFileAsyncTask;
 
-import the.pdfviewer3.R;
+import the.pdfviewerx.R;
 
 final class DownloadBookTask extends BaseFileAsyncTask<Object, DownloadBookResult> implements
         OnCancelListener, IProgressIndicator {

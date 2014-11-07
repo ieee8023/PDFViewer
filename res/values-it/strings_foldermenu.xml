@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="folder_show_folder_properties">"Mostra proprietà cartella"</string>
+    <string name="folder_exclude_from_library">"Escludi dagli scaffali"</string>
+    <string name="folder_books_operations">"Operazioni sui documenti…"</string>
+    <string name="folder_copy_all_books_to">"Copia tutti i documenti in…"</string>
+    <string name="folder_move_all_books_to">"Sposta tutti i documenti in…"</string>
+    <string name="folder_folder_operations">"Operazioni sulle cartelle…"</string>
+    <string name="folder_copy_folder_to">"Copia la cartella in…"</string>
+    <string name="folder_move_folder_to">"Sposta la cartella in…"</string>
+    <string name="folder_delete_folder">"Elimina la cartella"</string>
+    <string name="folder_delete_all_books">"Elimina tutti i documenti"</string>
+
+</resources>

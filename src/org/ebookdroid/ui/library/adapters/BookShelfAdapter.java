@@ -16,7 +16,7 @@ import org.emdev.ui.adapters.BaseViewHolder;
 import org.emdev.utils.FileUtils;
 import org.emdev.utils.StringUtils;
 
-import the.pdfviewer3.R;
+import the.pdfviewerx.R;
 
 public class BookShelfAdapter extends BaseAdapter {
 

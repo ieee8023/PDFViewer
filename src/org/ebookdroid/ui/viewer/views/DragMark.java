@@ -13,7 +13,7 @@ import org.emdev.BaseDroidApp;
 import org.emdev.ui.gl.BitmapTexture;
 import org.emdev.ui.gl.GLCanvas;
 
-import the.pdfviewer3.R;
+import the.pdfviewerx.R;
 
 public enum DragMark {
 

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+<!--<string name="pref_tools_title">"Supported tools"</string>-->
+<!--<string name="pref_tools_summary">"List of experimental tools"</string>-->
+<!--<string name="pref_tools_text_title">"Text selection"</string>-->
+<!--<string name="pref_tools_text_summary">"Text selection tools: copy, translate and search in Google"</string>-->
+<!--<string name="pref_tools_highlight_title">"Text highlight"</string>-->
+<!--<string name="pref_tools_highlight_summary">"Text highlight tools"</string>-->
+<!--<string name="pref_tools_drawing_title">"Free-hand drawing"</string>-->
+<!--<string name="pref_tools_drawing_summary">"Free-hand drawing tools"</string>-->
+<!--<string name="pref_tools_notes_title">"Notes"</string>-->
+<!--<string name="pref_tools_notes_summary">"Text notes and notebook tools"</string>-->
+<!--<string name="pref_dictionarytype_title">"Dictionary"</string>-->
+<!--<string name="pref_dictionarytype_summary">"Third party application to lookup words translation"</string>-->
+
+</resources>

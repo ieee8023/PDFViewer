@@ -1,12 +1,11 @@
 package org.ebookdroid.common.settings.types;
 
 import static android.view.Gravity.*;
-import static the.pdfviewer3.R.string.*;
-
+import static the.pdfviewerx.R.string.*;
 
 import org.emdev.utils.enums.ResourceConstant;
 
-import the.pdfviewer3.EBookDroidApp;
+import the.pdfviewerx.EBookDroidApp;
 
 public enum ToastPosition implements ResourceConstant {
 

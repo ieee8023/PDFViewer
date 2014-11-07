@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="am_tools">"Strumenti"</string>
+    <string name="am_tools_up">"Strumenti"</string>
+    <string name="am_tools_text">"Testo"</string>
+    <string name="am_tools_highlight">"Evidenziatore"</string>
+    <string name="am_tools_draw">"Disegna"</string>
+    <string name="am_tools_notes">"Note"</string>
+    <string name="am_tools_export">"Esporta"</string>
+    <string name="am_tools_text_copy">"Copia"</string>
+    <string name="am_tools_text_translate">"Traduci"</string>
+    <string name="am_tools_text_google">"Cerca in rete"</string>
+    <string name="am_tools_text_highlight">"Evidenziatore"</string>
+    <string name="am_tools_text_clear">"Rimuovi evidenziatore"</string>
+    <string name="am_tools_text_selection_no_text">"Nessun testo selezionato"</string>
+    <string name="am_tools_text_selection_text_copied">"Testo copiato negli appunti di sistema"</string>
+    <string name="am_tools_ann_use_pressure">"Utilizza la pressione"</string>
+    <string name="am_tools_ann_change_color">"Cambia colore"</string>
+    <string name="am_tools_ann_thin_line">"Tratto sottile"</string>
+    <string name="am_tools_ann_thick_line">"Tratto medio"</string>
+    <string name="am_tools_ann_thickest_line">"Tratto spesso"</string>
+    <string name="am_tools_ann_eraser">"Gomma"</string>
+    <string name="am_tools_ann_clear">"Pulisci"</string>
+    <string name="am_tools_ann_undo">"Annulla"</string>
+    <string name="am_tools_notes_add">"Inserisci nota"</string>
+    <string name="am_tools_notes_diary">"Appunti"</string>
+    <string name="note_dlg_title">"Nota#8230;"</string>
+    <string name="note_add_dlg_title">"Inserisci nota#8230;"</string>
+    <string name="note_edit_dlg_title">"Modifica nota#8230;"</string>
+    <string name="diary_dlg_title">"Modifica appunti a pag. %1$d …"</string>
+    <string name="note_dlg_title_hint">"Titolo della nota"</string>
+    <string name="note_dlg_text_hint">"Testo della nota"</string>
+    <string name="diary_dlg_text_hint">"Testo degli appunti"</string>
+    <string name="color_dlg_title">"Cambia colore"</string>
+
+</resources>

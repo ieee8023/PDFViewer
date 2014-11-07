@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="menu_exit">"Esci"</string>
+    <string name="menu_close">"Chiudi"</string>
+    <string name="menu_goto_page">"Naviga"</string>
+    <string name="menu_outline">"Indice"</string>
+    <string name="menu_zoom" translatable="true">"Zoom"</string>
+    <string name="menu_nightmode">"Giorno/Notte"</string>
+    <string name="menu_settings">"Impostazioni generali"</string>
+    <string name="menu_booksettings">"Impostazioni libro"</string>
+    <string name="menu_picturesettings">"Tonalità e colori…"</string>
+    <string name="menu_cleanrecent">"Svuota lista recenti"</string>
+    <string name="menu_add_bookmark">"Inserisci segnalibro"</string>
+    <string name="menu_edit_bookmark">"Modifica segnalibro"</string>
+    <string name="menu_thumbnail">"Usa come copertina"</string>
+    <string name="menu_about">"Info su EBookDroid"</string>
+    <string name="menu_tap_configuration">"Configura gesti"</string>
+    <string name="menu_key_bindings">"Configura comandi"</string>
+    <string name="menu_searchbook">"Cerca libro"</string>
+    <string name="menu_searchtext">"Cerca nel testo"</string>
+    <string name="menu_show_options_menu">"Visualizza menu opzioni"</string>
+    <string name="menu_backupsettings">"Backup e Ripristino"</string>
+    <string name="menu_crop">"Ritaglia pagina"</string>
+    <string name="menu_drawbookmark">"Inserisci nota"</string>
+    <string name="menu_other">"Altro…"</string>
+    <string name="menu_switch_to_book_menu">"Altri documenti aperti…"</string>
+    <string name="menu_switch_to_service_menu">"Cambia modalità interfaccia…"</string>
+    <string name="menu_navigation_menu">"Navigazione…"</string>
+    <string name="menu_fastsettings_menu">"Vista…"</string>
+    <string name="menu_allsettings_menu">"Impostazioni…"</string>
+    <string name="menu_show_library">"Scaffale"</string>
+    <string name="menu_show_recent">"Recenti"</string>
+    <string name="menu_storages">"Storage"</string>
+<!--<string name="menu_storages_filesystem">"File System"</string>-->
+    <string name="menu_storages_external">"Scheda SD"</string>
+    <string name="menu_force_portrait">"Forza modalità ritratto"</string>
+    <string name="menu_force_landscape">"Forza modalità album"</string>
+    <string name="menu_recents">"Scaffali"</string>
+    <string name="menu_files">"File locali"</string>
+    <string name="menu_smb">"Rete locale"</string>
+    <string name="menu_opds">"Browser OPDS"</string>
+    <string name="menu_refresh">"Aggiorna biblioteca"</string>
+
+</resources>

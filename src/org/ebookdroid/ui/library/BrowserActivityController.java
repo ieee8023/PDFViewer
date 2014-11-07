@@ -42,11 +42,11 @@ import org.emdev.utils.CompareUtils;
 import org.emdev.utils.FileUtils;
 import org.emdev.utils.LengthUtils;
 
-import the.pdfviewer3.BrowserActivity;
-import the.pdfviewer3.FolderDlg;
-import the.pdfviewer3.R;
-import the.pdfviewer3.RecentActivity;
-import the.pdfviewer3.ViewerActivity;
+import the.pdfviewerx.BrowserActivity;
+import the.pdfviewerx.FolderDlg;
+import the.pdfviewerx.R;
+import the.pdfviewerx.RecentActivity;
+import the.pdfviewerx.ViewerActivity;
 
 public class BrowserActivityController extends AbstractActivityController<BrowserActivity> implements IBrowserActivity {
 

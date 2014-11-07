@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="pref_performance_category">"Җитештерүчәнлек көйләүләре"</string>
+    <string name="pref_performance_category_summary">"Җитештерүчәнлек көйләүләре"</string>
+    <string name="pref_pagesinmemory_title">"Хәтердә бит"</string>
+    <string name="pref_pagesinmemory_summary">"Хәтердә сакланган битләр саны"</string>
+    <string name="pref_force_simd_title">"ОКМД кулланырга"</string>
+    <string name="pref_force_simd_summary">"Процессорның киңәйтелгән күрсәтмәләрен кулланырга (NEON ARMv7 өчен яки SSE x86 өчен)"</string>
+    <string name="pref_lowlevel_category">"Кушымтаның нечкә көйләүләре (Документны киредән ачарга кирәк)"</string>
+    <string name="pref_lowlevel_category_summary">"Кушымтаның нечкә көйләүләре (Документны киредән ачарга кирәк)"</string>
+    <string name="pref_decodeprocess_nicelevel_title">"Декодлау ташкыны өстенлеге"</string>
+    <string name="pref_decodeprocess_nicelevel_summary">"PDF, DJVU, CBZ, CBR декодлау ташкыны өстенлеге"</string>
+    <string name="list_decodeprocess_nicelevel_default">"Гади"</string>
+    <string name="list_decodeprocess_nicelevel_lower">"Югары"</string>
+    <string name="list_decodeprocess_nicelevel_lowest">"Максималь"</string>
+    <string name="pref_decodethread_priority_title">"Декодлау ташкыны өстенлеге"</string>
+    <string name="pref_decodethread_priority_summary">"FB2, RTF, EPUB декодлау ташкыны өстенлеге"</string>
+    <string name="pref_decodethread_timeout_title">"Декодлау ташкынын туктату өчен вакыт"</string>
+    <string name="pref_decodethread_timeout_summary">"Битне декодлау өчен максималь вакытны секундларда билгели"</string>
+    <string name="pref_drawthread_priority_title">"Рәсемләү ташкыны өстенлеге"</string>
+    <string name="pref_drawthread_priority_summary">"Рәсемләү ташкыны өстенлеге"</string>
+    <string name="list_thread_priority_lowest">"Иң түбән"</string>
+    <string name="list_thread_priority_lower">"Түбән"</string>
+    <string name="list_thread_priority_normal">"Гади"</string>
+    <string name="list_thread_priority_higher">"Югары"</string>
+    <string name="list_thread_priority_highest">"Иң югары"</string>
+    <string name="pref_decodingonscroll_title">"Күчергәндә декодлау"</string>
+    <string name="pref_decodingonscroll_summary">"Битләрне күчергәндә декодлау"</string>
+    <string name="pref_bitmapsize_title">"Текстура зурлыгы"</string>
+    <string name="pref_bitmapsize_summary">"Текстура зурлыгын билгели"</string>
+    <string name="pref_heappreallocate_title">"Хәтерне бүлеп кую"</string>
+    <string name="pref_heappreallocate_summary">"Кушымтаны кабызганда бүленеп куелган хәтер күләме мегабайтларда"</string>
+    <string name="pref_pdfstoragesize_title">"Эчке MuPDF саклагыч күләме"</string>
+    <string name="pref_pdfstoragesize_summary">"Эчке MuPDF саклагычның мегабайтларда күләме"</string>
+
+</resources>

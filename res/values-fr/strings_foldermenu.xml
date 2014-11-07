@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+<!--<string name="folder_show_folder_properties">"Show folder properties"</string>-->
+<!--<string name="folder_exclude_from_library">"Exclude from library"</string>-->
+<!--<string name="folder_books_operations">"Books operations…"</string>-->
+<!--<string name="folder_copy_all_books_to">"Copy all books to…"</string>-->
+<!--<string name="folder_move_all_books_to">"Move all books to…"</string>-->
+<!--<string name="folder_folder_operations">"Folder operations…"</string>-->
+<!--<string name="folder_copy_folder_to">"Copy folder to…"</string>-->
+<!--<string name="folder_move_folder_to">"Move folder to…"</string>-->
+<!--<string name="folder_delete_folder">"Delete folder"</string>-->
+<!--<string name="folder_delete_all_books">"Delete all books"</string>-->
+
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="pref_brbrfiletypesscreen_title">"Файллар төре"</string>
+    <string name="pref_brbrfiletypesscreen_summary">"Күрсәтү өчен файллар төрләре"</string>
+    <string name="pref_ft_djvu_summary">"DjVu файлларны күрсәтергә"</string>
+    <string name="pref_ft_pdf_summary">"PDF файлларны күрсәтергә"</string>
+    <string name="pref_ft_xps_summary">"XPS файлларны күрсәтергә"</string>
+    <string name="pref_ft_cbx_summary">"CBZ һәм CBR файлларны күрсәтергә"</string>
+    <string name="pref_ft_fb2_summary">"FB2 файлларны күрсәтергә"</string>
+    <string name="pref_ft_epub_summary">"EPUB файлларны күрсәтергә"</string>
+    <string name="pref_ft_rtf_summary">"RTF файлларны күрсәтергә"</string>
+
+</resources>

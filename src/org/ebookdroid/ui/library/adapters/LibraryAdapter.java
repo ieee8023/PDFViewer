@@ -14,8 +14,8 @@ import java.io.File;
 import org.emdev.ui.adapters.BaseViewHolder;
 import org.emdev.utils.FileUtils;
 
-import the.pdfviewer3.EBookDroidApp;
-import the.pdfviewer3.R;
+import the.pdfviewerx.EBookDroidApp;
+import the.pdfviewerx.R;
 
 public class LibraryAdapter extends BaseExpandableListAdapter {
 

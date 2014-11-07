@@ -11,21 +11,11 @@
     <path id="android.antlibs">
         <pathelement path="${sdk.dir}/tools/lib/anttasks.jar" />
     </path>
-    <path id="svnant.classpath">
-        <fileset dir="${svnant.dir}/lib">
-            <include name="**/*.jar" />
-        </fileset>
-    </path>
     <path id="ant-contrib.classpath">
         <fileset dir="${ant-contrib.dir}/lib">
             <include name="**/*.jar" />
         </fileset>
     </path>
-
-    <typedef resource="org/tigris/subversion/svnant/svnantlib.xml" classpathref="svnant.classpath" />
-    <taskdef name="var" classname="net.sf.antcontrib.property.Variable" classpathref="ant-contrib.classpath"/>
-    <taskdef name="math" classname="net.sf.antcontrib.math.MathTask" classpathref="ant-contrib.classpath"/>
-    <taskdef name="xpath" classname="com.android.ant.XPathTask" classpathref="android.antlibs" />
 
     <import file="${sdk.dir}/tools/ant/build.xml" />
 
@@ -61,29 +51,6 @@
         <echo>Finish ${version.name} (${version.code}) : ${apk}</echo>
     </target>
 
-    <target name="-svn-force-update">
-        <exec executable="svn" failonerror="true">
-            <arg value="update" />
-            <arg value="." />
-            <arg value="-r" />
-            <arg value="HEAD" />
-            <arg value="--force" />
-        </exec>
-    </target>
-
-    <target name="-svn-get-revision">
-        <svn javahl="false">
-            <info target="." />
-        </svn>
-        <echo>Revision: ${svn.info.rev}</echo>
-    </target>
-
-    <target name="-svn-checkout-changelog">
-        <svn javahl="false">
-            <export srcurl="${changelog.url}" destpath="assets/about/en/changelog.wiki" />
-        </svn>
-    </target>
-
     <target name="-check-release-version">
         <condition property="legal.version.code">
             <matches string="${package.version.code}" pattern="${release.version.code.pattern}"/>
@@ -106,12 +73,6 @@
             <matches string="${package.version.name}" pattern="${dev.version.name.pattern}"/>
         </condition>
         <fail unless="legal.version.name" message="${dev.version.name.msg}" />
-    </target>
-
-    <target name="-prepare-dev" depends="-check-dev-version, -svn-force-update, -svn-get-revision, -svn-checkout-changelog">
-    </target>
-
-    <target name="-prepare-release" depends="-check-release-version, -svn-force-update, -svn-checkout-changelog">
     </target>
 
 </project>

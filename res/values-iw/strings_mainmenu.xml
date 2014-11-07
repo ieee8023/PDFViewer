@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+<!--<string name="menu_exit">"Exit"</string>-->
+    <string name="menu_close">"לסגור"</string>
+    <string name="menu_goto_page">"עמוד"</string>
+    <string name="menu_outline">"תוכן העניינים"</string>
+    <string name="menu_zoom">"להגדיל"</string>
+    <string name="menu_nightmode">"יום / לילה"</string>
+    <string name="menu_settings">"כל ההגדרות"</string>
+    <string name="menu_booksettings">"הגדרות הספר"</string>
+<!--<string name="menu_picturesettings">"Picture enhancements…"</string>-->
+    <string name="menu_cleanrecent">"ניקוי נתונים"</string>
+    <string name="menu_add_bookmark">"הוספת סימנייה"</string>
+<!--<string name="menu_edit_bookmark">"Edit bookmark"</string>-->
+    <string name="menu_thumbnail">"קבע כעמוד ראשי"</string>
+    <string name="menu_about">"על התכנית"</string>
+    <string name="menu_tap_configuration">"הגדרות אזורי מגעה"</string>
+    <string name="menu_key_bindings">"הגדרות הלחצנים"</string>
+    <string name="menu_searchbook">"לחפש"</string>
+    <string name="menu_searchtext">"לחפש"</string>
+    <string name="menu_show_options_menu">"הצג תפריט"</string>
+    <string name="menu_backupsettings">"שמירה ושחזור"</string>
+<!--<string name="menu_crop">"Manual crop"</string>-->
+<!--<string name="menu_drawbookmark">"Add annnotation"</string>-->
+<!--<string name="menu_other">"Other…"</string>-->
+<!--<string name="menu_switch_to_book_menu">"Switch to opened book…"</string>-->
+<!--<string name="menu_switch_to_service_menu">"Switch to service view…"</string>-->
+<!--<string name="menu_navigation_menu">"Navigation…"</string>-->
+<!--<string name="menu_fastsettings_menu">"View…"</string>-->
+<!--<string name="menu_allsettings_menu">"Settings…"</string>-->
+<!--<string name="menu_show_library">"Show library"</string>-->
+<!--<string name="menu_show_recent">"Show recent"</string>-->
+<!--<string name="menu_storages">"Storages"</string>-->
+<!--<string name="menu_storages_filesystem">"File System"</string>-->
+<!--<string name="menu_storages_external">"SD Card"</string>-->
+    <string name="menu_force_portrait">"לאלץ את מסך לגובה"</string>
+    <string name="menu_force_landscape">"לאלץ את מסך לרוחב"</string>
+<!--<string name="menu_recents">"Library"</string>-->
+<!--<string name="menu_files">"Local files"</string>-->
+<!--<string name="menu_smb">"Local network"</string>-->
+    <string name="menu_opds">"OPDS קטלוגים"</string>
+<!--<string name="menu_refresh">"Rescan library"</string>-->
+
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="pref_navigation_category">"Юнәлеш һәм тарих"</string>
+    <string name="pref_navigation_category_summary">"Юнәлеш һәм тарихны көйләү"</string>
+    <string name="pref_usegotobar_title">"Яңа юнәлеш"</string>
+    <string name="pref_usegotobar_summary">"Күчү әңгәмәсе урынына яңа юнәлешне куллану"</string>
+    <string name="pref_showaddbutton_title">"Төймәне күрсәтергә"</string>
+    <string name="pref_showaddbutton_summary">"Кыстыргыч өстәү өчен төймәне күрсәтергә"</string>
+    <string name="pref_showbookmarksmenu_summary">"Кыстыргычларны күрсәтергә"</string>
+    <string name="pref_showbookmarksmenu_title">"Юнәлеш менюсында кыстыргычларны күрсәтергә"</string>
+    <string name="pref_link_highlight_summary">"Сылтамалар яктырылыш төсен сайлагыз"</string>
+    <string name="pref_link_highlight_title">"Сылтамалар яктырылышы"</string>
+    <string name="pref_search_highlight_summary">"Эзләү нәтиҗәсе яктырылышы төсен сайлагыз"</string>
+    <string name="pref_search_highlight_title">"Эзләү нәтиҗәсе яктырылышы"</string>
+    <string name="pref_current_search_highlight_summary">"Хәзерге эзләү нәтиҗәсе яктырылышы төсен сайлагыз"</string>
+    <string name="pref_current_search_highlight_title">"Хәзерге эзләү нәтиҗәсе яктырылышы"</string>
+    <string name="pref_storeGotoHistory_title">"Битләрдән күчү"</string>
+    <string name="pref_storeGotoHistory_summary">"Юнәлеш тарихында битләрдән күчүне сакларга"</string>
+    <string name="pref_storeLinkGotoHistory_title">"Сылтамалардан күчү"</string>
+    <string name="pref_storeLinkGotoHistory_summary">"Юнәлеш тарихында сылтамалардан күчүне сакларга"</string>
+    <string name="pref_storeOutlineGotoHistory_title">"Эчтәлек буенча күчү"</string>
+    <string name="pref_storeOutlineGotoHistory_summary">"Юнәлеш тарихында эчтәлек буенча күчүне сакларга"</string>
+    <string name="pref_storeSearchGotoHistory_title">"Эзләү буенча күчү"</string>
+    <string name="pref_storeSearchGotoHistory_summary">"Юнәлеш тарихында эзләү буенча күчүне сакларга"</string>
+
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+<!--<string name="search_backward">"Backward"</string>-->
+<!--<string name="search_forward">"Forward"</string>-->
+    <string name="msg_search_text_on_page">"Buscando en la página %1$d…"</string>
+    <string name="msg_no_text_found">"Texto no encontrado"</string>
+
+</resources>

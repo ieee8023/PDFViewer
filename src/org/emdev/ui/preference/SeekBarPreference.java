@@ -17,7 +17,7 @@ import org.emdev.ui.widget.SeekBarIncrementHandler;
 import org.emdev.utils.LengthUtils;
 import org.emdev.utils.WidgetUtils;
 
-import the.pdfviewer3.R;
+import the.pdfviewerx.R;
 
 public final class SeekBarPreference extends DialogPreference implements OnSeekBarChangeListener {
 

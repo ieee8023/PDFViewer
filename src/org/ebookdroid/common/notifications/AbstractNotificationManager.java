@@ -10,8 +10,8 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 import org.emdev.BaseDroidApp;
 
-import the.pdfviewer3.EBookDroidApp;
-import the.pdfviewer3.R;
+import the.pdfviewerx.EBookDroidApp;
+import the.pdfviewerx.R;
 
 abstract class AbstractNotificationManager implements INotificationManager {
 

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="bookmenu_open">"Китапны ачарга…"</string>
+    <string name="bookmenu_settings">"Китап көйләүләрен күрсәтергә"</string>
+    <string name="bookmenu_openbookshelf">"Китап киштәсен күрсәтергә"</string>
+    <string name="bookmenu_openbookfolder">"Китап папкасын күрсәтергә"</string>
+    <string name="bookmenu_createbookshortcut">"Эш өстәлендә сылтама ясарга"</string>
+    <string name="bookmenu_recentgroup">"Мәгълүматны бетерергә"</string>
+    <string name="bookmenu_removefromrecent">"Соңгыдан чыгарырга"</string>
+    <string name="bookmenu_cleardata">"Кешланган мәгълүматны бетерергә"</string>
+    <string name="bookmenu_deletesettings">"Китап көйләүләрен бетерергә"</string>
+    <string name="bookmenu_filegroup">"Файл гамәлләре"</string>
+    <string name="bookmenu_copy">"Китапка күчермә"</string>
+    <string name="bookmenu_rename">"Китапны исемләү"</string>
+    <string name="bookmenu_move">"Китапны монда күчерергә"</string>
+    <string name="bookmenu_delete">"Китапны бетерергә"</string>
+
+</resources>

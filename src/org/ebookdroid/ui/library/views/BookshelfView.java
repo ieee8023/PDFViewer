@@ -41,7 +41,7 @@ import org.emdev.ui.drawable.SpotlightDrawable;
 import org.emdev.ui.drawable.TransitionDrawable;
 import org.emdev.utils.LayoutUtils;
 
-import the.pdfviewer3.R;
+import the.pdfviewerx.R;
 
 public class BookshelfView extends GridView implements OnItemClickListener {
 

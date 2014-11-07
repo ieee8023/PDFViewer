@@ -31,7 +31,7 @@ import org.emdev.ui.widget.IViewContainer;
 import org.emdev.ui.widget.SeekBarIncrementHandler;
 import org.emdev.utils.LayoutUtils;
 
-import the.pdfviewer3.R;
+import the.pdfviewerx.R;
 
 public class GoToPageDialog extends Dialog {
 

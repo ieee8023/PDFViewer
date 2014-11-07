@@ -12,7 +12,7 @@ import android.content.Context;
 
 import org.emdev.ui.actions.IActionController;
 
-import the.pdfviewer3.ViewerActivity;
+import the.pdfviewerx.ViewerActivity;
 
 public interface IActivityController extends IActionController<ViewerActivity> {
 

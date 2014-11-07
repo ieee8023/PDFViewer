@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="search_backward">"Indietro"</string>
+    <string name="search_forward">"Avanti"</string>
+    <string name="msg_search_text_on_page">"Ricerca alla pagina %1$d…"</string>
+    <string name="msg_no_text_found">"Testo non trovato"</string>
+
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="opds">"OPDS קטלוגים"</string>
+    <string name="opds_connecting">"חיבור …"</string>
+    <string name="opds_loading_catalog">"טוען ספרייה …"</string>
+    <string name="opds_loading_book">"ספר %1$s / %2$s …"</string>
+    <string name="opds_unpacking_book">"ספר %1$s / %2$s …"</string>
+    <string name="opds_download_complete">"הורד את הספר הזה %s"</string>
+    <string name="opds_download_error">"הורד את הספר הזה %s"</string>
+    <string name="opds_add_new_feed">"ההודעה חדשה"</string>
+    <string name="opds_addfeed_title">"הקטלוג החדש"</string>
+    <string name="opds_addfeed_msg">"הזן את השם וכתובת אתר הספרייה"</string>
+    <string name="opds_addfeed_ok">"להוסיף"</string>
+    <string name="opds_addfeed_alias">"שם:"</string>
+<!--<string name="opds_addfeed_url">"URL:"</string>-->
+    <string name="opds_addfeed_auth">"כניסה לחשבון נדרש"</string>
+    <string name="opds_editfeed_title">"שינוי ספרייה"</string>
+    <string name="opds_editfeed_msg">"הזן את השם וכתובת אתר הספרייה"</string>
+    <string name="opds_editfeed_ok">"לשנות"</string>
+    <string name="opds_deletefeed_title">"הסר ספרייה"</string>
+    <string name="opds_deletefeed_msg">"האם אתה באמת רוצה למחוק את התיקייה?"</string>
+    <string name="opds_deletefeed_ok">"להסיר"</string>
+    <string name="opds_authfeed_title">"נדרש כניסה לחשבון "</string>
+    <string name="opds_authfeed_msg">"הזן את שם המשתמש והסיסמה שלך כדי לגשת לספרייה"</string>
+    <string name="opds_authfeed_username">"שם:"</string>
+    <string name="opds_authfeed_password">"סיסמא:"</string>
+    <string name="opds_authfeed_ok">"התחברתי"</string>
+    <string name="opds_error_title">"OPDS שגיאה"</string>
+<!--<string name="opds_error_msg">"%s"</string>-->
+    <string name="opds_retry_download">"לחזור על"</string>
+<!--<string name="opds_prev">"Prev section"</string>-->
+<!--<string name="opds_next">"Next section"</string>-->
+    <string name="opds_downloading_type_dlg_title">"בחר את הסוג של ספרים להורדה"</string>
+    <string name="opds_downloading_dlg_title">"טוען ספר …"</string>
+    <string name="opds_downloading_dlg_raw_type">"סוג לא ידוע"</string>
+<!--<string name="opds_seach_dlg_msg">"Enter search query:"</string>-->
+
+</resources>

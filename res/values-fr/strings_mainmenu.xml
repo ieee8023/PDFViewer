@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+<!--<string name="menu_exit">"Exit"</string>-->
+    <string name="menu_close">"Fermer"</string>
+    <string name="menu_goto_page">"Page"</string>
+    <string name="menu_outline">"Sommaire"</string>
+<!--<string name="menu_zoom">"Zoom"</string>-->
+    <string name="menu_nightmode">"Jour/Nuit"</string>
+    <string name="menu_settings">"Tous les paramètres"</string>
+    <string name="menu_booksettings">"Paramètres du livre"</string>
+<!--<string name="menu_picturesettings">"Picture enhancements…"</string>-->
+    <string name="menu_cleanrecent">"Effacer  les données"</string>
+    <string name="menu_add_bookmark">"Ajouter un signet"</string>
+<!--<string name="menu_edit_bookmark">"Edit bookmark"</string>-->
+    <string name="menu_thumbnail">"Mettre une couverture"</string>
+<!--<string name="menu_about">"About"</string>-->
+<!--<string name="menu_tap_configuration">"Configure taps"</string>-->
+<!--<string name="menu_key_bindings">"Configure keys"</string>-->
+<!--<string name="menu_searchbook">"Find books"</string>-->
+<!--<string name="menu_searchtext">"Find text"</string>-->
+<!--<string name="menu_show_options_menu">"Show options menu"</string>-->
+<!--<string name="menu_backupsettings">"Backup &amp; Restore"</string>-->
+<!--<string name="menu_crop">"Manual crop"</string>-->
+<!--<string name="menu_drawbookmark">"Add annnotation"</string>-->
+<!--<string name="menu_other">"Other…"</string>-->
+<!--<string name="menu_switch_to_book_menu">"Switch to opened book…"</string>-->
+<!--<string name="menu_switch_to_service_menu">"Switch to service view…"</string>-->
+<!--<string name="menu_navigation_menu">"Navigation…"</string>-->
+<!--<string name="menu_fastsettings_menu">"View…"</string>-->
+<!--<string name="menu_allsettings_menu">"Settings…"</string>-->
+<!--<string name="menu_show_library">"Show library"</string>-->
+<!--<string name="menu_show_recent">"Show recent"</string>-->
+<!--<string name="menu_storages">"Storages"</string>-->
+<!--<string name="menu_storages_filesystem">"File System"</string>-->
+<!--<string name="menu_storages_external">"SD Card"</string>-->
+    <string name="menu_force_portrait">"Orientation portrait"</string>
+    <string name="menu_force_landscape">"Orientation album"</string>
+<!--<string name="menu_recents">"Library"</string>-->
+<!--<string name="menu_files">"Local files"</string>-->
+<!--<string name="menu_smb">"Local network"</string>-->
+<!--<string name="menu_opds">"OPDS catalogs"</string>-->
+<!--<string name="menu_refresh">"Rescan library"</string>-->
+
+</resources>

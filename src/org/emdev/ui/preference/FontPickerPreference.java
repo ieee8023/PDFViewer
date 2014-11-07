@@ -15,7 +15,7 @@ import org.emdev.common.fonts.data.FontPack;
 import org.emdev.utils.WidgetUtils;
 import org.emdev.utils.enums.EnumUtils;
 
-import the.pdfviewer3.R;
+import the.pdfviewerx.R;
 
 public class FontPickerPreference extends ListPreference {
 

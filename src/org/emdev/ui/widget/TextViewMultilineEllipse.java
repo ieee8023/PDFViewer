@@ -31,7 +31,7 @@ import android.view.View;
 import java.util.ArrayList;
 import java.util.List;
 
-import the.pdfviewer3.R;
+import the.pdfviewerx.R;
 
 /**
  * Provides a simple TextView-like control which allows us to set a max number

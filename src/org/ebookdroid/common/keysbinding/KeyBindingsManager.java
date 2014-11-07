@@ -15,7 +15,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import the.pdfviewer3.R;
+import the.pdfviewerx.R;
 
 public class KeyBindingsManager {
 

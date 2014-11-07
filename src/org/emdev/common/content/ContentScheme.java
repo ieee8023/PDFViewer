@@ -18,7 +18,7 @@ import org.emdev.ui.progress.IProgressIndicator;
 import org.emdev.ui.progress.UIFileCopying;
 import org.emdev.utils.LengthUtils;
 
-import the.pdfviewer3.R;
+import the.pdfviewerx.R;
 
 public enum ContentScheme {
 

@@ -6,8 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
-
-import the.pdfviewer3.R;
+import the.pdfviewerx.R;
 
 public class ActionsAdapter extends BaseAdapter {
 

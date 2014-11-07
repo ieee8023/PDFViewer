@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="pref_tools_title">"Кораллар"</string>
+    <string name="pref_tools_summary">"Өстәмә кораллар исемлеге (эксперименталь)"</string>
+    <string name="pref_tools_text_title">"Текстны билгеләү"</string>
+    <string name="pref_tools_text_summary">"Текст белән эш: күчермә ясау, тәрҗемә, Google эзләве"</string>
+    <string name="pref_tools_highlight_title">"Билгеләү"</string>
+    <string name="pref_tools_highlight_summary">"Текстны яктырту өчен кораллар"</string>
+    <string name="pref_tools_drawing_title">"Билгеләр"</string>
+    <string name="pref_tools_drawing_summary">"Кулдан билге ясау өчен кораллар"</string>
+    <string name="pref_tools_notes_title">"Тамгалар"</string>
+    <string name="pref_tools_notes_summary">"Текст тамгалары һәм битләп көндәлек"</string>
+    <string name="pref_dictionarytype_title">"Сүзлек"</string>
+    <string name="pref_dictionarytype_summary">"Тәрҗемә өчен чит кушымта"</string>
+
+</resources>

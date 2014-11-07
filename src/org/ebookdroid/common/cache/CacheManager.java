@@ -18,7 +18,7 @@ import org.emdev.utils.LengthUtils;
 import org.emdev.utils.StringUtils;
 import org.emdev.utils.listeners.ListenerProxy;
 
-import the.pdfviewer3.R;
+import the.pdfviewerx.R;
 
 public class CacheManager extends org.emdev.common.cache.CacheManager {
 

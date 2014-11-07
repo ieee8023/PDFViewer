@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="pref_performance_category">"ההגדרות ביצועים"</string>
+    <string name="pref_performance_category_summary">"ההגדרות ביצועים"</string>
+    <string name="pref_pagesinmemory_title">"דפים בזיכרון"</string>
+    <string name="pref_pagesinmemory_summary">"מספר העמודים המאוחסנים בזיכרון"</string>
+<!--<string name="pref_force_simd_title">"Use SIMD optimizations"</string>-->
+<!--<string name="pref_force_simd_summary">"Use SIMD instructions (NEON for ARMv7 or SSE for x86)"</string>-->
+    <string name="pref_lowlevel_category">"אפליקצית Tweaks (חובה לפתוח מחדש את המסמך)"</string>
+    <string name="pref_lowlevel_category_summary">"הגדרות מתקדמות (חובה לפתוח מחדש את המסמך)"</string>
+<!--<string name="pref_decodeprocess_nicelevel_title">"Decode process nice level"</string>-->
+<!--<string name="pref_decodeprocess_nicelevel_summary">"Defines nice level for separated decoding processes"</string>-->
+<!--<string name="list_decodeprocess_nicelevel_default">"Default"</string>-->
+<!--<string name="list_decodeprocess_nicelevel_lower">"Higher priority"</string>-->
+<!--<string name="list_decodeprocess_nicelevel_lowest">"Highest priority"</string>-->
+    <string name="pref_decodethread_priority_title">"עדיפות זרם פענוח"</string>
+    <string name="pref_decodethread_priority_summary">"עדיפות זרם פענוח"</string>
+<!--<string name="pref_decodethread_timeout_title">"Decode thread timeout"</string>-->
+<!--<string name="pref_decodethread_timeout_summary">"Defines decode thread timeout in seconds"</string>-->
+    <string name="pref_drawthread_priority_title">"עדיפות זרם הציור"</string>
+    <string name="pref_drawthread_priority_summary">"עדיפות זרם הציור"</string>
+    <string name="list_thread_priority_lowest">"הנמוך ביותר"</string>
+    <string name="list_thread_priority_lower">"נמוך"</string>
+    <string name="list_thread_priority_normal">"נורמלי"</string>
+    <string name="list_thread_priority_higher">"גבוה"</string>
+    <string name="list_thread_priority_highest">"הגבוה ביותר"</string>
+<!--<string name="pref_decodingonscroll_title">"Decoding during scrolling"</string>-->
+<!--<string name="pref_decodingonscroll_summary">"Allow to decode pages during scrolling or fling"</string>-->
+    <string name="pref_bitmapsize_title">"גודל מרקם"</string>
+    <string name="pref_bitmapsize_summary">"מציין את גודלו של המרקם"</string>
+    <string name="pref_heappreallocate_title">"הקצאת זיכרון מוקדם"</string>
+    <string name="pref_heappreallocate_summary">"גודל הזיכרון במגה בייטים בעת האתחול של היישום"</string>
+    <string name="pref_pdfstoragesize_title">"גודלו של שטח האחסון הפנימי MuPDF"</string>
+    <string name="pref_pdfstoragesize_summary">"הגודל במגה בייט של שטח האחסון הפנימי MuPDF"</string>
+
+</resources>

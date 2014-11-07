@@ -3,8 +3,8 @@ package org.ebookdroid.common.settings.types;
 
 import org.emdev.utils.enums.ResourceConstant;
 
-import the.pdfviewer3.EBookDroidApp;
-import the.pdfviewer3.R;
+import the.pdfviewerx.EBookDroidApp;
+import the.pdfviewerx.R;
 
 /**
  * The Enum PageAlign.

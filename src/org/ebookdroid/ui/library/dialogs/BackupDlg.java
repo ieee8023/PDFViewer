@@ -27,7 +27,7 @@ import org.emdev.ui.actions.ActionMethod;
 import org.emdev.utils.LayoutUtils;
 import org.emdev.utils.LengthUtils;
 
-import the.pdfviewer3.R;
+import the.pdfviewerx.R;
 
 public class BackupDlg extends Dialog implements TextWatcher, ListView.OnItemLongClickListener,
         ListView.OnItemClickListener {

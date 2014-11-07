@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="pref_performance_category">"Impostazioni avanzate"</string>
+    <string name="pref_performance_category_summary">"Impostazione dei parametri di elaborazione che influiscono sulle prestazioni"</string>
+    <string name="pref_pagesinmemory_title">"Pagine in memoria"</string>
+    <string name="pref_pagesinmemory_summary">"Numero di pagine\ conservate in memoria"</string>
+<!--<string name="pref_force_simd_title">"Use SIMD optimizations"</string>-->
+<!--<string name="pref_force_simd_summary">"Use SIMD instructions (NEON for ARMv7 or SSE for x86)"</string>-->
+    <string name="pref_lowlevel_category">"Preferenze di basso livello (E' necessario ricaricare il documento per renderle effettive)"</string>
+    <string name="pref_lowlevel_category_summary">"Preferenze dell'applicazione che agiscono a basso livello. Vengono applicate alla successiva apertura del documento"</string>
+<!--<string name="pref_decodeprocess_nicelevel_title">"Decode process nice level"</string>-->
+<!--<string name="pref_decodeprocess_nicelevel_summary">"Defines nice level for separated decoding processes"</string>-->
+<!--<string name="list_decodeprocess_nicelevel_default">"Default"</string>-->
+<!--<string name="list_decodeprocess_nicelevel_lower">"Higher priority"</string>-->
+<!--<string name="list_decodeprocess_nicelevel_lowest">"Highest priority"</string>-->
+    <string name="pref_decodethread_priority_title">"Priorità thread di decodifica"</string>
+    <string name="pref_decodethread_priority_summary">"Impostazione della priorità dei thread per la decodifica"</string>
+    <string name="pref_decodethread_timeout_title">"Timeout thread decoficat"</string>
+    <string name="pref_decodethread_timeout_summary">"Specifica il timeout in secondi per il thread di decodifica"</string>
+    <string name="pref_drawthread_priority_title">"Priorità thread tracciamento superfici"</string>
+    <string name="pref_drawthread_priority_summary">"Impostazione della priorità del thread per il tracciamento superfici"</string>
+    <string name="list_thread_priority_lowest">"Molto bassa"</string>
+    <string name="list_thread_priority_lower">"Bassa"</string>
+    <string name="list_thread_priority_normal">"Normale"</string>
+    <string name="list_thread_priority_higher">"Alta"</string>
+    <string name="list_thread_priority_highest">"Molto alta"</string>
+    <string name="pref_decodingonscroll_title">"Decodifica durante lo scorrimento"</string>
+    <string name="pref_decodingonscroll_summary">"Consente la decodifica delle pagine durante l'operazione di scorrimento o cambio pagina"</string>
+    <string name="pref_bitmapsize_title">"Dimensioni mappa di bit delle texture"</string>
+    <string name="pref_bitmapsize_summary">"Imposta la dimensione dei componenti che costituiscono la texture"</string>
+    <string name="pref_heappreallocate_title">"Prealloca l'area di heap"</string>
+    <string name="pref_heappreallocate_summary">"Dimensione in MB dell'area di heap preallocata all'avvio dell'applicazione"</string>
+    <string name="pref_pdfstoragesize_title">"Dimensione memoria interna MuPDF"</string>
+    <string name="pref_pdfstoragesize_summary">"Dimensione in MB dell'area di memoria interna MuPDF"</string>
+
+</resources>

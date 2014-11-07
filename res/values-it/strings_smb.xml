@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="smb">"Rete locale"</string>
+    <string name="smb_error_title">"Errore Rete"</string>
+    <string name="smb_addserver_title">"Aggiunta nuovo server"</string>
+    <string name="smb_addserver_ok">"Aggiungi"</string>
+<!--<string name="smb_addserver_alias">"Alias:"</string>-->
+    <string name="smb_addserver_address">"Indirizzo:"</string>
+<!--<string name="smb_addserver_share">"Share:"</string>-->
+    <string name="smb_addserver_auth">"Autorizzazione richiesta"</string>
+    <string name="smb_authserver_domain">"Dominio:"</string>
+<!--<string name="smb_authserver_username">"Username:"</string>-->
+<!--<string name="smb_authserver_password">"Password:"</string>-->
+    <string name="smb_editserver_title">"Modifica server"</string>
+    <string name="smb_editserver_ok">"Aggiorna"</string>
+    <string name="smb_deleteserver_title">"Elimina i server"</string>
+    <string name="smb_deleteserver_msg">"Vuoi davvero eliminare tutti i server selezionati?"</string>
+    <string name="smb_deleteserver_ok">"Elimina"</string>
+    <string name="smb_add_new_server">"Aggiungi un nuovo server"</string>
+    <string name="smb_edit">"Modifica"</string>
+    <string name="smb_delete">"Cancella"</string>
+
+</resources>

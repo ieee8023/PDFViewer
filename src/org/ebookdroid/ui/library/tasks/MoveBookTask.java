@@ -16,7 +16,7 @@ import org.emdev.ui.progress.UIFileCopying;
 import org.emdev.ui.tasks.BaseFileAsyncTask;
 import org.emdev.ui.tasks.BaseFileAsyncTask.FileTaskResult;
 
-import the.pdfviewer3.R;
+import the.pdfviewerx.R;
 
 public class MoveBookTask extends BaseFileAsyncTask<BookNode, FileTaskResult> {
 

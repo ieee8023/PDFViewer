@@ -25,7 +25,7 @@ import org.emdev.ui.adapters.ActionsAdapter;
 import org.emdev.utils.LayoutUtils;
 import org.emdev.utils.LengthUtils;
 
-import the.pdfviewer3.R;
+import the.pdfviewerx.R;
 
 public class KeyBindingsDialog extends Dialog {
 

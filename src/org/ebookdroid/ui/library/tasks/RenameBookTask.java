@@ -17,7 +17,7 @@ import org.emdev.ui.tasks.BaseFileAsyncTask;
 import org.emdev.ui.tasks.BaseFileAsyncTask.FileTaskResult;
 import org.emdev.utils.FileUtils;
 
-import the.pdfviewer3.R;
+import the.pdfviewerx.R;
 
 public class RenameBookTask extends BaseFileAsyncTask<BookNode, FileTaskResult> {
 

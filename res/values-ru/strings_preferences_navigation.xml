@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="pref_navigation_category">"Навигация и история"</string>
+    <string name="pref_navigation_category_summary">"Настройки навигации и истории"</string>
+    <string name="pref_usegotobar_title">"Новая навигация"</string>
+    <string name="pref_usegotobar_summary">"Использовать новую навигацию вместо диалога перехода"</string>
+    <string name="pref_showaddbutton_title">"Показывать кнопку"</string>
+    <string name="pref_showaddbutton_summary">"Показывать кнопку для добавления закладки"</string>
+    <string name="pref_showbookmarksmenu_summary">"Показываеть закладки"</string>
+    <string name="pref_showbookmarksmenu_title">"Показывать закладки в меню навигации"</string>
+    <string name="pref_link_highlight_summary">"Выберите цвет подсветки ссылок"</string>
+    <string name="pref_link_highlight_title">"Подсветка ссылок"</string>
+    <string name="pref_search_highlight_summary">"Выберите цвет подсветки результатов поиска"</string>
+    <string name="pref_search_highlight_title">"Подсветка результатов поиска"</string>
+    <string name="pref_current_search_highlight_summary">"Выберите цвет подсветки текущего результата поиска"</string>
+    <string name="pref_current_search_highlight_title">"Подсветка текущего результата поиска"</string>
+    <string name="pref_storeGotoHistory_title">"Переходы по страницам"</string>
+    <string name="pref_storeGotoHistory_summary">"Сохранять в истории навигации переходы по страницам"</string>
+    <string name="pref_storeLinkGotoHistory_title">"Переходы по ссылкам"</string>
+    <string name="pref_storeLinkGotoHistory_summary">"Сохранять в истории навигации переходы по ссылкам"</string>
+    <string name="pref_storeOutlineGotoHistory_title">"Переходы по оглавлению"</string>
+    <string name="pref_storeOutlineGotoHistory_summary">"Сохранять в истории навигации переходы по оглавлению"</string>
+    <string name="pref_storeSearchGotoHistory_title">"Переходы по поиску"</string>
+    <string name="pref_storeSearchGotoHistory_summary">"Сохранять в истории навигации переходы по поиску"</string>
+
+</resources>

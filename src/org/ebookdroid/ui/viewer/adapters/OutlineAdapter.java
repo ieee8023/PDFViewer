@@ -25,7 +25,7 @@ import android.widget.TextView;
 
 import java.util.List;
 
-import the.pdfviewer3.R;
+import the.pdfviewerx.R;
 
 public class OutlineAdapter extends BaseAdapter {
 

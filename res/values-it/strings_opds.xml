@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="opds">"Browser OPDS"</string>
+    <string name="opds_connecting">"Connessione in corso…"</string>
+    <string name="opds_loading_catalog">"Caricamento catalogo…"</string>
+    <string name="opds_loading_book">"Caricamento libro: %1$s/%2$s…"</string>
+    <string name="opds_unpacking_book">"Scompattamento libro: %1$s/%2$s…"</string>
+    <string name="opds_download_complete">"Download libro completato: %s"</string>
+    <string name="opds_download_error">"Download libro fallito: %s"</string>
+    <string name="opds_add_new_feed">"Aggiunta nuovo catalogo"</string>
+    <string name="opds_addfeed_title">"Aggiunta nuovo catalogo"</string>
+    <string name="opds_addfeed_msg">"Inserire alias e URL per il catalogo"</string>
+    <string name="opds_addfeed_ok">"Aggiungi"</string>
+    <string name="opds_addfeed_alias" translatable="true">"Alias:"</string>
+    <string name="opds_addfeed_url" translatable="true">"URL:"</string>
+    <string name="opds_addfeed_auth">"Autorizzazione richiesta"</string>
+    <string name="opds_editfeed_title">"Modifica catalogo"</string>
+    <string name="opds_editfeed_msg">"Inserire alias e URL di questo catalogo"</string>
+    <string name="opds_editfeed_ok">"Salva"</string>
+    <string name="opds_deletefeed_title">"Elimina catalogo"</string>
+    <string name="opds_deletefeed_msg">"Vuoi davvero cancellare questo catalogo?"</string>
+    <string name="opds_deletefeed_ok">"Elimina"</string>
+    <string name="opds_authfeed_title">"Autorizzazione"</string>
+    <string name="opds_authfeed_msg">"Inserire il nome utente e la password per questo catalogo"</string>
+    <string name="opds_authfeed_username">"Nome utente:"</string>
+    <string name="opds_authfeed_password" translatable="true">"Password:"</string>
+    <string name="opds_authfeed_ok" translatable="true">"Login"</string>
+    <string name="opds_error_title">"Errore OPDS"</string>
+    <string name="opds_error_msg" translatable="true">"%s"</string>
+    <string name="opds_retry_download">"Nuovo tentativo"</string>
+    <string name="opds_prev">"Sezione precedente"</string>
+    <string name="opds_next">"Sezione successiva"</string>
+    <string name="opds_downloading_type_dlg_title">"Specifica il formato dei libri da scaricare"</string>
+    <string name="opds_downloading_dlg_title">"Libro scaricato come…"</string>
+<!--<string name="opds_downloading_dlg_raw_type">"Raw type"</string>-->
+    <string name="opds_seach_dlg_msg">"Immetti la richiesta di ricerca:"</string>
+
+</resources>

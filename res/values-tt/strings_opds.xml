@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="opds">"OPDS каталоглар"</string>
+    <string name="opds_connecting">"Тоташу"</string>
+    <string name="opds_loading_catalog">"Каталог йөкләнә…"</string>
+    <string name="opds_loading_book">"Китап йөкләнә: %1$s/%2$s…"</string>
+    <string name="opds_unpacking_book">"Китап ачыла: %1$s/%2$s…"</string>
+    <string name="opds_download_complete">"Китапны йөкләү тәмамланды: %s"</string>
+    <string name="opds_download_error">"Китапны йөкләп булмады: %s"</string>
+    <string name="opds_add_new_feed">"Яңа фид"</string>
+    <string name="opds_addfeed_title">"Яңа каталог"</string>
+    <string name="opds_addfeed_msg">"Каталогның URL һәм исемен кертегез"</string>
+    <string name="opds_addfeed_ok">"Өстәргә"</string>
+    <string name="opds_addfeed_alias">"Исеме:"</string>
+<!--<string name="opds_addfeed_url">"URL:"</string>-->
+    <string name="opds_addfeed_auth">"Рөхсәт алу кирәк"</string>
+    <string name="opds_editfeed_title">"Каталогны үзгәртергә"</string>
+    <string name="opds_editfeed_msg">"Каталогның URL һәм исемен кертегез"</string>
+    <string name="opds_editfeed_ok">"Үзгәртергә"</string>
+    <string name="opds_deletefeed_title">"Каталогны бетерергә"</string>
+    <string name="opds_deletefeed_msg">"Каталогны бетерергәме?"</string>
+    <string name="opds_deletefeed_ok">"Бетерергә"</string>
+    <string name="opds_authfeed_title">"Рөхсәт алу кирәк"</string>
+    <string name="opds_authfeed_msg">"Каталогка рөхсәт алу өчен кулланучы исемен һәм серсүз кертегез"</string>
+    <string name="opds_authfeed_username">"Исеме:"</string>
+    <string name="opds_authfeed_password">"Серсүз:"</string>
+    <string name="opds_authfeed_ok">"Рөхсәт алырга"</string>
+    <string name="opds_error_title">"OPDS хатасы"</string>
+<!--<string name="opds_error_msg">"%s"</string>-->
+    <string name="opds_retry_download">"Кабатларга"</string>
+    <string name="opds_prev">"Алдагы секция"</string>
+    <string name="opds_next">"Чираттагы секция"</string>
+    <string name="opds_downloading_type_dlg_title">"Йөкләү өчен китап төрен сайлагыз"</string>
+    <string name="opds_downloading_dlg_title">"Китапны йөкләү"</string>
+    <string name="opds_downloading_dlg_raw_type">"Билгесез төр"</string>
+    <string name="opds_seach_dlg_msg">"Эзләү юлын сайлагыз:"</string>
+
+</resources>

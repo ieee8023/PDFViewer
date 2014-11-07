@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="pref_brbrfiletypesscreen_title">"Dateitypen"</string>
+    <string name="pref_brbrfiletypesscreen_summary">"Dateitypen zur Anzeige"</string>
+    <string name="pref_ft_djvu_summary">"DjVu Dateien anzeigen"</string>
+    <string name="pref_ft_pdf_summary">"PDF Dateien anzeigen"</string>
+    <string name="pref_ft_xps_summary">"XPS Dateien anzeigen"</string>
+<!--<string name="pref_ft_cbx_summary">"Show CBZ and CBR comics books"</string>-->
+    <string name="pref_ft_fb2_summary">"FB2 Dateien anzeigen"</string>
+<!--<string name="pref_ft_epub_summary">"Show EPUB books"</string>-->
+<!--<string name="pref_ft_rtf_summary">"Show RTF books"</string>-->
+
+</resources>

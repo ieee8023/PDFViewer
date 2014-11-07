@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="pref_brbrfiletypesscreen_title">"文件类型"</string>
+    <string name="pref_brbrfiletypesscreen_summary">"书库中显示的文件类型"</string>
+    <string name="pref_ft_djvu_summary">"显示DjVu文件"</string>
+    <string name="pref_ft_pdf_summary">"显示PDF文件"</string>
+    <string name="pref_ft_xps_summary">"显示XPS文件"</string>
+<!--<string name="pref_ft_cbx_summary">"Show CBZ and CBR comics books"</string>-->
+    <string name="pref_ft_fb2_summary">"显示FB2中的文件"</string>
+<!--<string name="pref_ft_epub_summary">"Show EPUB books"</string>-->
+<!--<string name="pref_ft_rtf_summary">"Show RTF books"</string>-->
+
+</resources>

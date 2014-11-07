@@ -21,7 +21,7 @@ import org.emdev.ui.actions.ActionMenuHelper;
 import org.emdev.ui.actions.params.Constant;
 import org.emdev.ui.uimanager.IUIManager;
 
-import the.pdfviewer3.R;
+import the.pdfviewerx.R;
 
 public class OPDSActivity extends AbstractActionActivity<OPDSActivity, OPDSActivityController> {
 

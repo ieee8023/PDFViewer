@@ -45,7 +45,7 @@ import org.emdev.ui.progress.UIFileCopying;
 import org.emdev.utils.LengthUtils;
 import org.emdev.utils.MathUtils;
 
-import the.pdfviewer3.R;
+import the.pdfviewerx.R;
 
 @TargetApi(8)
 public class OPDSClient extends BaseHttpClient {

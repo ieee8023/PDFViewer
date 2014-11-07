@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="opds">"OPDS каталоги"</string>
+    <string name="opds_connecting">"Соединение…"</string>
+    <string name="opds_loading_catalog">"Загружается каталог…"</string>
+    <string name="opds_loading_book">"Загружается книга: %1$s/%2$s…"</string>
+    <string name="opds_unpacking_book">"Распаковывается книга: %1$s/%2$s…"</string>
+    <string name="opds_download_complete">"Загрузка книги завершена: %s"</string>
+    <string name="opds_download_error">"Загрузка книги не удалась: %s"</string>
+    <string name="opds_add_new_feed">"Новый фид"</string>
+    <string name="opds_addfeed_title">"Новый каталог"</string>
+    <string name="opds_addfeed_msg">"Введите имя и URL каталога"</string>
+    <string name="opds_addfeed_ok">"Добавить"</string>
+    <string name="opds_addfeed_alias">"Имя:"</string>
+<!--<string name="opds_addfeed_url">"URL:"</string>-->
+    <string name="opds_addfeed_auth">"Требуется авторизация"</string>
+    <string name="opds_editfeed_title">"Изменить каталог"</string>
+    <string name="opds_editfeed_msg">"Введите имя и URL каталога"</string>
+    <string name="opds_editfeed_ok">"Изменить"</string>
+    <string name="opds_deletefeed_title">"Удалить каталог"</string>
+    <string name="opds_deletefeed_msg">"Вы действительно хотите удалить каталог?"</string>
+    <string name="opds_deletefeed_ok">"Удалить"</string>
+    <string name="opds_authfeed_title">"Требуется авторизация"</string>
+    <string name="opds_authfeed_msg">"Введите имя пользователя и пароль для доступа к каталогу"</string>
+    <string name="opds_authfeed_username">"Имя:"</string>
+    <string name="opds_authfeed_password">"Пароль:"</string>
+    <string name="opds_authfeed_ok">"Авторизоваться"</string>
+    <string name="opds_error_title">"Ошибка OPDS"</string>
+    <string name="opds_error_msg" translatable="true">"%s"</string>
+    <string name="opds_retry_download">"Повторить"</string>
+    <string name="opds_prev">"Предыдущая секция"</string>
+    <string name="opds_next">"Следующая секция"</string>
+    <string name="opds_downloading_type_dlg_title">"Выберите тип книги для скачивания"</string>
+    <string name="opds_downloading_dlg_title">"Загрузка книги…"</string>
+    <string name="opds_downloading_dlg_raw_type">"Неизвестный тип"</string>
+    <string name="opds_seach_dlg_msg">"Веедите строку поиска:"</string>
+
+</resources>

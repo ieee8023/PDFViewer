@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="opdsupfolder">"Наверх"</string>
+    <string name="opdsrefreshfolder">"Обновить"</string>
+    <string name="opdsprevfolder">"Назад"</string>
+    <string name="opdsnextfolder">"Далее"</string>
+    <string name="opds_feed_add">"Добавить"</string>
+    <string name="opdsclose">"Закрыть"</string>
+    <string name="opds_book_download">"Скачать"</string>
+    <string name="opdsgoto">"Открыть"</string>
+    <string name="opds_feed_edit">"Редактировать"</string>
+    <string name="opds_feed_delete">"Удалить"</string>
+
+</resources>

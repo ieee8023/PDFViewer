@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="actions_verticalConfigScrollUp">"Scorri indietro"</string>
+    <string name="actions_verticalConfigScrollDown">"Scorri avanti"</string>
+    <string name="actions_1xZoom">"Zoom 1x"</string>
+    <string name="actions_2xZoom">"Zoom 2x"</string>
+    <string name="actions_4xZoom">"Zoom 4x"</string>
+    <string name="actions_quickZoom">"Zoom rapido"</string>
+    <string name="actions_zoomToColumn">"Adatta a larghezza colonna"</string>
+    <string name="actions_leftTopCorner">"Scorri all'angolo superiore sinistro"</string>
+    <string name="actions_rightTopCorner">"Scorri all'angolo superiore destro"</string>
+    <string name="actions_leftBottomCorner">"Scorri all'angolo inferiore sinistro"</string>
+    <string name="actions_rightBottomCorner">"Scorri all'angolo inferiore destro"</string>
+
+</resources>

@@ -17,7 +17,7 @@ import java.util.List;
 import org.emdev.ui.actions.ActionController;
 import org.emdev.utils.LayoutUtils;
 
-import the.pdfviewer3.R;
+import the.pdfviewerx.R;
 
 public class OutlineDialog extends Dialog implements OnItemClickListener {
 

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+<!--<string name="opds">"OPDS Browser"</string>-->
+<!--<string name="opds_connecting">"Connecting…"</string>-->
+<!--<string name="opds_loading_catalog">"Loading catalog…"</string>-->
+<!--<string name="opds_loading_book">"Loading book: %1$s/%2$s…"</string>-->
+<!--<string name="opds_unpacking_book">"Unpacking book: %1$s/%2$s…"</string>-->
+<!--<string name="opds_download_complete">"Book download complete: %1$s"</string>-->
+<!--<string name="opds_download_error">"Book download failed: %1$s"</string>-->
+<!--<string name="opds_add_new_feed">"Add new feed"</string>-->
+<!--<string name="opds_addfeed_title">"Adding new catalog"</string>-->
+<!--<string name="opds_addfeed_msg">"Enter alias and URL for the catalog"</string>-->
+<!--<string name="opds_addfeed_ok">"Add"</string>-->
+<!--<string name="opds_addfeed_alias">"Alias:"</string>-->
+<!--<string name="opds_addfeed_url">"URL:"</string>-->
+<!--<string name="opds_addfeed_auth">"Authorization required"</string>-->
+<!--<string name="opds_editfeed_title">"Edit catalog"</string>-->
+<!--<string name="opds_editfeed_msg">"Enter alias and URL for this catalog"</string>-->
+<!--<string name="opds_editfeed_ok">"Save"</string>-->
+<!--<string name="opds_deletefeed_title">"Delete catalog"</string>-->
+<!--<string name="opds_deletefeed_msg">"Do you really want to delete this catalog?"</string>-->
+<!--<string name="opds_deletefeed_ok">"Delete"</string>-->
+<!--<string name="opds_authfeed_title">"Authorization"</string>-->
+<!--<string name="opds_authfeed_msg">"Enter user name and password for this catalog"</string>-->
+<!--<string name="opds_authfeed_username">"Username:"</string>-->
+<!--<string name="opds_authfeed_password">"Password:"</string>-->
+<!--<string name="opds_authfeed_ok">"Login"</string>-->
+<!--<string name="opds_error_title">"OPDS Error"</string>-->
+<!--<string name="opds_error_msg">"%s"</string>-->
+<!--<string name="opds_retry_download">"Retry"</string>-->
+<!--<string name="opds_prev">"Prev section"</string>-->
+<!--<string name="opds_next">"Next section"</string>-->
+<!--<string name="opds_downloading_type_dlg_title">"Select type of book to download"</string>-->
+<!--<string name="opds_downloading_dlg_title">"Downloading book as…"</string>-->
+<!--<string name="opds_downloading_dlg_raw_type">"Raw type"</string>-->
+<!--<string name="opds_seach_dlg_msg">"Enter search query:"</string>-->
+
+</resources>

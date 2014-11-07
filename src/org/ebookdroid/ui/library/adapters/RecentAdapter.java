@@ -20,7 +20,7 @@ import org.emdev.common.filesystem.FileExtensionFilter;
 import org.emdev.ui.adapters.BaseViewHolder;
 import org.emdev.utils.FileUtils;
 
-import the.pdfviewer3.R;
+import the.pdfviewerx.R;
 
 public class RecentAdapter extends BaseAdapter {
 

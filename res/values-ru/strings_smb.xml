@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="smb">"Локальная сеть"</string>
+    <string name="smb_error_title">"Ошибка"</string>
+    <string name="smb_addserver_title">"Добавить сервер"</string>
+    <string name="smb_addserver_ok">"Добавить"</string>
+    <string name="smb_addserver_alias">"Имя:"</string>
+    <string name="smb_addserver_address">"Адрес:"</string>
+    <string name="smb_addserver_share">"Ресурс:"</string>
+    <string name="smb_addserver_auth">"Авторизация"</string>
+    <string name="smb_authserver_domain">"Домен:"</string>
+    <string name="smb_authserver_username">"Пользователь:"</string>
+    <string name="smb_authserver_password">"Пароль:"</string>
+    <string name="smb_editserver_title">"Редактировать сервер"</string>
+    <string name="smb_editserver_ok">"Обновить"</string>
+    <string name="smb_deleteserver_title">"Удалить сервер(ы)"</string>
+    <string name="smb_deleteserver_msg">"Вы действительно хотите удалить сервер(ы)?"</string>
+    <string name="smb_deleteserver_ok">"Удалить"</string>
+    <string name="smb_add_new_server">"Добавить"</string>
+    <string name="smb_edit">"Редактировать"</string>
+    <string name="smb_delete">"Удалить"</string>
+
+</resources>

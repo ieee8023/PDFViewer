@@ -10,7 +10,7 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
 import org.emdev.common.log.LogContext;
 import org.emdev.common.log.LogManager;
 
-import the.pdfviewer3.R;
+import the.pdfviewerx.R;
 
 /**
  * This class defines base features for action controller.

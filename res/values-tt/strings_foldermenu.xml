@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="folder_show_folder_properties">"Папка көйләүләрен күрсәтергә"</string>
+    <string name="folder_exclude_from_library">"Китапханәдән чыгарырга"</string>
+    <string name="folder_books_operations">"Китаплар белән гамәлләр"</string>
+    <string name="folder_copy_all_books_to">"Барысына монда күчермә ясарга"</string>
+    <string name="folder_move_all_books_to">"Барысын монда күчерергә"</string>
+    <string name="folder_folder_operations">"Папка белән гамәл"</string>
+    <string name="folder_copy_folder_to">"Папкага монда күчермә ясарга"</string>
+    <string name="folder_move_folder_to">"Папканы монда күчерергә"</string>
+    <string name="folder_delete_folder">"Папканы бетерергә"</string>
+    <string name="folder_delete_all_books">"Барлык китапларны бетерергә"</string>
+
+</resources>

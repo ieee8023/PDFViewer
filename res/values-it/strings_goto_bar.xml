@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="am_goto_go">"Vai"</string>
+    <string name="am_goto_togglepanel">"Mostra/nascondi il pannello di navigazione"</string>
+    <string name="am_goto_note_edit">"Modifica"</string>
+    <string name="am_goto_note_remove">"Cancella"</string>
+
+</resources>

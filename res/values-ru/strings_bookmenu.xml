@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="bookmenu_open">"Открыть книгу…"</string>
+    <string name="bookmenu_settings">"Показать настройки книги"</string>
+    <string name="bookmenu_openbookshelf">"Показать полку книги"</string>
+    <string name="bookmenu_openbookfolder">"Показать папку книги"</string>
+    <string name="bookmenu_createbookshortcut">"Создать ссылку на рабочем столе"</string>
+    <string name="bookmenu_recentgroup">"Удалить данные…"</string>
+    <string name="bookmenu_removefromrecent">"Исключить из последних"</string>
+    <string name="bookmenu_cleardata">"Очистить кешированные данные"</string>
+    <string name="bookmenu_deletesettings">"Удалить настройки книги"</string>
+    <string name="bookmenu_filegroup">"Файловые операции…"</string>
+    <string name="bookmenu_copy">"Скопировать книгу в…"</string>
+    <string name="bookmenu_rename">"Переименовать книгу…"</string>
+    <string name="bookmenu_move">"Переместить книгу в…"</string>
+    <string name="bookmenu_delete">"Удалить книгу"</string>
+
+</resources>

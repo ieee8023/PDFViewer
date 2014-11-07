@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="pref_tools_title">"Инструменты"</string>
+    <string name="pref_tools_summary">"Список дополнительных инструментов (экспериментально)"</string>
+    <string name="pref_tools_text_title">"Выделение текста"</string>
+    <string name="pref_tools_text_summary">"Работа с текстом: копирование, перевод, поиск в Google"</string>
+    <string name="pref_tools_highlight_title">"Выделение"</string>
+    <string name="pref_tools_highlight_summary">"Инструменты для подсветки текста"</string>
+    <string name="pref_tools_drawing_title">"Пометки"</string>
+    <string name="pref_tools_drawing_summary">"Инструменты для пометок от руки"</string>
+<!--<string name="pref_tools_spen_title">"SPen starts drawing"</string>-->
+<!--<string name="pref_tools_spen_summary">"Samsung\'s SPen starts drawing tools"</string>-->
+    <string name="pref_tools_notes_title">"Заметки"</string>
+    <string name="pref_tools_notes_summary">"Текстовые заметки и постраничный дневник"</string>
+    <string name="pref_dictionarytype_title">"Словарь"</string>
+    <string name="pref_dictionarytype_summary">"Стороннее приложение для перевода"</string>
+
+</resources>

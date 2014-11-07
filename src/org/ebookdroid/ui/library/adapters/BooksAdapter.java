@@ -37,7 +37,7 @@ import org.emdev.utils.StringUtils;
 import org.emdev.utils.collections.SparseArrayEx;
 import org.emdev.utils.collections.TLIterator;
 
-import the.pdfviewer3.R;
+import the.pdfviewerx.R;
 
 public class BooksAdapter extends PagerAdapter implements FileSystemScanner.Listener, Iterable<BookShelfAdapter> {
 

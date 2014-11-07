@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="folder_show_folder_properties">"Показать настройки папки"</string>
+    <string name="folder_exclude_from_library">"Исключить из библиотеки"</string>
+    <string name="folder_books_operations">"Операции с книгами…"</string>
+    <string name="folder_copy_all_books_to">"Скопировать все в…"</string>
+    <string name="folder_move_all_books_to">"Переместить все в…"</string>
+    <string name="folder_folder_operations">"Операции с папкой…"</string>
+    <string name="folder_copy_folder_to">"Скопировать папку в…"</string>
+    <string name="folder_move_folder_to">"Переместить папку в…"</string>
+    <string name="folder_delete_folder">"Удалить папку"</string>
+    <string name="folder_delete_all_books">"Удалить все книги"</string>
+
+</resources>

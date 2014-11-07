@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="search_backward">"Назад"</string>
+    <string name="search_forward">"Вперед"</string>
+    <string name="msg_search_text_on_page">"Ищем на странице %1$d…"</string>
+    <string name="msg_no_text_found">"Текст не найден"</string>
+
+</resources>

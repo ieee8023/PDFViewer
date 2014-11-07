@@ -7,7 +7,7 @@ import android.graphics.Bitmap;
 import java.lang.reflect.Field;
 import java.util.concurrent.atomic.AtomicLong;
 
-import the.pdfviewer3.ViewerActivity;
+import the.pdfviewerx.ViewerActivity;
 
 public abstract class AbstractCodecContext implements CodecContext {
 

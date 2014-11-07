@@ -40,7 +40,7 @@ import org.emdev.utils.LengthUtils;
 import org.emdev.utils.collections.TLIterator;
 import org.emdev.utils.listeners.ListenerProxy;
 
-import the.pdfviewer3.R;
+import the.pdfviewerx.R;
 
 public class DocumentModel extends ListenerProxy {
 

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="pref_brbrfiletypesscreen_title">"Formato dei file da visualizzare"</string>
+    <string name="pref_brbrfiletypesscreen_summary">"Associazione dei tipi di file"</string>
+    <string name="pref_ft_djvu_summary">"Visualizza i file DjVU"</string>
+    <string name="pref_ft_pdf_summary">"Visualizza i file PDF"</string>
+    <string name="pref_ft_xps_summary">"Visualizza i file XPS"</string>
+    <string name="pref_ft_cbx_summary">"Visualizza i file CBR e CBZ"</string>
+    <string name="pref_ft_fb2_summary">"Visualizza i file FB2"</string>
+    <string name="pref_ft_epub_summary">"Visualizza i file EPUB"</string>
+    <string name="pref_ft_rtf_summary">"Visualizza i file RTF"</string>
+
+</resources>

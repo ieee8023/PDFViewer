@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="pref_scroll_category">"Tocchi e trascinamento"</string>
+    <string name="pref_scroll_category_summary">"Definisce in che modo sfogliare le pagine attraverso l'interfaccia tattile e il mouse"</string>
+    <string name="pref_tapsenabled_title">"Rileva i tocchi"</string>
+    <string name="pref_tapsenabled_summary">"Utilizza la configurazione dei tocchi (tap) per definire le aree attive e le rispettive azioni"</string>
+    <string name="pref_scroll_title">"Altezza scorrimento"</string>
+    <string name="pref_scroll_summary">"Specifica di quanto far scorrere con un tocco una pagina non interamente contenuta nello schermo (valore di default: 50%%)"</string>
+    <string name="pref_wheelscroll_title">"Altezza scorrimento tramite mouse"</string>
+    <string name="pref_wheelscroll_summary">"Specifica di quanto far scorrere con una tacca della rotellina del mouse una pagina non interamente contenuta nello schermo (valore di default: 5%%)"</string>
+    <string name="pref_touchdelay_title">"Ritardo di elaborazione del tocco"</string>
+    <string name="pref_touchdelay_summary">"Ritardo (in millisecondi) nell'elaborazione del tocco"</string>
+    <string name="pref_animate_scrolling_title">"Animazione transizione pagina"</string>
+    <string name="pref_animate_scrolling_summary">"Anima l'operazione di transizione pagina nelle modalità che lo consentono"</string>
+<!--<string name="pref_quickzoomfactor_title">"Quick zoom"</string>-->
+<!--<string name="pref_quickzoomfactor_summary">"Quick zoom scale factor (in percent)"</string>-->
+
+</resources>

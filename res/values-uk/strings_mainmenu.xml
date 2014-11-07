@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+<!--<string name="menu_exit">"Exit"</string>-->
+    <string name="menu_close">"Закрити"</string>
+    <string name="menu_goto_page">"Сторінка"</string>
+    <string name="menu_outline">"Зміст"</string>
+    <string name="menu_zoom">"Збільшення"</string>
+    <string name="menu_nightmode">"День/Ніч"</string>
+    <string name="menu_settings">"Всі налаштування"</string>
+    <string name="menu_booksettings">"Налаштування книги"</string>
+<!--<string name="menu_picturesettings">"Picture enhancements…"</string>-->
+    <string name="menu_cleanrecent">"Очистити дані"</string>
+    <string name="menu_add_bookmark">"Додати закладку"</string>
+<!--<string name="menu_edit_bookmark">"Edit bookmark"</string>-->
+    <string name="menu_thumbnail">"Встановити обкладинкою"</string>
+<!--<string name="menu_about">"About"</string>-->
+<!--<string name="menu_tap_configuration">"Configure taps"</string>-->
+<!--<string name="menu_key_bindings">"Configure keys"</string>-->
+<!--<string name="menu_searchbook">"Find books"</string>-->
+<!--<string name="menu_searchtext">"Find text"</string>-->
+<!--<string name="menu_show_options_menu">"Show options menu"</string>-->
+<!--<string name="menu_backupsettings">"Backup &amp; Restore"</string>-->
+<!--<string name="menu_crop">"Manual crop"</string>-->
+<!--<string name="menu_drawbookmark">"Add annnotation"</string>-->
+<!--<string name="menu_other">"Other…"</string>-->
+<!--<string name="menu_switch_to_book_menu">"Switch to opened book…"</string>-->
+<!--<string name="menu_switch_to_service_menu">"Switch to service view…"</string>-->
+<!--<string name="menu_navigation_menu">"Navigation…"</string>-->
+<!--<string name="menu_fastsettings_menu">"View…"</string>-->
+<!--<string name="menu_allsettings_menu">"Settings…"</string>-->
+<!--<string name="menu_show_library">"Show library"</string>-->
+<!--<string name="menu_show_recent">"Show recent"</string>-->
+<!--<string name="menu_storages">"Storages"</string>-->
+<!--<string name="menu_storages_filesystem">"File System"</string>-->
+<!--<string name="menu_storages_external">"SD Card"</string>-->
+    <string name="menu_force_portrait">"Форсувати портрет"</string>
+    <string name="menu_force_landscape">"Форсувати альбом"</string>
+<!--<string name="menu_recents">"Library"</string>-->
+<!--<string name="menu_files">"Local files"</string>-->
+<!--<string name="menu_smb">"Local network"</string>-->
+<!--<string name="menu_opds">"OPDS catalogs"</string>-->
+<!--<string name="menu_refresh">"Rescan library"</string>-->
+
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="actions_verticalConfigScrollUp">"Өскә күчерергә"</string>
+    <string name="actions_verticalConfigScrollDown">"Аска күчерергә"</string>
+    <string name="actions_1xZoom">"Зурайту 1x"</string>
+    <string name="actions_2xZoom">"Зурайту 2x"</string>
+    <string name="actions_4xZoom">"Зурайту 4x"</string>
+    <string name="actions_quickZoom">"Тиз зурайту"</string>
+    <string name="actions_zoomToColumn">"Багананы зурайтырга"</string>
+    <string name="actions_leftTopCorner">"Битнең өске сул почмагына күчерергә"</string>
+    <string name="actions_rightTopCorner">"Битнең өске уң почмагына әйләндерергә"</string>
+    <string name="actions_leftBottomCorner">"Битнең аскы сул почмагына әйләндерергә"</string>
+    <string name="actions_rightBottomCorner">"Битнең өске сул почмагына күчерергә"</string>
+
+</resources>

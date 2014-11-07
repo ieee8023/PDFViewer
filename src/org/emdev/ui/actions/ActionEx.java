@@ -23,7 +23,7 @@ import org.emdev.common.log.LogManager;
 import org.emdev.utils.LengthUtils;
 import org.emdev.utils.collections.SparseArrayEx;
 
-import the.pdfviewer3.R;
+import the.pdfviewerx.R;
 
 public class ActionEx implements Runnable, View.OnClickListener, View.OnLongClickListener,
         AdapterView.OnItemClickListener, DialogInterface.OnClickListener, OnMultiChoiceClickListener,

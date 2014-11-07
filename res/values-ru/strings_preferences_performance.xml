@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="pref_performance_category">"Настройки производительности"</string>
+    <string name="pref_performance_category_summary">"Настройки производительности"</string>
+    <string name="pref_pagesinmemory_title">"Страниц в памяти"</string>
+    <string name="pref_pagesinmemory_summary">"Число страниц, хранящихся в памяти"</string>
+    <string name="pref_force_simd_title">"Использовать ОКМД"</string>
+    <string name="pref_force_simd_summary">"Использовать расширенные инструкции процессора (NEON для ARMv7 или SSE для x86)"</string>
+    <string name="pref_lowlevel_category">"Тонкие настройки приложения (Требуется переоткрытие документа)"</string>
+    <string name="pref_lowlevel_category_summary">"Тонкие настройки приложения (Требуется переоткрытие документа)"</string>
+    <string name="pref_decodeprocess_nicelevel_title">"Приоритет потока декодирования"</string>
+    <string name="pref_decodeprocess_nicelevel_summary">"Приоритет потока декодирования PDF, DJVU, CBZ, CBR"</string>
+    <string name="list_decodeprocess_nicelevel_default">"Нормальный"</string>
+    <string name="list_decodeprocess_nicelevel_lower">"Повышенный"</string>
+    <string name="list_decodeprocess_nicelevel_lowest">"Максимальный"</string>
+    <string name="pref_decodethread_priority_title">"Приоритет потока декодирования"</string>
+    <string name="pref_decodethread_priority_summary">"Приоритет потока декодирования FB2, RTF, EPUB"</string>
+    <string name="pref_decodethread_timeout_title">"Таймаут для потока декодирования"</string>
+    <string name="pref_decodethread_timeout_summary">"Задает максимальное время выполнения для декодирования страницы в секундах"</string>
+    <string name="pref_drawthread_priority_title">"Приоритет потока отрисовки"</string>
+    <string name="pref_drawthread_priority_summary">"Приоритет потока отрисовки"</string>
+    <string name="list_thread_priority_lowest">"Самый низкий"</string>
+    <string name="list_thread_priority_lower">"Низкий"</string>
+    <string name="list_thread_priority_normal">"Нормальный"</string>
+    <string name="list_thread_priority_higher">"Высокий"</string>
+    <string name="list_thread_priority_highest">"Самый высокий"</string>
+    <string name="pref_decodingonscroll_title">"Декодировать при прокрутке"</string>
+    <string name="pref_decodingonscroll_summary">"Декодировать страницы во время прокрутки"</string>
+    <string name="pref_bitmapsize_title">"Размер текстуры"</string>
+    <string name="pref_bitmapsize_summary">"Задает размер текстуры"</string>
+    <string name="pref_heappreallocate_title">"Предвыделение памяти"</string>
+    <string name="pref_heappreallocate_summary">"Размер в мегабатах предвыделенной памяти при старте приложения"</string>
+    <string name="pref_pdfstoragesize_title">"Размер внутреннего хранилища MuPDF"</string>
+    <string name="pref_pdfstoragesize_summary">"Размер в мегабайтах внутреннего хранилища MuPDF"</string>
+
+</resources>

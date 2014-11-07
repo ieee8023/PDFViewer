@@ -21,7 +21,7 @@ import org.emdev.common.log.LogManager;
 import org.emdev.ui.actions.ActionController;
 import org.emdev.utils.MathUtils;
 
-import the.pdfviewer3.R;
+import the.pdfviewerx.R;
 
 public class TouchManagerView extends View {
 

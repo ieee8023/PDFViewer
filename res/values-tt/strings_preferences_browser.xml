@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="pref_browser_category">"Файлларны карау"</string>
+    <string name="pref_browser_category_summary">"Браузер һәм кулланылган файллар төре көйләүләре"</string>
+    <string name="pref_usebookcase_title">"Шкаф кулланырга"</string>
+    <string name="pref_usebookcase_summary">"Тышлыклар белән шкафны исемлекләр урынына кулланырга"</string>
+    <string name="pref_showrecentsonstartup_title">"Соңгыларын башлаганда күрсәтергә"</string>
+    <string name="pref_showrecentsonstartup_summary">"Соңгыларын башлаганда күрсәтергә (әгәр шкаф кулланмаса)"</string>
+    <string name="pref_brautoscandir_title">"Тикшерү өчен каталог"</string>
+    <string name="pref_brautoscandir_summary">"Үзе тикшерү өчен каталог"</string>
+    <string name="pref_savescanresults_title">"Исемлекне сакларга"</string>
+    <string name="pref_savescanresults_summary">"Сакланган исемлекне башлауда тикшерү урынына кулланырга"</string>
+    <string name="pref_autoscanremovable_title">"Флешкаларны тикшерергә"</string>
+    <string name="pref_autoscanremovable_summary">"Флешкаларны һәм хәтер карталарны үзе тикшерергә"</string>
+    <string name="pref_showremovable_title">"Флешкаларны күрсәтергә"</string>
+    <string name="pref_showremovable_summary">"Менюда флешкаларны һәм хәтер карталарын күрсәтергә"</string>
+    <string name="pref_showscanning_title">"Тикшерелгән каталогларны күрсәтергә"</string>
+    <string name="pref_showscanning_summary">"Менюда тикшерелгән каталогларны күрсәтергә"</string>
+    <string name="pref_shownotifications_title">"Яңа файллар турында белдерергә"</string>
+    <string name="pref_shownotifications_summary">"Яңа/бетерелгән файллар турында белдерүне күрсәтергә"</string>
+    <string name="pref_cachelocation_title">"Кешның урнашуы"</string>
+    <string name="pref_cachelocation_summary">"Файл кешының урыны"</string>
+    <string name="list_cachelocation_system">"Җиһаз хәтеренә"</string>
+    <string name="list_cachelocation_custom">"Хәтер картасында"</string>
+    <string name="pref_handle_http_title">"HTTP/HTTPS эләктерергә"</string>
+    <string name="pref_handle_http_summary">"HTTP/HTTP беркетмәләре өчен йөкләүне эләктерергә"</string>
+
+</resources>

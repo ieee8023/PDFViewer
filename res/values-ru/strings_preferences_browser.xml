@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="pref_browser_category">"Просмотр файлов"</string>
+    <string name="pref_browser_category_summary">"Настройки браузера и поддерживаемые типы файлов"</string>
+    <string name="pref_usebookcase_title">"Использовать шкаф"</string>
+    <string name="pref_usebookcase_summary">"Использовать шкаф с обложками вместо списков"</string>
+    <string name="pref_showrecentsonstartup_title">"Показывать Недавние при старте"</string>
+    <string name="pref_showrecentsonstartup_summary">"Показывать Недавние при старте (если шкаф не используется)"</string>
+    <string name="pref_brautoscandir_title">"Каталог для сканирования"</string>
+    <string name="pref_brautoscandir_summary">"Каталог для автоматического сканирования"</string>
+    <string name="pref_savescanresults_title">"Сохранять список"</string>
+    <string name="pref_savescanresults_summary">"Использовать сохраненный список, вместо сканирования на старте"</string>
+    <string name="pref_autoscanremovable_title">"Сканировать флешки"</string>
+    <string name="pref_autoscanremovable_summary">"Автоматически сканировать флешки и карты памяти"</string>
+    <string name="pref_showremovable_title">"Показывать флешки"</string>
+    <string name="pref_showremovable_summary">"Показывать флешки и карты памяти в меню"</string>
+    <string name="pref_showscanning_title">"Показывать сканированные каталоги"</string>
+    <string name="pref_showscanning_summary">"Показывать сканированные каталоги в меню"</string>
+    <string name="pref_shownotifications_title">"Оповещать о новых файлах"</string>
+    <string name="pref_shownotifications_summary">"Показывать уведомления о новых/удаленных файлах"</string>
+    <string name="pref_cachelocation_title">"Расположение кеша"</string>
+    <string name="pref_cachelocation_summary">"Расположение файлового кеша"</string>
+    <string name="list_cachelocation_system">"В памяти устройства"</string>
+    <string name="list_cachelocation_custom">"На карте памяти"</string>
+    <string name="pref_handle_http_title">"Перехватывать HTTP/HTTPS"</string>
+    <string name="pref_handle_http_summary">"Перехватывать загрузку для протоколов HTTP/HTTP"</string>
+
+</resources>

@@ -11,7 +11,7 @@ import org.emdev.ui.progress.IProgressIndicator;
 import org.emdev.ui.tasks.BaseAsyncTask;
 import org.emdev.utils.LengthUtils;
 
-import the.pdfviewer3.R;
+import the.pdfviewerx.R;
 
 final class LoadFeedTask extends BaseAsyncTask<Feed, FeedTaskResult> implements OnCancelListener,
         IProgressIndicator {

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="pref_switch_on">"КАБ"</string>
+    <string name="pref_switch_off">"СҮН"</string>
+
+</resources>

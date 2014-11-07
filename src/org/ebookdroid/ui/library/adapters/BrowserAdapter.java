@@ -22,7 +22,7 @@ import org.emdev.ui.adapters.BaseViewHolder;
 import org.emdev.utils.FileUtils;
 import org.emdev.utils.LengthUtils;
 
-import the.pdfviewer3.R;
+import the.pdfviewerx.R;
 
 public class BrowserAdapter extends BaseAdapter implements Comparator<File> {
 

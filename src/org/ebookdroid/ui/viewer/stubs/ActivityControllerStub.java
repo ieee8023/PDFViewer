@@ -16,8 +16,8 @@ import android.content.Context;
 import org.emdev.ui.actions.ActionController;
 import org.emdev.ui.actions.IActionController;
 
-import the.pdfviewer3.EBookDroidApp;
-import the.pdfviewer3.ViewerActivity;
+import the.pdfviewerx.EBookDroidApp;
+import the.pdfviewerx.ViewerActivity;
 
 public class ActivityControllerStub extends ActionController<ViewerActivity> implements IActivityController {
 

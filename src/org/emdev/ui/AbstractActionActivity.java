@@ -16,8 +16,8 @@ import org.emdev.ui.actions.ActionEx;
 import org.emdev.ui.actions.ActionMenuHelper;
 import org.emdev.ui.actions.ActionMethod;
 
-import the.pdfviewer3.AboutActivity;
-import the.pdfviewer3.R;
+import the.pdfviewerx.AboutActivity;
+import the.pdfviewerx.R;
 
 public abstract class AbstractActionActivity<A extends Activity, C extends AbstractActivityController<A>> extends
         Activity implements ActivityEvents {

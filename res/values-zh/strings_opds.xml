@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="opds">"OPDS浏览器"</string>
+    <string name="opds_connecting">"连接…"</string>
+    <string name="opds_loading_catalog">"载入目录…"</string>
+    <string name="opds_loading_book">"加载书籍： %1$s/%2$s…"</string>
+    <string name="opds_unpacking_book">"解压书籍：%1$s/%2$s…"</string>
+    <string name="opds_download_complete">"下载完成: %s"</string>
+    <string name="opds_download_error">"下载失败: %s"</string>
+    <string name="opds_add_new_feed">"添加新的订阅地址"</string>
+    <string name="opds_addfeed_title">"添加新的类目"</string>
+    <string name="opds_addfeed_msg">"设置类目别名"</string>
+    <string name="opds_addfeed_ok">"添加"</string>
+    <string name="opds_addfeed_alias">"别名:"</string>
+    <string name="opds_addfeed_url">"网址:"</string>
+    <string name="opds_addfeed_auth">"需要授权"</string>
+    <string name="opds_editfeed_title">"编辑类目"</string>
+    <string name="opds_editfeed_msg">"设置类目别名"</string>
+    <string name="opds_editfeed_ok">"保存"</string>
+    <string name="opds_deletefeed_title">"删除类目"</string>
+    <string name="opds_deletefeed_msg">"确定删除类目?"</string>
+    <string name="opds_deletefeed_ok">"删除"</string>
+    <string name="opds_authfeed_title">"授权"</string>
+    <string name="opds_authfeed_msg">"设置类目用户名和密码"</string>
+    <string name="opds_authfeed_username">"用户名:"</string>
+    <string name="opds_authfeed_password">"密码:"</string>
+    <string name="opds_authfeed_ok">"登录"</string>
+    <string name="opds_error_title">"OPDS错误"</string>
+    <string name="opds_error_msg" translatable="true">"%s"</string>
+    <string name="opds_retry_download">"重试"</string>
+<!--<string name="opds_prev">"Prev section"</string>-->
+<!--<string name="opds_next">"Next section"</string>-->
+    <string name="opds_downloading_type_dlg_title">"选择下载的书籍类型"</string>
+    <string name="opds_downloading_dlg_title">"下载…"</string>
+    <string name="opds_downloading_dlg_raw_type">"原始类型"</string>
+<!--<string name="opds_seach_dlg_msg">"Enter search query:"</string>-->
+
+</resources>

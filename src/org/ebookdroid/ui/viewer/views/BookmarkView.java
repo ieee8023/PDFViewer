@@ -12,7 +12,7 @@ import org.emdev.common.log.LogContext;
 import org.emdev.common.log.LogManager;
 import org.emdev.ui.actions.IActionController;
 
-import the.pdfviewer3.R;
+import the.pdfviewerx.R;
 
 public class BookmarkView extends TextView {
 

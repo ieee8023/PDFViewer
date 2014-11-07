@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="menu_exit">"Выход"</string>
+    <string name="menu_close">"Закрыть"</string>
+    <string name="menu_goto_page">"Перейти к…"</string>
+    <string name="menu_outline">"Оглавление"</string>
+    <string name="menu_zoom">"Увеличение"</string>
+    <string name="menu_nightmode">"День/Ночь"</string>
+    <string name="menu_settings">"Все настройки"</string>
+    <string name="menu_booksettings">"Настройки книги"</string>
+    <string name="menu_picturesettings">"Улучшение картинки…"</string>
+    <string name="menu_cleanrecent">"Очистить данные"</string>
+    <string name="menu_add_bookmark">"Добавить закладку"</string>
+    <string name="menu_edit_bookmark">"Изменить закладку"</string>
+    <string name="menu_thumbnail">"Поставить обложкой"</string>
+    <string name="menu_about">"О программе"</string>
+    <string name="menu_tap_configuration">"Настройка нажатий"</string>
+    <string name="menu_key_bindings">"Настройка клавиш"</string>
+    <string name="menu_searchbook">"Поиск"</string>
+    <string name="menu_searchtext">"Поиск"</string>
+    <string name="menu_show_options_menu">"Показать меню"</string>
+    <string name="menu_backupsettings">"Сохранение и восстановление"</string>
+    <string name="menu_crop">"Ручная обрезка страницы"</string>
+    <string name="menu_drawbookmark">"Добавить пометки"</string>
+    <string name="menu_other">"Прочее…"</string>
+    <string name="menu_switch_to_book_menu">"Открытые книги…"</string>
+    <string name="menu_switch_to_service_menu">"Служебные окна…"</string>
+    <string name="menu_navigation_menu">"Навигация…"</string>
+    <string name="menu_fastsettings_menu">"Вид…"</string>
+    <string name="menu_allsettings_menu">"Настройки…"</string>
+    <string name="menu_show_library">"Показать библиотеку"</string>
+    <string name="menu_show_recent">"Показать недавние"</string>
+    <string name="menu_storages">"Устройства хранения"</string>
+    <string name="menu_storages_filesystem">"Файловая система"</string>
+    <string name="menu_storages_external">"SD карта"</string>
+    <string name="menu_force_portrait">"Форсировать портрет"</string>
+    <string name="menu_force_landscape">"Форсировать альбом"</string>
+    <string name="menu_recents">"Библиотека"</string>
+    <string name="menu_files">"Файлы"</string>
+    <string name="menu_smb">"Локальная сеть"</string>
+    <string name="menu_opds">"OPDS каталоги"</string>
+    <string name="menu_refresh">"Обновить библиотеку"</string>
+
+</resources>

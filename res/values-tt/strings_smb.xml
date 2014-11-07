@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="smb">"Җирле челтәр"</string>
+    <string name="smb_error_title">"Хата"</string>
+    <string name="smb_addserver_title">"Сервер өстәргә"</string>
+    <string name="smb_addserver_ok">"Өстәргә"</string>
+    <string name="smb_addserver_alias">"Исеме:"</string>
+    <string name="smb_addserver_address">"Адрес:"</string>
+    <string name="smb_addserver_share">"Чыганак:"</string>
+    <string name="smb_addserver_auth">"Рөхсәт алу"</string>
+    <string name="smb_authserver_domain">"Домен:"</string>
+    <string name="smb_authserver_username">"Кулланучы:"</string>
+    <string name="smb_authserver_password">"Серсүз:"</string>
+    <string name="smb_editserver_title">"Серверны үзгәртергә"</string>
+    <string name="smb_editserver_ok">"Яңартырга"</string>
+    <string name="smb_deleteserver_title">"Серверларны бетерергә)"</string>
+    <string name="smb_deleteserver_msg">"Сервер(лар)ны бетерергәме?"</string>
+    <string name="smb_deleteserver_ok">"Бетерергә"</string>
+    <string name="smb_add_new_server">"Өстәргә"</string>
+    <string name="smb_edit">"Төзәтергә"</string>
+    <string name="smb_delete">"Бетерергә"</string>
+
+</resources>

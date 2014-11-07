@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+<!--<string name="pref_performance_category">"Performance settings"</string>-->
+<!--<string name="pref_performance_category_summary">"Performance settings"</string>-->
+    <string name="pref_pagesinmemory_title">"Сторінок в пам’яті"</string>
+    <string name="pref_pagesinmemory_summary">"Число сторінок, що зберігаються в пам’яті"</string>
+<!--<string name="pref_force_simd_title">"Use SIMD optimizations"</string>-->
+<!--<string name="pref_force_simd_summary">"Use SIMD instructions (NEON for ARMv7 or SSE for x86)"</string>-->
+<!--<string name="pref_lowlevel_category">"Low level application preferences (Applied after document reload)"</string>-->
+<!--<string name="pref_lowlevel_category_summary">"Low level application preferences (Applied after document reload)"</string>-->
+<!--<string name="pref_decodeprocess_nicelevel_title">"Decode process nice level"</string>-->
+<!--<string name="pref_decodeprocess_nicelevel_summary">"Defines nice level for separated decoding processes"</string>-->
+<!--<string name="list_decodeprocess_nicelevel_default">"Default"</string>-->
+<!--<string name="list_decodeprocess_nicelevel_lower">"Higher priority"</string>-->
+<!--<string name="list_decodeprocess_nicelevel_lowest">"Highest priority"</string>-->
+<!--<string name="pref_decodethread_priority_title">"Decode thread priority"</string>-->
+<!--<string name="pref_decodethread_priority_summary">"Defines decode thread priority"</string>-->
+<!--<string name="pref_decodethread_timeout_title">"Decode thread timeout"</string>-->
+<!--<string name="pref_decodethread_timeout_summary">"Defines decode thread timeout in seconds"</string>-->
+<!--<string name="pref_drawthread_priority_title">"GL draw thread priority"</string>-->
+<!--<string name="pref_drawthread_priority_summary">"Defines GL draw thread priority"</string>-->
+<!--<string name="list_thread_priority_lowest">"Lowest"</string>-->
+<!--<string name="list_thread_priority_lower">"Lower"</string>-->
+<!--<string name="list_thread_priority_normal">"Normal"</string>-->
+<!--<string name="list_thread_priority_higher">"Higher"</string>-->
+<!--<string name="list_thread_priority_highest">"Highest"</string>-->
+<!--<string name="pref_decodingonscroll_title">"Decoding during scrolling"</string>-->
+<!--<string name="pref_decodingonscroll_summary">"Allow to decode pages during scrolling or fling"</string>-->
+<!--<string name="pref_bitmapsize_title">"Texture bitmap size"</string>-->
+<!--<string name="pref_bitmapsize_summary">"Defines size of texture parts"</string>-->
+<!--<string name="pref_heappreallocate_title">"Heap preallocation"</string>-->
+<!--<string name="pref_heappreallocate_summary">"Size in megabytes of heap preallocation at application startup"</string>-->
+<!--<string name="pref_pdfstoragesize_title">"MuPDF internal storage size"</string>-->
+<!--<string name="pref_pdfstoragesize_summary">"Size in megabytes of MuPDF internal storage"</string>-->
+
+</resources>

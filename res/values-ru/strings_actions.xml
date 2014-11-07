@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="actions_verticalConfigScrollUp">"Прокрутить вверх"</string>
+    <string name="actions_verticalConfigScrollDown">"Прокрутить вниз"</string>
+    <string name="actions_1xZoom">"Увеличение 1x"</string>
+    <string name="actions_2xZoom">"Увеличение 2x"</string>
+    <string name="actions_4xZoom">"Увеличение 4x"</string>
+    <string name="actions_quickZoom">"Быстрое увеличение"</string>
+    <string name="actions_zoomToColumn">"Увеличить колонку"</string>
+    <string name="actions_leftTopCorner">"Прокрутить к левому верхнему углу страницы"</string>
+    <string name="actions_rightTopCorner">"Прокрутить к правому верхнему углу страницы"</string>
+    <string name="actions_leftBottomCorner">"Прокрутить к левому нижнему углу страницы"</string>
+    <string name="actions_rightBottomCorner">"Прокрутить к правому нижнему углу страницы"</string>
+
+</resources>

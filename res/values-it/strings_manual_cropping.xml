@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="manual_cropping_title">"Ritaglia su misura (richiede pagina singola):"</string>
+    <string name="manual_cropping_even">"Tutte le pagine pari (dispari)"</string>
+    <string name="manual_cropping_even_symm">"Pagine pari e dispari in maniera simmetrica"</string>
+    <string name="manual_cropping_all">"Tutte le pagine"</string>
+    <string name="manual_cropping_reset">"Annulla impostazioni di ritaglio"</string>
+    <string name="manual_cropping_setauto">"Imposta ritaglio automatico"</string>
+    <string name="manual_cropping_remove_current">"Non ritagliare questa/e pagina/e"</string>
+    <string name="manual_cropping_remove_all">"Non ritagliare alcuna pagina"</string>
+    <string name="manual_cropping_back">"Ritorna alla selezione dell'area"</string>
+
+</resources>

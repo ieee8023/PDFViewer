@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="menu_exit">"Чыгу"</string>
+    <string name="menu_close">"Ябарга"</string>
+    <string name="menu_goto_page">"Монда күчәргә"</string>
+    <string name="menu_outline">"Эчтәлек"</string>
+    <string name="menu_zoom">"Зурайту"</string>
+    <string name="menu_nightmode">"Көн/төн"</string>
+    <string name="menu_settings">"Барлык көйләүләр"</string>
+    <string name="menu_booksettings">"Китап көйләүләре"</string>
+    <string name="menu_picturesettings">"Рәсемне яхшырту"</string>
+    <string name="menu_cleanrecent">"Мәгълүматны чистартырга"</string>
+    <string name="menu_add_bookmark">"Кыстыргыч өстәргә"</string>
+    <string name="menu_edit_bookmark">"Кыстыргычны үзгәртергә"</string>
+    <string name="menu_thumbnail">"Тышлык итәргә"</string>
+    <string name="menu_about">"Кушымта турында"</string>
+    <string name="menu_tap_configuration">"Кагылуны көйләү"</string>
+    <string name="menu_key_bindings">"Төймәләрне көйләү"</string>
+    <string name="menu_searchbook">"Эзләү"</string>
+    <string name="menu_searchtext">"Эзләү"</string>
+    <string name="menu_show_options_menu">"Менюны күрсәтергә"</string>
+    <string name="menu_backupsettings">"Саклау һәм торгызу"</string>
+    <string name="menu_crop">"Битләрне кулдан кисәргә"</string>
+    <string name="menu_drawbookmark">"Билге өстәргә"</string>
+    <string name="menu_other">"Башкалар"</string>
+    <string name="menu_switch_to_book_menu">"Ачык китаплар"</string>
+    <string name="menu_switch_to_service_menu">"Хезмәт тәрәзәләре"</string>
+    <string name="menu_navigation_menu">"Юнәлеш"</string>
+    <string name="menu_fastsettings_menu">"Күренеш"</string>
+    <string name="menu_allsettings_menu">"Көйләүләр"</string>
+    <string name="menu_show_library">"Китапханәне күрсәтергә"</string>
+    <string name="menu_show_recent">"Соңгыларын күрсәтергә"</string>
+    <string name="menu_storages">"Саклау җиһазлары"</string>
+    <string name="menu_storages_filesystem">"Файл системасы"</string>
+    <string name="menu_storages_external">"SD карта"</string>
+    <string name="menu_force_portrait">"Портретны көчәйтү"</string>
+    <string name="menu_force_landscape">"Альбомны көчәйтү"</string>
+    <string name="menu_recents">"Китапханә"</string>
+    <string name="menu_files">"Файллар"</string>
+    <string name="menu_smb">"Җирле челтәр"</string>
+    <string name="menu_opds">"OPDS каталоглар"</string>
+    <string name="menu_refresh">"Китапханәне яңартырга"</string>
+
+</resources>

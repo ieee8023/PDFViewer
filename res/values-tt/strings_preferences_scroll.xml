@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="pref_scroll_category">"Кагылу һәм күчерү"</string>
+    <string name="pref_scroll_category_summary">"Күчерүне көйләү"</string>
+    <string name="pref_tapsenabled_title">"Кагылуны рөхсәт итәргә"</string>
+    <string name="pref_tapsenabled_summary">"Кагылуны көйләү' меню ноктасын өлкә һәм гамәлне билгеләү өчен кулланыгыз"</string>
+    <string name="pref_scroll_title">"Күчерү биеклеге"</string>
+    <string name="pref_scroll_summary">"Күчерү биеклеген экран биеклегеннән процентларда урнаштырыгыз"</string>
+    <string name="pref_wheelscroll_title">"Тычкан тәгәрмәче өчен күчерү адымы"</string>
+    <string name="pref_wheelscroll_summary">"Тычкан тәгәрмәче өчен күчерү биеклеген экран биеклегеннән процентларда урнаштырыгыз"</string>
+    <string name="pref_touchdelay_title">"Кагылуны эшкәртү тоткарлавы"</string>
+    <string name="pref_touchdelay_summary">"Кагылуны эшкәртү тоткарлавы (миллисекундларда)"</string>
+    <string name="pref_animate_scrolling_title">"Күчерүне анимацияләү"</string>
+    <string name="pref_animate_scrolling_summary">"Төргәк рәвешендә күчерүне анимацияләү"</string>
+    <string name="pref_quickzoomfactor_title">"Тиз зурайту"</string>
+    <string name="pref_quickzoomfactor_summary">"Тиз зурайту дәрәҗәсе (процентларда)"</string>
+
+</resources>

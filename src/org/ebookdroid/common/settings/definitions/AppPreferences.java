@@ -1,6 +1,6 @@
 package org.ebookdroid.common.settings.definitions;
 
-import static the.pdfviewer3.R.string.*;
+import static the.pdfviewerx.R.string.*;
 
 import org.ebookdroid.common.settings.types.DocumentViewMode;
 import org.ebookdroid.common.settings.types.FontSize;
@@ -8,7 +8,6 @@ import org.ebookdroid.common.settings.types.PageAlign;
 import org.ebookdroid.common.settings.types.RotationType;
 import org.ebookdroid.common.settings.types.ToastPosition;
 import org.ebookdroid.core.curl.PageAnimationType;
-
 import org.emdev.common.settings.base.BooleanPreferenceDefinition;
 import org.emdev.common.settings.base.EnumPreferenceDefinition;
 import org.emdev.common.settings.base.IntegerPreferenceDefinition;

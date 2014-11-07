@@ -15,8 +15,7 @@ import android.view.GestureDetector.SimpleOnGestureListener;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Scroller;
-
-import the.pdfviewer3.R;
+import the.pdfviewerx.R;
 
 public class ZoomRoll extends View implements ZoomListener {
 

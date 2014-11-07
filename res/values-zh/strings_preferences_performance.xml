@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="pref_performance_category">"性能设置"</string>
+    <string name="pref_performance_category_summary">"设置性能参数"</string>
+    <string name="pref_pagesinmemory_title">"内存页面"</string>
+    <string name="pref_pagesinmemory_summary">"存储在内存中的页数"</string>
+<!--<string name="pref_force_simd_title">"Use SIMD optimizations"</string>-->
+<!--<string name="pref_force_simd_summary">"Use SIMD instructions (NEON for ARMv7 or SSE for x86)"</string>-->
+    <string name="pref_lowlevel_category">"低级别的应用程序首选项（需重新加载文件）"</string>
+    <string name="pref_lowlevel_category_summary">"低级别的应用程序首选项（需重新加载文件）"</string>
+<!--<string name="pref_decodeprocess_nicelevel_title">"Decode process nice level"</string>-->
+<!--<string name="pref_decodeprocess_nicelevel_summary">"Defines nice level for separated decoding processes"</string>-->
+<!--<string name="list_decodeprocess_nicelevel_default">"Default"</string>-->
+<!--<string name="list_decodeprocess_nicelevel_lower">"Higher priority"</string>-->
+<!--<string name="list_decodeprocess_nicelevel_lowest">"Highest priority"</string>-->
+    <string name="pref_decodethread_priority_title">"解码线程优先级"</string>
+    <string name="pref_decodethread_priority_summary">"设置解码线程优先级"</string>
+<!--<string name="pref_decodethread_timeout_title">"Decode thread timeout"</string>-->
+<!--<string name="pref_decodethread_timeout_summary">"Defines decode thread timeout in seconds"</string>-->
+    <string name="pref_drawthread_priority_title">"表面绘图线程优先级"</string>
+    <string name="pref_drawthread_priority_summary">"设置表面绘图线程优先级"</string>
+    <string name="list_thread_priority_lowest">"最低"</string>
+    <string name="list_thread_priority_lower">"较低"</string>
+    <string name="list_thread_priority_normal">"正常"</string>
+    <string name="list_thread_priority_higher">"较高"</string>
+    <string name="list_thread_priority_highest">"最高"</string>
+<!--<string name="pref_decodingonscroll_title">"Decoding during scrolling"</string>-->
+<!--<string name="pref_decodingonscroll_summary">"Allow to decode pages during scrolling or fling"</string>-->
+    <string name="pref_bitmapsize_title">"位图尺寸"</string>
+    <string name="pref_bitmapsize_summary">"设置位图尺寸"</string>
+    <string name="pref_heappreallocate_title">"预分配堆栈"</string>
+    <string name="pref_heappreallocate_summary">"程序启动时预分配堆栈大小（兆字节）"</string>
+    <string name="pref_pdfstoragesize_title">"MuPDF内部存储容量"</string>
+    <string name="pref_pdfstoragesize_summary">"MuPDF内部存储容量大小（兆字节）"</string>
+
+</resources>

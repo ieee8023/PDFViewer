@@ -19,7 +19,7 @@ import java.util.Collections;
 
 import org.emdev.ui.actions.IActionController;
 
-import the.pdfviewer3.R;
+import the.pdfviewerx.R;
 
 public final class BookmarkAdapter extends BaseAdapter {
 

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="pref_brbrfiletypesscreen_title">"Tipos de Archivo"</string>
+    <string name="pref_brbrfiletypesscreen_summary">"Tipos de Archivo a mostrar en la biblioteca"</string>
+    <string name="pref_ft_djvu_summary">"Mostrar los archivos DjVu"</string>
+    <string name="pref_ft_pdf_summary">"Mostrar los archivos PDF"</string>
+    <string name="pref_ft_xps_summary">"Mostrar los archivos XPS"</string>
+<!--<string name="pref_ft_cbx_summary">"Show CBZ and CBR comics books"</string>-->
+    <string name="pref_ft_fb2_summary">"Mostrar los archivos FB2"</string>
+<!--<string name="pref_ft_epub_summary">"Show EPUB books"</string>-->
+<!--<string name="pref_ft_rtf_summary">"Show RTF books"</string>-->
+
+</resources>

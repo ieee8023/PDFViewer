@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+<!--<string name="manual_cropping_title">"Custom crop"</string>-->
+<!--<string name="manual_cropping_even">"even/odd"</string>-->
+<!--<string name="manual_cropping_even_symm">"even/odd symmetrically"</string>-->
+<!--<string name="manual_cropping_all">"all"</string>-->
+<!--<string name="manual_cropping_reset">"Reset crop settings"</string>-->
+<!--<string name="manual_cropping_setauto">"Set auto crop settings"</string>-->
+<!--<string name="manual_cropping_remove_current">"Remove crop settings from current page(s)"</string>-->
+<!--<string name="manual_cropping_remove_all">"Remove all crop setting"</string>-->
+<!--<string name="manual_cropping_back">"Return to area selection"</string>-->
+
+</resources>

@@ -17,7 +17,7 @@ import java.util.concurrent.atomic.AtomicReference;
 import org.emdev.ui.tasks.AsyncTask;
 import org.emdev.ui.tasks.AsyncTaskExecutor;
 
-import the.pdfviewer3.R;
+import the.pdfviewerx.R;
 
 public class ThumbnailFile extends File {
 

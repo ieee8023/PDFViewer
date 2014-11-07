@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="app_name">PDF Viewer</string>
+    <string name="app_name">PDF Viewer X</string>
 
     <string name="confirmclose_title">Closing viewer&#8230;</string>
     <string name="confirmclose_msg">Do you really want to close this document?</string>
@@ -59,7 +59,7 @@
     <string name="list_clear_recent_mode_delete_cached_data">Delete all cached data from disk</string>
 
     <string name="about_prefix">en</string>
-    <string name="about_title">About EBookDroid</string>
+    <string name="about_title">About PDF Viewer X</string>
     <string name="about_commmon_title">Application info</string>
     <string name="about_fonts_title">Fonts</string>
     <string name="about_license_title">License</string>

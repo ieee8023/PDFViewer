@@ -7,7 +7,7 @@ import android.content.Intent;
 
 import org.emdev.BaseDroidApp;
 
-import the.pdfviewer3.R;
+import the.pdfviewerx.R;
 
 @TargetApi(11)
 class ModernNotificationManager extends AbstractNotificationManager {

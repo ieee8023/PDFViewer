@@ -28,7 +28,7 @@ import org.afzkl.colorpicker.views.ColorPanelView;
 import org.afzkl.colorpicker.views.ColorPickerView;
 import org.afzkl.colorpicker.views.ColorPickerView.OnColorChangedListener;
 
-import the.pdfviewer3.R;
+import the.pdfviewerx.R;
 
 public class ColorPickerDialog extends AlertDialog implements
 		ColorPickerView.OnColorChangedListener {

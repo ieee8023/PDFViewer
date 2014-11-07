@@ -32,7 +32,7 @@ import org.afzkl.colorpicker.views.ColorPickerView;
 import org.afzkl.colorpicker.views.ColorPickerView.OnColorChangedListener;
 import org.emdev.utils.LengthUtils;
 
-import the.pdfviewer3.R;
+import the.pdfviewerx.R;
 
 public class ColorPickerPreference extends DialogPreference implements ColorPickerView.OnColorChangedListener {
 

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="pref_tools_title">"Attivazone Strumenti"</string>
+    <string name="pref_tools_summary">"Attiva e disattiva gli strumenti ancora in fase sperimentale"</string>
+    <string name="pref_tools_text_title">"Selezione testo"</string>
+    <string name="pref_tools_text_summary">"Strumenti di selezione testo: copia, traduci e ricerca in rete (Google)"</string>
+    <string name="pref_tools_highlight_title">"Evidenziatore"</string>
+    <string name="pref_tools_highlight_summary">"Strumenti per evidenziare il testo"</string>
+    <string name="pref_tools_drawing_title">"Disegno a mano libera"</string>
+    <string name="pref_tools_drawing_summary">"Strumenti per disegnare a mano libera"</string>
+<!--<string name="pref_tools_spen_title">"SPen starts drawing"</string>-->
+<!--<string name="pref_tools_spen_summary">"Samsung\'s SPen starts drawing tools"</string>-->
+    <string name="pref_tools_notes_title">"Annotazioni"</string>
+    <string name="pref_tools_notes_summary">"Strumenti per creare note nel testo e quaderni di appunti"</string>
+    <string name="pref_dictionarytype_title">"Dizionario"</string>
+    <string name="pref_dictionarytype_summary">"Applicazione 'dizionario' di terze parti per la ricerca delle traduzioni"</string>
+
+</resources>

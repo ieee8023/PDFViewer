@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="opdsupfolder">"Өскә"</string>
+    <string name="opdsrefreshfolder">"Яңартырга"</string>
+    <string name="opdsprevfolder">"Кире"</string>
+    <string name="opdsnextfolder">"Алга"</string>
+    <string name="opds_feed_add">"Өстәргә"</string>
+    <string name="opdsclose">"Ябарга"</string>
+    <string name="opds_book_download">"Йөкләргә"</string>
+    <string name="opdsgoto">"Ачарга"</string>
+    <string name="opds_feed_edit">"Төзәтергә"</string>
+    <string name="opds_feed_delete">"Бетерергә"</string>
+
+</resources>
