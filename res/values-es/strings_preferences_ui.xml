@@ -14,7 +14,8 @@
     <string name="list_lang_nl">"Holandés (Nederlands)"</string>
     <string name="list_lang_ru">"Ruso (Русский)"</string>
     <string name="list_lang_uk">"Ukraniano (Український)"</string>
-    <string name="list_lang_zh">"Chino (中文简体)"</string>
+    <string name="list_lang_zh_CN">"Chino (中文简体)"</string>
+    <string name="list_lang_zh_TW">"Chino (中文繁體)"</string>
 <!--<string name="list_lang_iw">"Hebrew (עברית)"</string>-->
 <!--<string name="list_lang_tt">"Tatar (Татар)"</string>-->
 <!--<string name="pref_navigation_type_title">"Navigation"</string>-->
