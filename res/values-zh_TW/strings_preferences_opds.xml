@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="pref_opds_category">"OPDS設置"</string>
+    <string name="pref_opds_category_summary">"OPDS信息設置"</string>
+    <string name="pref_opds_downloaddir_title">"下載內容保存位置"</string>
+    <string name="pref_opds_downloaddir_summary">"下載內容保存到"</string>
+    <string name="pref_opds_filterbooktypes_title">"過濾檔案類型"</string>
+    <string name="pref_opds_filterbooktypes_summary">"過濾掉不支持的檔案類型"</string>
+    <string name="pref_opds_downloadarchives_title">"下載壓縮檔案"</string>
+    <string name="pref_opds_downloadarchives_summary">"下載壓縮過的檔案"</string>
+    <string name="pref_opds_unpackarchives_title">"解壓檔案"</string>
+    <string name="pref_opds_unpackarchives_summary">"下載後解壓檔案"</string>
+    <string name="pref_opds_deletearchives_title">"刪除壓縮檔案"</string>
+    <string name="pref_opds_deletearchives_summary">"解壓後刪除原始壓縮檔案"</string>
+
+</resources>

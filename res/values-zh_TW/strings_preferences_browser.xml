@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="pref_browser_category">"檔案瀏覽"</string>
+    <string name="pref_browser_category_summary">"檔案瀏覽方式和檔案類型設置"</string>
+    <string name="pref_usebookcase_title">"使用書櫃視圖"</string>
+    <string name="pref_usebookcase_summary">"使用書櫃視圖，而不是列表"</string>
+<!--<string name="pref_showrecentsonstartup_title">"Show recents list on startup"</string>-->
+<!--<string name="pref_showrecentsonstartup_summary">"Show recents list on startup if bookcase is switched off"</string>-->
+    <string name="pref_brautoscandir_title">"自動掃瞄目錄"</string>
+    <string name="pref_brautoscandir_summary">"自動搜索的檔案目錄"</string>
+<!--<string name="pref_savescanresults_title">"Save scan results"</string>-->
+<!--<string name="pref_savescanresults_summary">"Use permenent list of files instead of scanning at startup"</string>-->
+    <string name="pref_autoscanremovable_title">"掃瞄可移動媒體（媒介）"</string>
+    <string name="pref_autoscanremovable_summary">"自動掃瞄插入的可移除媒體（媒介）"</string>
+    <string name="pref_showremovable_title">"顯示可移動媒體（媒介）"</string>
+    <string name="pref_showremovable_summary">"在存儲菜單顯示可移除媒體（媒介）"</string>
+    <string name="pref_showscanning_title">"顯示掃瞄目錄"</string>
+    <string name="pref_showscanning_summary">"在存儲菜單顯示自動掃瞄的目錄"</string>
+    <string name="pref_shownotifications_title">"顯示通知信息"</string>
+    <string name="pref_shownotifications_summary">"添加或刪除檔案時，顯示通知信息"</string>
+    <string name="pref_cachelocation_title">"緩存位置"</string>
+    <string name="pref_cachelocation_summary">"緩存檔案存放的位置"</string>
+    <string name="list_cachelocation_system">"系統緩存"</string>
+    <string name="list_cachelocation_custom">"SD卡緩存"</string>
+<!--<string name="pref_handle_http_title">"Handle HTTP/HTTPS"</string>-->
+<!--<string name="pref_handle_http_summary">"Intercept file downloading for HTTP/HTTP protocols"</string>-->
+
+</resources>
