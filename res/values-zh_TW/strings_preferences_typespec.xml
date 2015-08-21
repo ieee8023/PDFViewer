@@ -38,8 +38,8 @@
     <string name="list_fontsize_huge">"巨大的"</string>
     <string name="pref_fb2hyphen_title">"啟用斷字"</string>
     <string name="pref_fb2hyphen_summary">"實驗斷字的實現"</string>
-    <string name="pref_fb2cacheimages_title">"磁碟緩存圖像"</string>
-    <string name="pref_fb2cacheimages_summary">"臨時將圖像檔案存儲在磁碟上減少內存使用"</string>
+    <string name="pref_fb2cacheimages_title">"磁碟緩存圖象"</string>
+    <string name="pref_fb2cacheimages_summary">"臨時將圖象檔案存儲在磁碟上減少內存使用"</string>
 <!--<string name="pref_brfiletypespecificepub_summary">"EPUB format specific settings"</string>-->
 <!--<string name="pref_epuboverridefonts_title">"Override document fonts"</string>-->
 <!--<string name="pref_epuboverridefonts_summary">"Override document fonts"</string>-->
