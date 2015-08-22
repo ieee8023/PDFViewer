@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="pref_performance_category">"性能設置"</string>
-    <string name="pref_performance_category_summary">"設置性能參數"</string>
-    <string name="pref_pagesinmemory_title">"內存頁面"</string>
-    <string name="pref_pagesinmemory_summary">"存儲在內存中的頁數"</string>
+    <string name="pref_performance_category">"效能設置"</string>
+    <string name="pref_performance_category_summary">"設置效能參數"</string>
+    <string name="pref_pagesinmemory_title">"記憶體頁面"</string>
+    <string name="pref_pagesinmemory_summary">"儲存在記憶體中的頁數"</string>
 <!--<string name="pref_force_simd_title">"Use SIMD optimizations"</string>-->
 <!--<string name="pref_force_simd_summary">"Use SIMD instructions (NEON for ARMv7 or SSE for x86)"</string>-->
     <string name="pref_lowlevel_category">"低級別的應用程序首選項（需重新加載檔案）"</string>
@@ -29,9 +29,9 @@
 <!--<string name="pref_decodingonscroll_summary">"Allow to decode pages during scrolling or fling"</string>-->
     <string name="pref_bitmapsize_title">"點陣圖尺寸"</string>
     <string name="pref_bitmapsize_summary">"設置點陣圖尺寸"</string>
-    <string name="pref_heappreallocate_title">"預分配堆棧"</string>
-    <string name="pref_heappreallocate_summary">"程序啟動時預分配堆棧大小（兆位元組）"</string>
-    <string name="pref_pdfstoragesize_title">"MuPDF內部存儲容量"</string>
-    <string name="pref_pdfstoragesize_summary">"MuPDF內部存儲容量大小（兆位元組）"</string>
+    <string name="pref_heappreallocate_title">"預配置堆棧"</string>
+    <string name="pref_heappreallocate_summary">"程序啟動時預配置堆棧大小（兆位元組）"</string>
+    <string name="pref_pdfstoragesize_title">"MuPDF內部記憶容量"</string>
+    <string name="pref_pdfstoragesize_summary">"MuPDF內部記憶容量大小（兆位元組）"</string>
 
 </resources>

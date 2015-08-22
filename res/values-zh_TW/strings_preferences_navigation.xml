@@ -17,7 +17,7 @@
     <string name="pref_current_search_highlight_title">"搜索當前突出"</string>
     <string name="pref_storeGotoHistory_title">"轉到頁面導航歷史記錄中的商店"</string>
 <!--<string name="pref_storeGotoHistory_summary">""</string>-->
-    <string name="pref_storeLinkGotoHistory_title">"轉到連結存儲在導航歷史記錄"</string>
+    <string name="pref_storeLinkGotoHistory_title">"轉到連結儲存在導航歷史記錄"</string>
 <!--<string name="pref_storeLinkGotoHistory_summary">""</string>-->
     <string name="pref_storeOutlineGotoHistory_title">"商店轉到大綱環節在導航歷史記錄"</string>
 <!--<string name="pref_storeOutlineGotoHistory_summary">""</string>-->

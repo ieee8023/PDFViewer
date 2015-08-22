@@ -10,7 +10,7 @@
     <string name="menu_settings">"首選項"</string>
     <string name="menu_booksettings">"閲讀設置"</string>
 <!--<string name="menu_picturesettings">"Picture enhancements…"</string>-->
-    <string name="menu_cleanrecent">"清空數據"</string>
+    <string name="menu_cleanrecent">"清除資料"</string>
     <string name="menu_add_bookmark">"添加書籤"</string>
     <string name="menu_edit_bookmark">"編輯書籤"</string>
     <string name="menu_thumbnail">"設置縮略圖"</string>
@@ -19,7 +19,7 @@
     <string name="menu_key_bindings">"按鍵綁定"</string>
     <string name="menu_searchbook">"搜索"</string>
     <string name="menu_searchtext">"搜索"</string>
-    <string name="menu_show_options_menu">"顯示菜單"</string>
+    <string name="menu_show_options_menu">"顯示選單"</string>
     <string name="menu_backupsettings">"備份與恢復"</string>
 <!--<string name="menu_crop">"Manual crop"</string>-->
 <!--<string name="menu_drawbookmark">"Add annnotation"</string>-->
@@ -31,9 +31,9 @@
     <string name="menu_allsettings_menu">"設置"</string>
 <!--<string name="menu_show_library">"Show library"</string>-->
 <!--<string name="menu_show_recent">"Show recent"</string>-->
-    <string name="menu_storages">"存儲"</string>
+    <string name="menu_storages">"儲存"</string>
     <string name="menu_storages_filesystem">"檔案系統"</string>
-    <string name="menu_storages_external">"SD存儲卡"</string>
+    <string name="menu_storages_external">"SD記憶卡"</string>
 <!--<string name="menu_force_portrait">"Force portrait"</string>-->
 <!--<string name="menu_force_landscape">"Force landscape"</string>-->
 <!--<string name="menu_recents">"Library"</string>-->

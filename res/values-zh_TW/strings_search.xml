@@ -4,6 +4,6 @@
 <!--<string name="search_backward">"Backward"</string>-->
 <!--<string name="search_forward">"Forward"</string>-->
     <string name="msg_search_text_on_page">"頁面 %1$d…"</string>
-    <string name="msg_no_text_found">"沒有找到文本"</string>
+    <string name="msg_no_text_found">"沒有找到文字"</string>
 
 </resources>

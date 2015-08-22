@@ -22,8 +22,8 @@
     <string name="opds_deletefeed_msg">"確定刪除類目?"</string>
     <string name="opds_deletefeed_ok">"刪除"</string>
     <string name="opds_authfeed_title">"授權"</string>
-    <string name="opds_authfeed_msg">"設置類目用戶名和密碼"</string>
-    <string name="opds_authfeed_username">"用戶名:"</string>
+    <string name="opds_authfeed_msg">"設置類目使用者名稱和密碼"</string>
+    <string name="opds_authfeed_username">"使用者名稱:"</string>
     <string name="opds_authfeed_password">"密碼:"</string>
     <string name="opds_authfeed_ok">"登錄"</string>
     <string name="opds_error_title">"OPDS錯誤"</string>

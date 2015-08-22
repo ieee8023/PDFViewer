@@ -8,7 +8,7 @@
 <!--<string name="bookmenu_createbookshortcut">"Create shortcut on desktop"</string>-->
     <string name="bookmenu_recentgroup">"清空最近的瀏覽記錄"</string>
     <string name="bookmenu_removefromrecent">"清空瀏覽記錄"</string>
-    <string name="bookmenu_cleardata">"清除緩存的數據"</string>
+    <string name="bookmenu_cleardata">"清除緩存的資料"</string>
     <string name="bookmenu_deletesettings">"恢復預設值"</string>
     <string name="bookmenu_filegroup">"檔案操作"</string>
     <string name="bookmenu_copy">"複製"</string>

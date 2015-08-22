@@ -14,11 +14,11 @@
     <string name="pref_autoscanremovable_title">"掃瞄可移動媒體（媒介）"</string>
     <string name="pref_autoscanremovable_summary">"自動掃瞄插入的可移除媒體（媒介）"</string>
     <string name="pref_showremovable_title">"顯示可移動媒體（媒介）"</string>
-    <string name="pref_showremovable_summary">"在存儲菜單顯示可移除媒體（媒介）"</string>
+    <string name="pref_showremovable_summary">"在儲存選單顯示可移除媒體（媒介）"</string>
     <string name="pref_showscanning_title">"顯示掃瞄目錄"</string>
-    <string name="pref_showscanning_summary">"在存儲菜單顯示自動掃瞄的目錄"</string>
-    <string name="pref_shownotifications_title">"顯示通知信息"</string>
-    <string name="pref_shownotifications_summary">"添加或刪除檔案時，顯示通知信息"</string>
+    <string name="pref_showscanning_summary">"在儲存選單顯示自動掃瞄的目錄"</string>
+    <string name="pref_shownotifications_title">"顯示通知訊息"</string>
+    <string name="pref_shownotifications_summary">"添加或刪除檔案時，顯示通知訊息"</string>
     <string name="pref_cachelocation_title">"緩存位置"</string>
     <string name="pref_cachelocation_summary">"緩存檔案存放的位置"</string>
     <string name="list_cachelocation_system">"系統緩存"</string>

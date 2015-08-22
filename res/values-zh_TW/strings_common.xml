@@ -55,13 +55,13 @@
     <string name="list_clear_recent_mode_clear_recent_list">"清除最近的瀏覽記錄"</string>
     <string name="list_clear_recent_mode_delete_bookmarks">"刪除所有書籤"</string>
     <string name="list_clear_recent_mode_delete_book_settings">"刪除所有設置"</string>
-    <string name="list_clear_recent_mode_delete_cached_data">"刪除所有緩存的數據"</string>
+    <string name="list_clear_recent_mode_delete_cached_data">"刪除所有緩存的資料"</string>
 <!--<string name="about_prefix">"en"</string>-->
     <string name="about_title">"EBookDroid"</string>
-    <string name="about_commmon_title">"軟件信息"</string>
+    <string name="about_commmon_title">"軟體訊息"</string>
     <string name="about_fonts_title">"字型"</string>
     <string name="about_license_title">"版權"</string>
-    <string name="about_3dparty_title">"第三方軟件"</string>
+    <string name="about_3dparty_title">"第三方軟體"</string>
     <string name="about_changelog_title">"修改記錄"</string>
     <string name="about_thanks_title">"致謝"</string>
 <!--<string name="about_donations">"Donations"</string>-->
