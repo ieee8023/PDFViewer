@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="pref_scroll_category">"觸摸和滾動"</string>
+    <string name="pref_scroll_category_summary">"觸摸和滾動首選項"</string>
+    <string name="pref_tapsenabled_title">"啟用點擊"</string>
+    <string name="pref_tapsenabled_summary">"定義使用點擊區域和行動"</string>
+    <string name="pref_scroll_title">"滾動高度"</string>
+    <string name="pref_scroll_summary">"設置捲動條的高度"</string>
+<!--<string name="pref_wheelscroll_title">"Mouse wheel scroll height"</string>-->
+<!--<string name="pref_wheelscroll_summary">"Set mouse wheel scrolling height for pages that do not fit the screen (default: 5%%)"</string>-->
+    <string name="pref_touchdelay_title">"輕觸處理延時"</string>
+    <string name="pref_touchdelay_summary">"觸摸處理延時（毫秒）"</string>
+    <string name="pref_animate_scrolling_title">"動畫滾動"</string>
+    <string name="pref_animate_scrolling_summary">"動畫滾動滾動模式"</string>
+<!--<string name="pref_quickzoomfactor_title">"Quick zoom"</string>-->
+<!--<string name="pref_quickzoomfactor_summary">"Quick zoom scale factor (in percent)"</string>-->
+
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+<!--<string name="menu_exit">"Exit"</string>-->
+    <string name="menu_close">"關閉"</string>
+    <string name="menu_goto_page">"轉到頁面"</string>
+    <string name="menu_outline">"大綱"</string>
+    <string name="menu_zoom">"縮放"</string>
+    <string name="menu_nightmode">"日間/夜間"</string>
+    <string name="menu_settings">"首選項"</string>
+    <string name="menu_booksettings">"閲讀設置"</string>
+<!--<string name="menu_picturesettings">"Picture enhancements…"</string>-->
+    <string name="menu_cleanrecent">"清除資料"</string>
+    <string name="menu_add_bookmark">"添加書籤"</string>
+    <string name="menu_edit_bookmark">"編輯書籤"</string>
+    <string name="menu_thumbnail">"設置縮略圖"</string>
+    <string name="menu_about">"關於"</string>
+    <string name="menu_tap_configuration">"感應器設置"</string>
+    <string name="menu_key_bindings">"按鍵綁定"</string>
+    <string name="menu_searchbook">"搜索"</string>
+    <string name="menu_searchtext">"搜索"</string>
+    <string name="menu_show_options_menu">"顯示選單"</string>
+    <string name="menu_backupsettings">"備份與恢復"</string>
+<!--<string name="menu_crop">"Manual crop"</string>-->
+<!--<string name="menu_drawbookmark">"Add annnotation"</string>-->
+<!--<string name="menu_other">"Other…"</string>-->
+<!--<string name="menu_switch_to_book_menu">"Switch to opened book…"</string>-->
+<!--<string name="menu_switch_to_service_menu">"Switch to service view…"</string>-->
+    <string name="menu_navigation_menu">"導航"</string>
+    <string name="menu_fastsettings_menu">"查看"</string>
+    <string name="menu_allsettings_menu">"設置"</string>
+<!--<string name="menu_show_library">"Show library"</string>-->
+<!--<string name="menu_show_recent">"Show recent"</string>-->
+    <string name="menu_storages">"儲存"</string>
+    <string name="menu_storages_filesystem">"檔案系統"</string>
+    <string name="menu_storages_external">"SD記憶卡"</string>
+<!--<string name="menu_force_portrait">"Force portrait"</string>-->
+<!--<string name="menu_force_landscape">"Force landscape"</string>-->
+<!--<string name="menu_recents">"Library"</string>-->
+<!--<string name="menu_files">"Local files"</string>-->
+<!--<string name="menu_smb">"Local network"</string>-->
+    <string name="menu_opds">"OPDS瀏覽器"</string>
+<!--<string name="menu_refresh">"Rescan library"</string>-->
+
+</resources>

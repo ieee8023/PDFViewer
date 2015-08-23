@@ -12,7 +12,8 @@
     <string name="pref_lang_nl" translatable="false">"nl"</string>
     <string name="pref_lang_ru" translatable="false">"ru"</string>
     <string name="pref_lang_uk" translatable="false">"uk"</string>
-    <string name="pref_lang_zh" translatable="false">"zh"</string>
+    <string name="pref_lang_zh_CN" translatable="false">"zh_CN"</string>
+    <string name="pref_lang_zh_TW" translatable="false">"zh_TW"</string>
     <string name="pref_lang_iw" translatable="false">"iw"</string>
 
 <!--
@@ -40,7 +41,8 @@ Others						33,711	13.00 %
         <item>@string/list_lang_uk</item>
         <item>@string/list_lang_it</item>
         <item>@string/list_lang_nl</item>
-        <item>@string/list_lang_zh</item>
+        <item>@string/list_lang_zh_CN</item>
+        <item>@string/list_lang_zh_TW</item>
         <item>@string/list_lang_iw</item>
     </string-array>
 
@@ -54,7 +56,8 @@ Others						33,711	13.00 %
         <item>@string/pref_lang_uk</item>
         <item>@string/pref_lang_it</item>
         <item>@string/pref_lang_nl</item>
-        <item>@string/pref_lang_zh</item>
+        <item>@string/pref_lang_zh_CN</item>
+        <item>@string/pref_lang_zh_TW</item>
         <item>@string/pref_lang_iw</item>
     </string-array>
 
