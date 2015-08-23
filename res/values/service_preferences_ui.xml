@@ -12,8 +12,8 @@
     <string name="pref_lang_nl" translatable="false">"nl"</string>
     <string name="pref_lang_ru" translatable="false">"ru"</string>
     <string name="pref_lang_uk" translatable="false">"uk"</string>
-    <string name="pref_lang_zh_CN" translatable="false">"zh_CN"</string>
-    <string name="pref_lang_zh_TW" translatable="false">"zh_TW"</string>
+    <string name="pref_lang_zh_CN" translatable="false">"zh-rCN"</string>
+    <string name="pref_lang_zh_TW" translatable="false">"zh-rTW"</string>
     <string name="pref_lang_iw" translatable="false">"iw"</string>
 
 <!--

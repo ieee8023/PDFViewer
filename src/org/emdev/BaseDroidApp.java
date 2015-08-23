@@ -136,7 +136,27 @@ public class BaseDroidApp extends Application {
 
     public static void setAppLocale(final String lang) {
         final Configuration config = context.getResources().getConfiguration();
-        appLocale = LengthUtils.isNotEmpty(lang) ? new Locale(lang) : defLocale;
+        
+        if (LengthUtils.isNotEmpty(lang)){
+        
+	        if (lang.contains("-r")){
+	        	
+	        	String[] loc = lang.split("-r");
+	        	
+	        	if (loc.length == 2)
+	        		appLocale = new Locale(loc[0], loc[1]);
+	        	else
+	        		appLocale = defLocale;
+	        		
+	        }else{
+	        	
+	        	appLocale = new Locale(lang);;
+	        }
+        }else{
+        	appLocale = defLocale;
+        }
+
+        	
         setAppLocaleIntoConfiguration(config);
     }
 
