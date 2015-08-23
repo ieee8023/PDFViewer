@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="pref_rotation_title">"旋轉模式"</string>
+    <string name="pref_rotation_summary">"如何改變旋轉"</string>
+    <string name="list_rotation_unspecified" translatable="true">"Unspecified"</string>
+    <string name="list_rotation_land" translatable="true">"Force landscape"</string>
+    <string name="list_rotation_port" translatable="true">"Force portrait"</string>
+    <string name="list_rotation_user" translatable="true">"User"</string>
+    <string name="list_rotation_behind" translatable="true">"Behind"</string>
+    <string name="list_rotation_auto" translatable="true">"自動"</string>
+    <string name="list_rotation_nosensor" translatable="true">"No sensor"</string>
+    <string name="list_rotation_sensor_landscape" translatable="true">"Sensor landscape"</string>
+    <string name="list_rotation_sensor_portrait" translatable="true">"Sensor portrait"</string>
+    <string name="list_rotation_reverse_landscape" translatable="true">"Reverse landscape"</string>
+    <string name="list_rotation_reverse_portrait" translatable="true">"Reverse portrait"</string>
+    <string name="list_rotation_full_sensor" translatable="true">"Full sensor"</string>
+    <string name="pref_render_category">"呈現"</string>
+    <string name="pref_render_category_summary">"渲染設置"</string>
+    <string name="pref_book_category">"當前設置"</string>
+    <string name="pref_book_category_summary">"當前閲讀的檔案設置"</string>
+<!--<string name="pref_firstpageoffset_title">"First page offset"</string>-->
+<!--<string name="pref_firstpageoffset_summary">"Index of first page shown to user"</string>-->
+    <string name="pref_splitpages_title">"拆分頁"</string>
+    <string name="pref_splitpages_summary">"將兩個縱向頁面拆分為橫向頁面"</string>
+<!--<string name="pref_splitpages_rtl_title">"Split pages right-to-left"</string>-->
+<!--<string name="pref_splitpages_rtl_summary">"Split landscape pages into two portrait pages right-to-left"</string>-->
+    <string name="pref_croppages_title">"裁剪頁面"</string>
+    <string name="pref_croppages_summary">"裁剪頁面邊框"</string>
+    <string name="pref_viewmode_title">"頁面視圖模式"</string>
+    <string name="pref_viewmode_summary">"頁面視圖模式"</string>
+    <string name="list_viewmode_vertical_scroll">"上下滾動"</string>
+    <string name="list_viewmode_horizontal_scroll">"水平滾動"</string>
+    <string name="list_viewmode_single_page">"單個頁面"</string>
+    <string name="pref_singlepage_category">"單個頁面設置"</string>
+    <string name="pref_singlepage_category_summary">"設置實際為單頁模式"</string>
+    <string name="pref_align_title">"頁面對齊模式"</string>
+    <string name="pref_align_summary">"如何對齊頁"</string>
+    <string name="list_align_by_width">"按寬度"</string>
+    <string name="list_align_by_height">"按高度"</string>
+    <string name="list_align_auto">"自動"</string>
+    <string name="pref_animationtype_title">"動畫類型"</string>
+    <string name="pref_animationtype_summary">"選擇過渡的動畫類型"</string>
+    <string name="list_animation_none">"無"</string>
+    <string name="list_animation_curler_simple">"簡單卷"</string>
+    <string name="list_animation_curler_dynamic">"動態卷"</string>
+    <string name="list_animation_curler_natural">"自然卷"</string>
+    <string name="list_animation_slider">"滑動"</string>
+    <string name="list_animation_fader">"漸顯淡入"</string>
+<!--<string name="list_animation_squeezer">"Squeeze"</string>-->
+<!--<string name="list_animation_slider2">"Slide over"</string>-->
+    <string name="pref_postprocessing_category">"後處理效果"</string>
+    <string name="pref_postprocessing_summary">"後處理效果"</string>
+    <string name="pref_nightmode_title">"夜間模式"</string>
+    <string name="pref_nightmode_summary">"在黑色背景上使用白色符號"</string>
+<!--<string name="pref_posimages_in_nightmode_title">"Positive images in night mode"</string>-->
+<!--<string name="pref_posimages_in_nightmode_summary">"Show gray-scaled images in night mode (do not invert image colors)"</string>-->
+<!--<string name="pref_bg_color_title">"Background color"</string>-->
+<!--<string name="pref_bg_color_summary">"Use specified color as page background"</string>-->
+    <string name="pref_contrast_title">"對比"</string>
+    <string name="pref_contrast_summary">"對比度校正極 (0——1000,預設為 100)：100&quot;"</string>
+<!--<string name="pref_gamma_title">"Gamma"</string>-->
+<!--<string name="pref_gamma_summary">"Gamma correction level"</string>-->
+    <string name="pref_exposure_title">"曝光"</string>
+    <string name="pref_exposure_summary">"曝光校正極 (0——200, 預設為100)：100"</string>
+    <string name="pref_autolevels_title">"自動色階"</string>
+    <string name="pref_autolevels_summary">"使用自動水平矯正"</string>
+<!--<string name="pref_use_pixel_ar_title">"Fix custom pixel aspect ratio"</string>-->
+<!--<string name="pref_use_pixel_ar_summary">"Fix custom pixel aspect ratio"</string>-->
+<!--<string name="pref_pixel_ar_title">"Custom pixel aspect ratio"</string>-->
+<!--<string name="pref_pixel_ar_summary">"Custom pixel spect ratio"</string>-->
+
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="actions_verticalConfigScrollUp">"向上滾動"</string>
+    <string name="actions_verticalConfigScrollDown">"向下滾動"</string>
+<!--<string name="actions_1xZoom">"1x zoom"</string>-->
+<!--<string name="actions_2xZoom">"2x zoom"</string>-->
+<!--<string name="actions_4xZoom">"4x zoom"</string>-->
+    <string name="actions_quickZoom">"縮放"</string>
+    <string name="actions_zoomToColumn">"縮放到列"</string>
+    <string name="actions_leftTopCorner">"滾動到左上角"</string>
+    <string name="actions_rightTopCorner">"滾動到左上角"</string>
+    <string name="actions_leftBottomCorner">"滾動到左下角"</string>
+    <string name="actions_rightBottomCorner">"滾動到右下角"</string>
+
+</resources>

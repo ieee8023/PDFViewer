@@ -14,7 +14,8 @@
     <string name="list_lang_nl">"Голландский (Nederlands)"</string>
     <string name="list_lang_ru">"Русский"</string>
     <string name="list_lang_uk">"Украинский (Український)"</string>
-    <string name="list_lang_zh">"Китайский (中文简体)"</string>
+    <string name="list_lang_zh_CN">"Китайский (中文简体)"</string>
+    <string name="list_lang_zh_TW">"Китайский (中文繁體)"</string>
     <string name="list_lang_iw">"Иврит (עברית)"</string>
     <string name="list_lang_tt">"Татарcкий (Татар)"</string>
     <string name="pref_navigation_type_title">"Переключение"</string>
