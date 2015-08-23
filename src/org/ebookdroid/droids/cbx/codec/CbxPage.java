@@ -131,8 +131,8 @@ public class CbxPage<ArchiveEntryType extends ArchiveEntry> extends AbstractCode
         }
 
         final Rect srcRect = new Rect((int) (pageSliceBounds.left * storedBitmap.getWidth()),
-                (int) (pageSliceBounds.top * storedBitmap.getHeight()), (int) FloatMath.ceil(pageSliceBounds.right
-                        * storedBitmap.getWidth()), (int) FloatMath.ceil(pageSliceBounds.bottom
+                (int) (pageSliceBounds.top * storedBitmap.getHeight()), (int) Math.ceil(pageSliceBounds.right
+                        * storedBitmap.getWidth()), (int) Math.ceil(pageSliceBounds.bottom
                         * storedBitmap.getHeight()));
 
         return ByteBufferBitmap.get(storedBitmap, srcRect);
