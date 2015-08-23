@@ -15,6 +15,7 @@
                 <category android:name="android.intent.category.DEFAULT"/>
                 <category android:name="android.intent.category.BROWSABLE"/>
                 <data android:mimeType="application/pdf"/>
+                <data android:mimeType="application/x-pdf"/>
                 <data android:mimeType="image/djvu"/>
                 <data android:mimeType="image/vnd.djvu"/>
                 <data android:mimeType="image/x-djvu" />
