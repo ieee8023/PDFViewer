@@ -29,3 +29,7 @@ proguard/
 .idea/
 
 .DS_Store
+
+obj
+
+keystore*
