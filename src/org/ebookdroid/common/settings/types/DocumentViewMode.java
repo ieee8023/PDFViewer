@@ -6,6 +6,7 @@ import org.ebookdroid.core.HScrollController;
 import org.ebookdroid.core.SinglePageController;
 import org.ebookdroid.ui.viewer.IActivityController;
 import org.ebookdroid.ui.viewer.IViewController;
+import org.ebookdroid.ui.viewer.MyViewerActivityController;
 
 import java.lang.reflect.Constructor;
 
@@ -72,6 +73,17 @@ public enum DocumentViewMode implements ResourceConstant {
         if (0 <= ord && ord < values().length) {
             return values()[ord];
         }
-        return VERTICALL_SCROLL;
+        return SINGLE_PAGE;
     }
+
+	public IViewController create(MyViewerActivityController myViewerActivityController) {
+		 if (c != null) {
+	            try {
+	                return c.newInstance(myViewerActivityController);
+	            } catch (final Exception e) {
+	                LCTX.e("Cannot find instanciate view controller: ", e);
+	            }
+	        }
+	        return null;
+	}
 }

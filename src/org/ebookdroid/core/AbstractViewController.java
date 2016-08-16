@@ -620,7 +620,8 @@ public abstract class AbstractViewController extends AbstractComponentController
             if (LCTX.isDebugEnabled()) {
                 LCTX.d("onDoubleTap(" + e + ")");
             }
-            return processTap(TouchManager.Touch.DoubleTap, e);
+            //return processTap(TouchManager.Touch.DoubleTap, e);
+            return false;
         }
 
         /**

@@ -169,4 +169,10 @@ public class DjvuPage extends AbstractCodecPage {
 
     native static List<PageTextBox> getPageText(long docHandle, int pageNo, long contextHandle, String pattern);
 
+	@Override
+	public List<? extends RectF> regexSearchText(String pattern) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }

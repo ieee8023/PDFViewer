@@ -70,4 +70,10 @@ public class DjvuDocument extends AbstractCodecDocument {
         }
         return list;
     }
+
+	@Override
+	public List<? extends RectF> regexSearchText(int docIndex, String pattern) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

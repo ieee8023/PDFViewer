@@ -42,7 +42,7 @@ public class Page {
 
     int zoomLevel = 1;
 
-    List<PageLink> links;
+    public List<PageLink> links;
 
     public Page(final IActivityController base, final PageIndex index, final PageType pt, final CodecPageInfo cpi) {
         this.base = base;
@@ -56,7 +56,11 @@ public class Page {
         nodes = new PageTree(this);
     }
 
-    public void recycle(final List<GLBitmaps> bitmapsToRecycle) {
+    public PageIndex getIndex() {
+		return index;
+	}
+
+	public void recycle(final List<GLBitmaps> bitmapsToRecycle) {
         recycled = true;
         nodes.recycleAll(bitmapsToRecycle, true);
     }

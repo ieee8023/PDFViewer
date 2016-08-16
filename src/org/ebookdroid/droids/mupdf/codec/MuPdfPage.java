@@ -149,10 +149,33 @@ public class MuPdfPage extends AbstractCodecPage {
             float[] matrixarray, ByteBuffer buffer, int noghtmode, int slowcmyk);
 
     private native static List<PageTextBox> search(long docHandle, long pageHandle, String pattern);
+    
+    private native static List<PageTextBox> regexsearch(long docHandle, long pageHandle, String pattern);
 
     @Override
     public List<? extends RectF> searchText(final String pattern) {
         final List<PageTextBox> rects = search(docHandle, pageHandle, pattern);
+        if (LengthUtils.isNotEmpty(rects)) {
+            final Set<String> temp = new HashSet<String>();
+            final Iterator<PageTextBox> iter = rects.iterator();
+            while (iter.hasNext()) {
+                final PageTextBox b = iter.next();
+                if (temp.add(b.toString())) {
+                    b.left = (b.left - pageBounds.left) / pageBounds.width();
+                    b.top = (b.top - pageBounds.top) / pageBounds.height();
+                    b.right = (b.right - pageBounds.left) / pageBounds.width();
+                    b.bottom = (b.bottom - pageBounds.top) / pageBounds.height();
+                } else {
+                    iter.remove();
+                }
+            }
+        }
+        return rects;
+    }
+    
+    @Override
+    public List<? extends RectF> regexSearchText(final String pattern) {
+        final List<PageTextBox> rects = regexsearch(docHandle, pageHandle, pattern);
         if (LengthUtils.isNotEmpty(rects)) {
             final Set<String> temp = new HashSet<String>();
             final Iterator<PageTextBox> iter = rects.iterator();

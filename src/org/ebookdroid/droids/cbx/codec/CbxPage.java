@@ -15,6 +15,7 @@ import android.util.FloatMath;
 import java.io.BufferedInputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.List;
 
 import org.emdev.common.archives.ArchiveEntry;
 
@@ -161,5 +162,11 @@ public class CbxPage<ArchiveEntryType extends ArchiveEntry> extends AbstractCode
         }
         return pageInfo;
     }
+
+	@Override
+	public List<? extends RectF> regexSearchText(String pattern) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 
 }

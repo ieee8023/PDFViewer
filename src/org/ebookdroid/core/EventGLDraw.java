@@ -184,8 +184,8 @@ public class EventGLDraw implements IEvent {
             final RectF rect = page.getLinkSourceRect(pageBounds, link);
             if (rect != null) {
                 rect.offset(-viewState.viewBase.x, -viewState.viewBase.y);
-                LINK_PAINT.setColor(AppSettings.current().linkHighlightColor);
-                canvas.fillRect(rect, LINK_PAINT);
+                //LINK_PAINT.setColor(AppSettings.current().linkHighlightColor);
+                //canvas.fillRect(rect, LINK_PAINT);
             }
         }
     }

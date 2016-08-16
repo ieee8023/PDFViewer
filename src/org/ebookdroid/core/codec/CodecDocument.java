@@ -26,4 +26,6 @@ public interface CodecDocument extends CodecFeatures {
     List<OutlineLink> getOutline();
 
     Bitmap getEmbeddedThumbnail();
+
+	List<? extends RectF> regexSearchText(int docIndex, String pattern);
 }

@@ -251,6 +251,10 @@ public class SearchModel {
         m.startSearchOnPage(base.getDecodeService(), page, pattern);
         return m;
     }
+    
+    public DecodeService getDecodeService() {
+    	return base.getDecodeService();
+    }
 
     public static class Matches implements DecodeService.SearchCallback {
 

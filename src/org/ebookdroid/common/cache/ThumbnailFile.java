@@ -33,7 +33,7 @@ public class ThumbnailFile extends File {
 
     private ImageLoadingListener listener;
 
-    ThumbnailFile(final String book, final File dir, final String name) {
+    public ThumbnailFile(final String book, final File dir, final String name) {
         super(dir, name);
         this.book = book;
     }

@@ -33,3 +33,5 @@ proguard/
 obj
 
 keystore*
+/test/
+/Default/

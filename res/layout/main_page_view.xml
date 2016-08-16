@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:id="@+id/main_layout" >
+    <ImageView
+        android:id="@+id/myImageView"
+        android:layout_width="134dip"
+        android:layout_height="134dip"
+         android:src="@drawable/recent_item_book"
+        />
+   <TextView
+       android:id="@+id/batteryLevel" 
+       android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+       />
+    <Button
+        android:id="@+id/myDeleteButton"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="@string/delete_button" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dip" 
+        android:text="Brightness:"
+     />
+    
+	<SeekBar
+        android:id="@+id/seekBar1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="26dp"
+        android:layout_gravity="center"
+        android:max="10" />
+    <TextView
+        android:id="@+id/textfieldBattery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dip" />
+
+    <ProgressBar
+        android:id="@+id/progressbarBattery"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dip"
+        android:max="100"
+        android:minHeight="100dip"
+        android:minWidth="200dip" />
+    
+</LinearLayout>

@@ -6,8 +6,6 @@ import org.ebookdroid.ui.library.IBrowserActivity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
-import android.widget.ImageView;
-import android.widget.TextView;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -136,23 +134,6 @@ public class RecentAdapter extends BaseAdapter {
                 nodes.remove(book.mpath);
             }
             notifyDataSetChanged();
-        }
-    }
-
-    public static class ViewHolder extends BaseViewHolder {
-
-        TextView name;
-        ImageView imageView;
-        TextView info;
-        TextView fileSize;
-
-        @Override
-        public void init(final View convertView) {
-            super.init(convertView);
-            name = (TextView) convertView.findViewById(R.id.recentItemName);
-            imageView = (ImageView) convertView.findViewById(R.id.recentItemIcon);
-            info = (TextView) convertView.findViewById(R.id.recentItemInfo);
-            fileSize = (TextView) convertView.findViewById(R.id.recentItemfileSize);
         }
     }
 

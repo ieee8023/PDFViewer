@@ -1,5 +1,9 @@
 package org.emdev.ui.actions;
 
+import org.ebookdroid.ui.viewer.IActivityController;
+import org.ebookdroid.ui.viewer.MYIActivityController;
+import org.ebookdroid.ui.viewer.dialogs.MyOutlineDialog;
+
 /**
  * This class defines base features for action controller.
  * 
@@ -29,4 +33,9 @@ public class ActionController<ManagedComponent> extends AbstractComponentControl
     public ActionController(final IActionController<?> parent, final ManagedComponent managedComponent) {
         super(parent, managedComponent);
     }
+    
+    
+
+	
+    
 }

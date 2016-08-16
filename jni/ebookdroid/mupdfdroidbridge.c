@@ -10,6 +10,15 @@
 
 #include <ebookdroid.h>
 
+/*
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <sys/types.h>
+#include <regex.h>
+*/
+
 #define FORMAT_PDF 0
 #define FORMAT_XPS 1
 
@@ -407,7 +416,7 @@ Java_org_ebookdroid_droids_mupdf_codec_MuPdfLinks_fillPageLinkSourceRect(JNIEnv 
 
     if (!link || link->dest.kind != FZ_LINK_GOTO)
     {
-        return JNI_FALSE;
+        //return JNI_FALSE;
     }
 
     jfloat *bounds = (*env)->GetPrimitiveArrayCritical(env, boundsArray, 0);
@@ -892,6 +901,142 @@ Java_org_ebookdroid_droids_mupdf_codec_MuPdfPage_search(JNIEnv * env, jobject th
     return arrayList;
 }
 
+
+/*
+JNIEXPORT jobjectArray JNICALL
+Java_org_ebookdroid_droids_mupdf_codec_MuPdfPage_regexsearch(JNIEnv * env, jobject thiz, jlong dochandle, jlong pagehandle,
+                                                        jstring text)
+{
+
+    renderdocument_t *doc = (renderdocument_t*) (long) dochandle;
+    renderpage_t *page = (renderpage_t*) (long) pagehandle;
+    // DEBUG("MuPdfPage(%p).search(%p, %p)", thiz, doc, page);
+
+    if (!doc || !page)
+    {
+        return NULL;
+    }
+
+    const char *str = (*env)->GetStringUTFChars(env, text, NULL);
+    if (str == NULL)
+    {
+        return NULL;
+    }
+
+    ArrayListHelper alh;
+    PageTextBoxHelper ptbh;
+    CharacterHelper ch;
+
+    if (!ArrayListHelper_init(&alh, env) || !PageTextBoxHelper_init(&ptbh, env)|| !CharacterHelper_init(&ch, env))
+    {
+        DEBUG("search(): JNI helper initialization failed", pagehandle);
+        return NULL;
+    }
+    jobject arrayList = ArrayListHelper_create(&alh);
+    // DEBUG("MuPdfPage(%p).search(%p, %p): array: %p", thiz, doc, page, arrayList);
+    if (!arrayList)
+    {
+        return NULL;
+    }
+
+    fz_bbox *hit_bbox = NULL;
+
+    fz_text_sheet *sheet = NULL;
+    fz_text_page *pagetext = NULL;
+    fz_device *dev = NULL;
+    int pos;
+    int len;
+    int i, n;
+    int hit_count = 0;
+
+    fz_try(doc->ctx)
+    {
+        fz_rect rect;
+
+        // DEBUG("MuPdfPage(%p).search(%p, %p): load page text", thiz, doc, page);
+
+        rect = fz_bound_page(doc->document, page->page);
+        sheet = fz_new_text_sheet(doc->ctx);
+        pagetext = fz_new_text_page(doc->ctx, rect);
+        dev = fz_new_text_device(doc->ctx, sheet, pagetext);
+        fz_run_page(doc->document, page->page, dev, fz_identity, NULL);
+
+        // DEBUG("MuPdfPage(%p).search(%p, %p): free text device", thiz, doc, page);
+
+        fz_free_device(dev);
+        dev = NULL;
+
+        len = textlen(pagetext);
+
+        // DEBUG("MuPdfPage(%p).search(%p, %p): text length: %d", thiz, doc, page, len);
+        regex_t re;
+        regmatch_t rm[5];
+        regcomp(&re, str, REG_EXTENDED);
+        regexec(&re, pagetext, 300, rm, 0);
+        int counter ;
+
+        for(counter = 0; counter < 5; ++counter) {
+        	int icounter;
+        	fz_bbox rr = fz_empty_bbox;
+        	for(icounter = rm[counter].rm_so; icounter <= rm[counter].rm_eo; ++icounter) {
+        		rr = fz_union_bbox(rr, bboxcharat(pagetext, pos + i));
+        	}
+
+        	if (!fz_is_empty_bbox(rr))
+			{
+				int coords[4];
+				coords[0] = (rr.x0);
+				coords[1] = (rr.y0);
+				coords[2] = (rr.x1);
+				coords[3] = (rr.y1);
+//                    DEBUG("MuPdfPage(%p).search(%p, %p): found rectangle (%d, %d - %d, %d)", thiz, doc, page, coords[0], coords[1], coords[2], coords[3]);
+				jobject ptb = PageTextBoxHelper_create(&ptbh);
+				if (ptb)
+				{
+					// DEBUG("MuPdfPage(%p).search(%p, %p): rect %p", thiz, doc, page, ptb);
+					PageTextBoxHelper_setRect(&ptbh, ptb, coords);
+					// PageTextBoxHelper_setText(&ptbh, ptb, txt);
+					// DEBUG("MuPdfPage(%p).search(%p, %p): add rect %p to array %p", thiz, doc, page, ptb, arrayList);
+					ArrayListHelper_add(&alh, arrayList, ptb);
+				}
+			}
+        }
+
+
+
+    } fz_always(doc->ctx)
+    {
+        // DEBUG("MuPdfPage(%p).search(%p, %p): free resources", thiz, doc, page);
+        if (pagetext)
+        {
+            fz_free_text_page(doc->ctx, pagetext);
+        }
+        if (sheet)
+        {
+            fz_free_text_sheet(doc->ctx, sheet);
+        }
+        if (dev)
+        {
+            fz_free_device(dev);
+        }
+    }fz_catch(doc->ctx)
+    {
+        jclass cls;
+        (*env)->ReleaseStringUTFChars(env, text, str);
+        cls = (*env)->FindClass(env, "java/lang/OutOfMemoryError");
+        if (cls != NULL)
+        {
+            (*env)->ThrowNew(env, cls, "Out of memory in MuPDFCore_searchPage");
+        }
+        (*env)->DeleteLocalRef(env, cls);
+        return NULL;
+    }
+
+    (*env)->ReleaseStringUTFChars(env, text, str);
+
+    return arrayList;
+}
+*/
 
 //Outline
 JNIEXPORT jlong JNICALL

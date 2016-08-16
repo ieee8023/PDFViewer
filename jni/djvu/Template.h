@@ -178,7 +178,7 @@ public:
       This window must be created with #CreateWindow# and must be visible when
       function #draw# is called.
    */
-  void draw(Window win);
+  //void draw(Window win);
 protected:
   /** Minimal x-coordinate. */
   int xmin;
@@ -228,13 +228,13 @@ ExampleClass combine_example_classes(const ExampleClass&,
 // ------------ CLASSEXAMPLE INLINES
 //T// This is where all the inline/template functions should be written
 //T// This part of the file is segmented with comments.
-
+/*
 inline void 
 ClassExample::width()
 {
   return xmax-xmin;
 }
-
+*/
 
 
 // ------------ THE END

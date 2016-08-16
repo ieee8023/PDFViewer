@@ -24,4 +24,6 @@ public interface CodecPage {
     void recycle();
 
     boolean isRecycled();
+
+	List<? extends RectF> regexSearchText(String pattern);
 }

@@ -55,8 +55,14 @@ final class ScrollEventThread extends Thread {
 
     @Override
     public void run() {
+    	GLView myView = (GLView)view;
+    	
         while (!stop.get()) {
-            try {
+            
+        	
+        	try {
+            	
+            	
                 final OnScrollEvent event = queue.poll(1, TimeUnit.SECONDS);
                 if (event == null) {
                     continue;
@@ -74,6 +80,7 @@ final class ScrollEventThread extends Thread {
                 th.printStackTrace();
             }
         }
+        
         // System.out.println("ScrollEventThread.run(): finished");
     }
 

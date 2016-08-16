@@ -1,5 +1,9 @@
 package the.pdfviewerx;
 
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 import org.ebookdroid.common.settings.AppSettings;
 import org.ebookdroid.common.settings.books.BookSettings;
 import org.ebookdroid.common.settings.books.Bookmark;
@@ -7,6 +11,7 @@ import org.ebookdroid.common.settings.types.BookRotationType;
 import org.ebookdroid.common.settings.types.ToastPosition;
 import org.ebookdroid.common.touch.TouchManagerView;
 import org.ebookdroid.core.DecodeService;
+import org.ebookdroid.core.Page;
 import org.ebookdroid.core.codec.CodecFeatures;
 import org.ebookdroid.ui.viewer.IView;
 import org.ebookdroid.ui.viewer.ViewerActivityController;
@@ -16,7 +21,12 @@ import org.ebookdroid.ui.viewer.views.ManualCropView;
 import org.ebookdroid.ui.viewer.views.PageViewZoomControls;
 import org.ebookdroid.ui.viewer.views.SearchControls;
 
+import android.app.Activity;
+import android.app.admin.DevicePolicyManager;
+import android.content.ComponentName;
+import android.content.Context;
 import android.content.Intent;
+import android.graphics.RectF;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
 import android.view.ContextMenu;
@@ -28,7 +38,14 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.SubMenu;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
+import android.view.inputmethod.InputMethodManager;
+import android.webkit.WebView;
+import android.widget.EditText;
 import android.widget.FrameLayout;
+import android.widget.SeekBar;
+import android.widget.FrameLayout.LayoutParams;
 import android.widget.Toast;
 
 import org.emdev.common.android.AndroidVersion;
@@ -41,6 +58,7 @@ import org.emdev.utils.LayoutUtils;
 import org.emdev.utils.LengthUtils;
 
 import the.pdfviewerx.R;
+import the.pdfviewerx.receivers.AdminReceiver;
 
 public class ViewerActivity extends AbstractActionActivity<ViewerActivity, ViewerActivityController> {
 
@@ -63,7 +81,22 @@ public class ViewerActivity extends AbstractActionActivity<ViewerActivity, Viewe
     private boolean menuClosedCalled;
 
     private ManualCropView cropControls;
+    
+    private DevicePolicyManager policyManager;
+	private ComponentName componentName;
+	private static final int MY_REQUEST_CODE = 9999;
 
+	
+	private HomeKeyLocker locker = new HomeKeyLocker();
+
+	private String pageText;
+
+	private int lastPage = 1;
+
+	private Page targetPage;
+	
+	private Map<Integer, List<? extends RectF>> hyperLinks;
+	
     /**
      * Instantiates a new base viewer activity.
      */
@@ -93,7 +126,38 @@ public class ViewerActivity extends AbstractActionActivity<ViewerActivity, Viewe
             LCTX.d("onNewIntent(): " + intent);
         }
     }
+    
+    private void activeManage() {
+		// TODO Auto-generated method stub
+		
+		Intent intent = new Intent(DevicePolicyManager.ACTION_ADD_DEVICE_ADMIN);
 
+		intent.putExtra(DevicePolicyManager.EXTRA_DEVICE_ADMIN, componentName);
+
+
+		intent.putExtra(DevicePolicyManager.EXTRA_ADD_EXPLANATION,
+				"none");
+
+		startActivityForResult(intent, MY_REQUEST_CODE);
+
+	}
+/*
+	@Override
+	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+
+		if (requestCode == MY_REQUEST_CODE && resultCode == Activity.RESULT_OK) {
+			policyManager.lockNow();
+			finish();
+		} else {
+			activeManage();
+		}
+		super.onActivityResult(requestCode, resultCode, data);
+	}
+*/
+    @Override
+    public void onBackPressed() {
+    	boolean x = true;
+    }
     /**
      * {@inheritDoc}
      * 
@@ -101,18 +165,35 @@ public class ViewerActivity extends AbstractActionActivity<ViewerActivity, Viewe
      */
     @Override
     protected void onCreateImpl(final Bundle savedInstanceState) {
+//    	requestWindowFeature(Window.FEATURE_NO_TITLE);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+    	getWindow().setType(WindowManager.LayoutParams.TYPE_KEYGUARD);
+    	
+    	//requestWindowFeature(Window.FEATURE_NO_TITLE);
         getWindowManager().getDefaultDisplay().getMetrics(DM);
         LCTX.i("XDPI=" + DM.xdpi + ", YDPI=" + DM.ydpi);
-
+        //requestWindowFeature(Window.FEATURE_NO_TITLE); getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         frameLayout = new FrameLayout(this);
-
+        
+        getSearchControls();
+        SeekBar seekBar = (SeekBar) findViewById(R.id.seekBar2 );
         view = ViewStub.STUB;
+        /*
+        policyManager = (DevicePolicyManager) getSystemService(Context.DEVICE_POLICY_SERVICE);
+		componentName = new ComponentName(this, AdminReceiver.class);
 
+		if (policyManager.isAdminActive(componentName)) {
+			policyManager.lockNow();
+			finish();
+		} else {
+			activeManage();
+		}
+*/
         try {
             GLConfiguration.checkConfiguration();
 
-            view = new GLView(getController());
-            this.registerForContextMenu(view.getView());
+            view = new GLView(getController(), seekBar);
+            
 
             LayoutUtils.fillInParent(frameLayout, view.getView());
 
@@ -121,7 +202,8 @@ public class ViewerActivity extends AbstractActionActivity<ViewerActivity, Viewe
             frameLayout.addView(getManualCropControls());
             frameLayout.addView(getSearchControls());
             frameLayout.addView(getTouchView());
-
+          
+            
         } catch (final Throwable th) {
             final ActionDialogBuilder builder = new ActionDialogBuilder(this, getController());
             builder.setTitle(R.string.error_dlg_title);
@@ -131,8 +213,20 @@ public class ViewerActivity extends AbstractActionActivity<ViewerActivity, Viewe
         }
 
         setContentView(frameLayout);
-    }
+        int flags = View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
+                | View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
+                | View.SYSTEM_UI_FLAG_LAYOUT_STABLE
+                | View.SYSTEM_UI_FLAG_LOW_PROFILE
+                | View.SYSTEM_UI_FLAG_FULLSCREEN
+                | View.SYSTEM_UI_FLAG_HIDE_NAVIGATION;
 
+       // getWindow().getDecorView().setSystemUiVisibility(flags);
+        //getActionBar().hide();
+        
+       
+    }
+    
+    
     /**
      * {@inheritDoc}
      * 
@@ -152,6 +246,11 @@ public class ViewerActivity extends AbstractActionActivity<ViewerActivity, Viewe
     protected void onPauseImpl(final boolean finishing) {
         IUIManager.instance.onPause(this);
     }
+    
+    @Override
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+        return (keyCode == KeyEvent.KEYCODE_BACK ? true : super.onKeyDown(keyCode, event));
+    }
 
     /**
      * {@inheritDoc}
@@ -162,19 +261,9 @@ public class ViewerActivity extends AbstractActionActivity<ViewerActivity, Viewe
     protected void onDestroyImpl(final boolean finishing) {
         view.onDestroy();
     }
+    
 
-    /**
-     * {@inheritDoc}
-     * 
-     * @see android.app.Activity#onWindowFocusChanged(boolean)
-     */
-    @Override
-    public void onWindowFocusChanged(final boolean hasFocus) {
-        if (hasFocus && this.view != null) {
-            IUIManager.instance.setFullScreenMode(this, this.view.getView(), AppSettings.current().fullScreen);
-        }
-    }
-
+    
     public TouchManagerView getTouchView() {
         if (touchView == null) {
             touchView = new TouchManagerView(getController());
@@ -183,7 +272,11 @@ public class ViewerActivity extends AbstractActionActivity<ViewerActivity, Viewe
     }
 
     public void currentPageChanged(final String pageText, final String bookTitle) {
-        if (LengthUtils.isEmpty(pageText)) {
+        this.pageText = pageText;
+    	
+        
+        
+    	if (LengthUtils.isEmpty(pageText)) {
             return;
         }
 
@@ -236,6 +329,19 @@ public class ViewerActivity extends AbstractActionActivity<ViewerActivity, Viewe
         }
         return zoomControls;
     }
+    
+    public void hideSoftKeyboard() {
+        if(getCurrentFocus()!=null) {
+            InputMethodManager inputMethodManager = (InputMethodManager) getSystemService(INPUT_METHOD_SERVICE);
+            inputMethodManager.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(), 0);
+        }
+    }
+
+    public void showSoftKeyboard(View view) {
+        InputMethodManager inputMethodManager = (InputMethodManager) getSystemService(INPUT_METHOD_SERVICE);
+        view.requestFocus();
+        inputMethodManager.showSoftInput(view, 0);
+    }
 
     public SearchControls getSearchControls() {
         if (searchControls == null) {
@@ -250,6 +356,12 @@ public class ViewerActivity extends AbstractActionActivity<ViewerActivity, Viewe
         }
         return cropControls;
     }
+    
+    public void showKeyboard() {
+    	EditText yourEditText= (EditText) findViewById(R.id.search_controls_edit);
+    	InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+    	imm.showSoftInput(yourEditText, InputMethodManager.SHOW_IMPLICIT);
+    }
 
     /**
      * {@inheritDoc}
@@ -259,12 +371,13 @@ public class ViewerActivity extends AbstractActionActivity<ViewerActivity, Viewe
      */
     @Override
     public void onCreateContextMenu(final ContextMenu menu, final View v, final ContextMenuInfo menuInfo) {
-        menu.clear();
+       /* menu.clear();
         menu.setHeaderTitle(R.string.app_name);
         menu.setHeaderIcon(R.drawable.application_icon);
         final MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.mainmenu_context, menu);
         updateMenuItems(menu);
+        */
     }
 
     /**
@@ -399,6 +512,8 @@ public class ViewerActivity extends AbstractActionActivity<ViewerActivity, Viewe
     @Override
     public final boolean dispatchKeyEvent(final KeyEvent event) {
         view.checkFullScreenMode();
+        
+        
         if (event.getAction() == KeyEvent.ACTION_DOWN && event.getKeyCode() == KeyEvent.KEYCODE_MENU) {
             if (!hasNormalMenu()) {
                 getController().getOrCreateAction(R.id.actions_openOptionsMenu).run();
@@ -407,7 +522,10 @@ public class ViewerActivity extends AbstractActionActivity<ViewerActivity, Viewe
         }
 
         if (getController().dispatchKeyEvent(event)) {
-            return true;
+        	//locker.unlock();
+            //getActionBar().show();
+           // locker.lock(this);
+        	return true;
         }
 
         return super.dispatchKeyEvent(event);
@@ -416,5 +534,25 @@ public class ViewerActivity extends AbstractActionActivity<ViewerActivity, Viewe
     public void showToastText(final int duration, final int resId, final Object... args) {
         Toast.makeText(getApplicationContext(), getResources().getString(resId, args), duration).show();
     }
+
+	public int getLastSearchedPage() {
+		return this.lastPage ;
+	}
+
+	public void setCurrentPage(Page targetPage) {
+		this.targetPage = targetPage;
+	}
+	
+	public Page getCurrentPage() {
+		return this.targetPage;
+	}
+
+	public void openWebView(String url) {
+		Intent intent = new Intent(this, WebViewActivity.class);
+		intent.putExtra("url", url);
+	    startActivity(intent);
+		
+	}
+    
 
 }

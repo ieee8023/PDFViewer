@@ -210,4 +210,10 @@ public class FB2Page extends AbstractCodecPage {
         }
         return true;
     }
+
+	@Override
+	public List<? extends RectF> regexSearchText(String pattern) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

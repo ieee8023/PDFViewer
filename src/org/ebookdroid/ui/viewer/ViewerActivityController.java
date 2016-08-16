@@ -22,6 +22,7 @@ import org.ebookdroid.core.Page;
 import org.ebookdroid.core.PageIndex;
 import org.ebookdroid.core.ViewState;
 import org.ebookdroid.core.codec.OutlineLink;
+import org.ebookdroid.core.codec.PageLink;
 import org.ebookdroid.core.events.CurrentPageListener;
 import org.ebookdroid.core.events.DecodingProgressListener;
 import org.ebookdroid.core.models.DecodingProgressModel;
@@ -34,6 +35,7 @@ import org.ebookdroid.ui.viewer.dialogs.GoToPageDialog;
 import org.ebookdroid.ui.viewer.dialogs.OutlineDialog;
 import org.ebookdroid.ui.viewer.stubs.ActivityControllerStub;
 import org.ebookdroid.ui.viewer.stubs.ViewContollerStub;
+import org.ebookdroid.ui.viewer.viewers.GLView;
 import org.ebookdroid.ui.viewer.views.ManualCropView;
 import org.ebookdroid.ui.viewer.views.SearchControls;
 import org.ebookdroid.ui.viewer.views.ViewEffects;
@@ -58,7 +60,9 @@ import android.widget.Toast;
 import java.io.File;
 import java.io.IOException;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.FutureTask;
 import java.util.concurrent.atomic.AtomicBoolean;
@@ -91,6 +95,7 @@ import the.pdfviewerx.FolderDlg;
 import the.pdfviewerx.R;
 import the.pdfviewerx.ViewerActivity;
 
+
 public class ViewerActivityController extends AbstractActivityController<ViewerActivity> implements
         IActivityController, DecodingProgressListener, CurrentPageListener, IAppSettingsChangeListener,
         IBookSettingsChangeListener {
@@ -122,6 +127,8 @@ public class ViewerActivityController extends AbstractActivityController<ViewerA
     private BookSettings bookSettings;
 
     private final AsyncTaskExecutor executor;
+
+	private Map<Integer, List<? extends RectF>> hyperLinks;
 
     /**
      * Instantiates a new base viewer activity.
@@ -250,9 +257,28 @@ public class ViewerActivityController extends AbstractActivityController<ViewerA
             m_fileName = PathFromUri.retrieve(activity.getContentResolver(), uri);
         }
 
+        intent.putExtra("viewMode", DocumentViewMode.HORIZONTAL_SCROLL);
         bookSettings = SettingsManager.create(id, m_fileName, scheme.temporary, intent);
         SettingsManager.applyBookSettingsChanges(null, bookSettings);
+        
+        
+        
     }
+    
+    private class HyperLinkIndexUpdater implements DecodeService.SearchCallback {
+    	Map<Integer, List<? extends RectF>> hyperLinks;
+    	
+    	public HyperLinkIndexUpdater(Map<Integer, List<? extends RectF>> hyperLinks) {
+    		this.hyperLinks = hyperLinks;
+    	}
+    	
+		@Override
+		public void searchComplete(Page page, List<? extends RectF> regions) {
+			hyperLinks.put(page.getIndex().docIndex, regions);			
+		}
+    	
+    }
+
 
     /**
      * {@inheritDoc}
@@ -264,7 +290,24 @@ public class ViewerActivityController extends AbstractActivityController<ViewerA
         setWindowTitle();
         if (!recreated && documentModel != ActivityControllerStub.DM_STUB) {
             startDecoding("");
+            
+            Map<Integer, List<? extends RectF>> hyperLinks = new HashMap<Integer, List<? extends RectF>>();
+            
+            DecodeService ds = this.getSearchModel().getDecodeService();
+            int numPages = ds.getPageCount();
+            
+            String hyperLinkPattern = "www.";
+            
+            for(int i = 0; i < numPages; ++i) {
+            	//ds.searchText(this.getDocumentModel().getPageByDocIndex(i), hyperLinkPattern, (DecodeService.SearchCallback)(new HyperLinkIndexUpdater(hyperLinks)));
+            }
+            
+            this.getDocumentModel().getPageByDocIndex(1);
+            
+            String x = "";
         }
+        
+        this.getDocumentController().goToPage(1);
     }
 
     public void startDecoding(final String password) {
@@ -392,6 +435,7 @@ public class ViewerActivityController extends AbstractActivityController<ViewerA
                         pageText = offset + "/" + (newIndex.viewIndex + offset) + "/" + (pageCount - 1 + offset);
                     }
                 }
+                getActivity().getSearchControls().updatePageText(pageText);
                 getManagedComponent().currentPageChanged(pageText, bookTitle);
                 SettingsManager.currentPageChanged(bookSettings, oldIndex, newIndex);
             }
@@ -485,10 +529,11 @@ public class ViewerActivityController extends AbstractActivityController<ViewerA
         final Editable value = action.getParameter("input");
         final String newPattern = (value != null ? value.toString() : LengthUtils.toString(action.getParameter("text")));
         final String oldPattern = currentSearchPattern;
-
+        ((ViewerActivity)(this.m_managedComponent)).hideSoftKeyboard();
+        ((GLView)(this.m_managedComponent.view.getView())).setKeyboardOpen(false);
         currentSearchPattern = newPattern;
 
-        executor.execute(new SearchTask(), newPattern, oldPattern, (String) action.getParameter("forward"));
+        executor.execute(new SearchTask(this.getActivity()), newPattern, oldPattern, (String) action.getParameter("forward"));
     }
 
     @ActionMethod(ids = R.id.mainmenu_goto_page)
@@ -698,6 +743,41 @@ public class ViewerActivityController extends AbstractActivityController<ViewerA
     public final IActionController<?> getActionController() {
         return this;
     }
+    
+    public String checkIfLink(int pageNum, float x, float y) {
+    	/*if(hyperLinks == null) {
+    		return null;
+    	}
+    	
+    	List<? extends RectF> areas = hyperLinks.get(pageNum);
+    	x /= 1000;
+    	y /= 1000;
+    	
+    	if(areas != null) {
+	    	for(RectF r : areas) {
+	    		if(r.left <= x && r.right >= x && (r.top - .07) <= y && (r.bottom + .2) >= y) {
+	    			return r;
+	    		}
+	    	}
+    	}
+    	
+    	return null;*/
+    	
+    	List<PageLink> links = this.getDocumentModel().getCurrentPageObject().links;
+    	x /= 1000;
+    	y /= 1000;
+    	
+    	if(links != null) {
+	    	for(PageLink link : links) {
+	    		RectF r = link.sourceRect;    	
+	    		
+	    		if(r != null && (r.left - .2) <= x && (r.right + .2) >= x && (r.top - .3) <= y && (r.bottom + .5) >= y) {
+	    			return link.url;
+	    		}
+	    	}
+    	}
+    	return null;
+    }
 
     @ActionMethod(ids = { R.id.mainmenu_zoom, R.id.actions_toggleTouchManagerView, R.id.mainmenu_search,
             R.id.mainmenu_crop })
@@ -722,15 +802,19 @@ public class ViewerActivityController extends AbstractActivityController<ViewerA
         }
         IUIManager.instance.invalidateOptionsMenu(getManagedComponent());
     }
+    
+    
 
     public final boolean dispatchKeyEvent(final KeyEvent event) {
         final int action = event.getAction();
         final int keyCode = event.getKeyCode();
 
+        
         if (getManagedComponent().getSearchControls().getVisibility() == View.VISIBLE) {
-            if (action == KeyEvent.ACTION_DOWN && keyCode == KeyEvent.KEYCODE_BACK) {
-                toggleControls(getAction(R.id.mainmenu_search));
-                return true;
+            if (action == KeyEvent.ACTION_DOWN || keyCode == KeyEvent.KEYCODE_BACK) {
+                //toggleControls(getAction(R.id.mainmenu_search));
+                //return true;
+            	//return false;
             }
             return false;
         }
@@ -738,9 +822,19 @@ public class ViewerActivityController extends AbstractActivityController<ViewerA
         if (getDocumentController().dispatchKeyEvent(event)) {
             return true;
         }
+        
+        if(action == KeyEvent.ACTION_DOWN && keyCode == KeyEvent.KEYCODE_MENU) {
+        	return false;
+        }
 
+        if(action == KeyEvent.ACTION_DOWN && keyCode == KeyEvent.KEYCODE_HOME) {
+        	return false;
+        }
+        
         if (action == KeyEvent.ACTION_DOWN && keyCode == KeyEvent.KEYCODE_BACK) {
-            if (event.getRepeatCount() == 0) {
+            return false;
+        	/*
+        	if (event.getRepeatCount() == 0) {
                 if (getManagedComponent().getTouchView().isShown()) {
                     ViewEffects.toggleControls(getManagedComponent().getTouchView());
                 } else if (getManagedComponent().getManualCropControls().isShown()) {
@@ -763,8 +857,26 @@ public class ViewerActivityController extends AbstractActivityController<ViewerA
                 }
             }
             return true;
+            */
         }
         return false;
+    }
+    
+    public void loadHyperLinks() {
+    	hyperLinks = new HashMap<Integer, List<? extends RectF>>();
+        
+        DecodeService ds = this.getSearchModel().getDecodeService();
+        int numPages = ds.getPageCount();
+        
+        String hyperLinkPattern = "www.";
+        
+        for(int i = 0; i < numPages; ++i) {
+        	ds.searchText(this.getDocumentModel().getPageObject(i), hyperLinkPattern, (DecodeService.SearchCallback)(new HyperLinkIndexUpdater(hyperLinks)));
+        }
+        
+        this.getDocumentModel().getPageByDocIndex(1);
+        
+        String x = "";
     }
 
     @ActionMethod(ids = R.id.mainmenu_close)
@@ -915,6 +1027,8 @@ public class ViewerActivityController extends AbstractActivityController<ViewerA
 
         IUIManager.instance.invalidateOptionsMenu(getManagedComponent());
     }
+    
+    
 
     final class BookLoadTask extends BaseAsyncTask<String, Throwable> implements Runnable, IProgressIndicator {
 
@@ -941,7 +1055,9 @@ public class ViewerActivityController extends AbstractActivityController<ViewerA
                 }
                 getView().waitForInitialization();
                 documentModel.open(m_fileName, m_password);
+                
                 getDocumentController().init(this);
+                //loadHyperLinks();
                 return null;
             } catch (final MuPdfPasswordException pex) {
                 LCTX.i(pex.getMessage());
@@ -1008,7 +1124,12 @@ public class ViewerActivityController extends AbstractActivityController<ViewerA
         private final AtomicBoolean continueFlag = new AtomicBoolean(true);
         private String pattern;
         private Page targetPage = null;
+		private ViewerActivity activity;
 
+        public SearchTask(ViewerActivity activity) {
+        	this.activity = activity;
+        }
+        
         @Override
         public void onCancel(final DialogInterface dialog) {
             documentModel.decodeService.stopSearch(pattern);
@@ -1035,9 +1156,11 @@ public class ViewerActivityController extends AbstractActivityController<ViewerA
                 final boolean forward = length >= 3 ? Boolean.parseBoolean(params[2]) : true;
 
                 searchModel.setPattern(pattern);
-
+                
                 final RectF current = forward ? searchModel.moveToNext(this) : searchModel.moveToPrev(this);
                 targetPage = searchModel.getCurrentPage();
+                activity.setCurrentPage(targetPage);
+                
                 if (LCTX.isDebugEnabled()) {
                     LCTX.d("SearchTask.doInBackground(): " + targetPage + " " + current);
                 }

@@ -58,9 +58,9 @@ public class UIManager40x implements IUIManager {
         }
         try {
             if (visible) {
-                activity.getActionBar().show();
+            //    activity.getActionBar().show();
             } else {
-                activity.getActionBar().hide();
+             //   activity.getActionBar().hide();
             }
             activity.invalidateOptionsMenu();
             data.get(activity.getComponentName()).titleVisible = visible;

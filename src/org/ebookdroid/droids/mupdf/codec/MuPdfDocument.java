@@ -84,4 +84,10 @@ public class MuPdfDocument extends AbstractCodecDocument {
     private static native void free(long handle);
 
     private static native int getPageCount(long handle);
+
+	@Override
+	public List<? extends RectF> regexSearchText(int docIndex, String pattern) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

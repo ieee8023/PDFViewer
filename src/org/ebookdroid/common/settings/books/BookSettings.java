@@ -151,7 +151,7 @@ public class BookSettings implements CurrentPageListener {
         this.splitPages = object.getBoolean("splitPages");
         this.splitRTL = object.optBoolean("splitRTL", false);
         this.rotation = EnumUtils.getByName(BookRotationType.class, object, "rotation", BookRotationType.UNSPECIFIED);
-        this.viewMode = EnumUtils.getByName(DocumentViewMode.class, object, "viewMode", DocumentViewMode.VERTICALL_SCROLL);
+        this.viewMode = EnumUtils.getByName(DocumentViewMode.class, object, "viewMode", DocumentViewMode.SINGLE_PAGE);
         this.pageAlign = EnumUtils.getByName(PageAlign.class, object, "pageAlign", PageAlign.AUTO);
         this.animationType = EnumUtils.getByName(PageAnimationType.class, object, "animationType", PageAnimationType.NONE);
         this.cropPages = object.getBoolean("cropPages");

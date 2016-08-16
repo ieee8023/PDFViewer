@@ -2,6 +2,7 @@ package org.ebookdroid.core;
 
 import org.ebookdroid.common.bitmaps.ByteBufferBitmap;
 import org.ebookdroid.common.bitmaps.IBitmapRef;
+import org.ebookdroid.core.DecodeService.SearchCallback;
 import org.ebookdroid.core.codec.CodecFeatures;
 import org.ebookdroid.core.codec.CodecPage;
 import org.ebookdroid.core.codec.CodecPageInfo;
@@ -13,6 +14,8 @@ import java.util.List;
 
 public interface DecodeService extends CodecFeatures {
 
+	CodecPage getPage(final int pageIndex);
+	
     void open(String fileName, String password);
 
     void decodePage(ViewState viewState, PageTreeNode node);
@@ -50,5 +53,7 @@ public interface DecodeService extends CodecFeatures {
         void searchComplete(Page page, List<? extends RectF> regions);
 
     }
+
+	void regexSearchText(Page page, String pattern, SearchCallback callback);
 
 }

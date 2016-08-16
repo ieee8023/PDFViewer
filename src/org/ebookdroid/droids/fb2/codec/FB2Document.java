@@ -401,4 +401,10 @@ public class FB2Document extends AbstractCodecDocument {
         }
         return fb2Page;
     }
+
+	@Override
+	public List<? extends RectF> regexSearchText(int docIndex, String pattern) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

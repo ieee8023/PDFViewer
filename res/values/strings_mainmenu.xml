@@ -33,4 +33,6 @@
 
     <string name="menu_force_portrait">Force portrait</string>
     <string name="menu_force_landscape">Force landscape</string>
+    <string name="delete_button">Delete</string>
+    <string name="my_back_button">Back</string>
 </resources>

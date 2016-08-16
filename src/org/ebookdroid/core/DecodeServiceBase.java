@@ -107,6 +107,19 @@ public class DecodeServiceBase implements DecodeService {
         final SearchTask decodeTask = new SearchTask(page, pattern, callback);
         executor.add(decodeTask);
     }
+    
+    @Override
+    public void regexSearchText(final Page page, final String pattern, final SearchCallback callback) {
+        if (isRecycled.get()) {
+            if (LCTX.isDebugEnabled()) {
+                LCTX.d("Searching not allowed on recycling");
+            }
+            return;
+        }
+
+        final RegexSearchTask decodeTask = new RegexSearchTask(page, pattern, callback);
+        executor.add(decodeTask);
+    }
 
     @Override
     public void stopSearch(final String pattern) {
@@ -322,7 +335,7 @@ public class DecodeServiceBase implements DecodeService {
         updateImage(currentDecodeTask, page, bitmap, null, null);
     }
 
-    CodecPage getPage(final int pageIndex) {
+    public CodecPage getPage(final int pageIndex) {
         return getPageHolder(-2, pageIndex).getPage(-2);
     }
 
@@ -769,6 +782,38 @@ public class DecodeServiceBase implements DecodeService {
 
         public SearchTask(final Page page, final String pattern, final SearchCallback callback) {
             super(1);
+            this.page = page;
+            this.pattern = pattern;
+            this.callback = callback;
+        }
+
+        @Override
+        public void run() {
+            List<? extends RectF> regions = null;
+            if (document != null) {
+                try {
+                    if (codecContext.isFeatureSupported(CodecFeatures.FEATURE_DOCUMENT_TEXT_SEARCH)) {
+                        regions = document.searchText(page.index.docIndex, pattern);
+                    } else if (codecContext.isFeatureSupported(CodecFeatures.FEATURE_PAGE_TEXT_SEARCH)) {
+                        regions = getPage(page.index.docIndex).searchText(pattern);
+                    }
+                    callback.searchComplete(page, regions);
+                } catch (final Throwable th) {
+                    LCTX.e("Unexpected error: ", th);
+                    callback.searchComplete(page, null);
+                }
+            }
+        }
+    }
+    
+    class RegexSearchTask extends SearchTask {
+
+        final Page page;
+        final String pattern;
+        final SearchCallback callback;
+
+        public RegexSearchTask(final Page page, final String pattern, final SearchCallback callback) {
+            super(page, pattern, callback);
             this.page = page;
             this.pattern = pattern;
             this.callback = callback;

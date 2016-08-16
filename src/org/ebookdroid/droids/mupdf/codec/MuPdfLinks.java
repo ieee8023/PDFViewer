@@ -25,6 +25,20 @@ public class MuPdfLinks {
             final int type = getPageLinkType(linkHandle);
             if (type == FZ_LINK_URI) {
                 link.url = getPageLinkUrl(linkHandle);
+                if (fillPageLinkSourceRect(linkHandle, temp)) {
+                    link.sourceRect = new RectF();
+                    link.sourceRect.left = (temp[0] - pageBounds.left) / pageBounds.width();
+                    link.sourceRect.top = (temp[1] - pageBounds.top) / pageBounds.height();
+                    link.sourceRect.right = (temp[2] - pageBounds.left) / pageBounds.width();
+                    link.sourceRect.bottom = (temp[3] - pageBounds.top) / pageBounds.height();
+                }
+                
+                int flags = fillPageLinkTargetPoint(linkHandle, temp);
+                link.targetRect = new RectF();
+                link.targetRect.left = temp[0];
+                link.targetRect.top = temp[1];
+                MuPdfDocument.normalizeLinkTargetRect(docHandle, link.targetPage, link.targetRect, flags);
+                
                 links.add(link);
             } else if (type == FZ_LINK_GOTO) {
                 link.rectType = 1;

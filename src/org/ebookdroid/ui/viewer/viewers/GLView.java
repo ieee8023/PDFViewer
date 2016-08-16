@@ -7,19 +7,28 @@ import org.ebookdroid.core.Page;
 import org.ebookdroid.core.ViewState;
 import org.ebookdroid.ui.viewer.IActivityController;
 import org.ebookdroid.ui.viewer.IView;
+import org.ebookdroid.ui.viewer.ViewerActivityController;
 
+import android.app.Activity;
+import android.content.Context;
 import android.graphics.PointF;
 import android.graphics.Rect;
 import android.graphics.RectF;
 import android.view.MotionEvent;
 import android.view.SurfaceHolder;
 import android.view.View;
+import android.view.WindowManager;
+import android.view.inputmethod.InputMethodManager;
+import android.widget.SeekBar;
+import the.pdfviewerx.R;
+import the.pdfviewerx.ViewerActivity;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicReference;
 
 import org.emdev.ui.gl.GLCanvas;
 import org.emdev.ui.gl.GLRootView;
+import org.emdev.ui.uimanager.IUIManager;
 import org.emdev.ui.widget.Flinger;
 import org.emdev.utils.concurrent.Flag;
 
@@ -27,6 +36,7 @@ public final class GLView extends GLRootView implements IView, SurfaceHolder.Cal
 
     protected final IActivityController base;
 
+    
     protected final Flinger scroller;
 
     protected DrawQueue drawQueue;
@@ -40,10 +50,17 @@ public final class GLView extends GLRootView implements IView, SurfaceHolder.Cal
     protected final Flag layoutFlag = new Flag();
 
     protected final FullScreenCallback fullScreenCallback;
+    
+    private boolean searchOpen = false;
+    private boolean keyboardOpen = false;
+    private float x1,x2;
+    static final int MIN_DISTANCE = 10;
+    private SeekBar seekBar;
 
-    public GLView(final IActivityController baseActivity) {
+    public GLView(final IActivityController baseActivity, SeekBar seekBar) {
         super(baseActivity.getContext());
 
+        this.seekBar = seekBar;
         this.base = baseActivity;
         this.scroller = new Flinger();
 
@@ -52,7 +69,7 @@ public final class GLView extends GLRootView implements IView, SurfaceHolder.Cal
         setFocusableInTouchMode(true);
 
         fullScreenCallback = FullScreenCallback.get(baseActivity.getActivity(), this);
-
+        IUIManager.instance.setFullScreenMode(baseActivity.getActivity(), this, true);
         drawQueue = new DrawQueue();
         scrollThread = new ScrollEventThread(base, this);
         scrollThread.start();
@@ -195,9 +212,52 @@ public final class GLView extends GLRootView implements IView, SurfaceHolder.Cal
     @Override
     public boolean onTouchEvent(final MotionEvent ev) {
         mRenderLock.lock();
+        
+        
+        //seekBar.setMax(this.base.getDocumentModel().getPageCount());
         try {
             checkFullScreenMode();
-
+            forceFinishScroll();
+            
+            if(ev.getAction() == MotionEvent.ACTION_DOWN) {
+            	x1 = ev.getX();
+            } else if(ev.getAction() == MotionEvent.ACTION_UP) {
+            	x2 = ev.getX();
+                float deltaX = x2 - x1;
+                int pageNum = this.base.getDocumentModel().getCurrentDocPageIndex();
+                String rect = null;
+                
+                if (Math.abs(deltaX) < MIN_DISTANCE) {
+                    if((rect = ((ViewerActivityController)this.getBase()).checkIfLink(pageNum, ev.getX(), ev.getY())) != null) {
+                    	String url = rect;
+                    	((ViewerActivity)this.getBase().getActivity()).openWebView(url);
+                    } else if(searchOpen) {
+                    	if(keyboardOpen) {
+                    		searchOpen = false;
+                    		((ViewerActivity)(base.getDocumentController().getBase().getActivity())).getSearchControls().setVisibility(INVISIBLE);
+                    		((ViewerActivity)(this.getBase().getActivity())).hideSoftKeyboard();
+                    	} else {
+                    		((ViewerActivity)(this.getBase().getActivity())).showSoftKeyboard(this);
+                    		keyboardOpen = true;
+                    	}
+                		
+                		
+                	} else {
+                		searchOpen = true;
+                		keyboardOpen = true;
+                		Page lastPage = ((ViewerActivity)(base.getDocumentController().getBase().getActivity())).getCurrentPage();
+                		
+                		if(((ViewerActivity) base.getActivity()).getCurrentPage() != null) {
+                			base.getDocumentController().goToPage(((ViewerActivity)base.getActivity()).getCurrentPage().getIndex().docIndex);
+                		}
+                		
+                		((ViewerActivity)(base.getDocumentController().getBase().getActivity())).getSearchControls().setVisibility(VISIBLE);;
+                		
+                		//this.getBase().getActivity().getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
+                	}
+                }
+            } 
+            
             if (base.getDocumentController().onTouchEvent(ev)) {
                 return true;
             }
@@ -217,6 +277,10 @@ public final class GLView extends GLRootView implements IView, SurfaceHolder.Cal
         if (fullScreenCallback != null) {
             fullScreenCallback.checkFullScreenMode();
         }
+    }
+    
+    public void setKeyboardOpen(boolean flag) {
+    	this.keyboardOpen = flag;
     }
 
     /**

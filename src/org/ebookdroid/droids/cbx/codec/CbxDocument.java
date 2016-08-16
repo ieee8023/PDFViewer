@@ -17,6 +17,8 @@ import org.emdev.common.log.LogContext;
 import org.emdev.common.log.LogManager;
 import org.emdev.utils.StringUtils;
 
+import android.graphics.RectF;
+
 public class CbxDocument<ArchiveEntryType extends ArchiveEntry> extends AbstractCodecDocument {
 
     public static final LogContext LCTX = LogManager.root().lctx("Cbx", false);
@@ -96,4 +98,10 @@ public class CbxDocument<ArchiveEntryType extends ArchiveEntry> extends Abstract
             }
         }
     }
+
+	@Override
+	public List<? extends RectF> regexSearchText(int docIndex, String pattern) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

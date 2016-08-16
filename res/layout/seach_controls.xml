@@ -1,41 +1,145 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:gravity="top"
-    android:orientation="horizontal" >
-
-    <ImageButton
-        android:id="@+id/search_controls_next"
-        android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:orientation="vertical"	
+	        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:gravity="top"
+        >
+	<LinearLayout
+	        android:orientation="horizontal"	
+	        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:gravity="top">
+    
+	<RelativeLayout
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.1">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal">
+			<ImageView
+		        android:id="@+id/search_controls_icon"
+		        android:layout_width="wrap_content"
+		        android:layout_height="match_parent"
+		        android:weightSum="1"
+		        android:layout_marginRight="4dp"
+		        android:src="@drawable/magnifyingglass" 
+		         />
+		</LinearLayout>
+	</RelativeLayout>
+	<RelativeLayout
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.1">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal">
+			<TextView
+			    android:id="@+id/search_controls_page_num"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text=""
+				android:weightSum="1"
+				android:textColor="@color/actionbar_black"
+				android:textSize="20sp"
+		         />
+		</LinearLayout>
+	</RelativeLayout>
+	<RelativeLayout
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.6">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal">
+		    <EditText
+		        android:id="@+id/search_controls_edit"
+		        android:layout_marginLeft="15dp"
+	            android:layout_marginTop="15dp"
+	            android:layout_marginBottom="15dp"
+	            android:layout_marginRight="15dp"
+	            android:layout_centerVertical="true"
+	            android:layout_width="match_parent"
+	            android:layout_height="50dp"
+	            android:ellipsize="start"
+	            android:gravity="center"
+	            android:hint="Tap to Search by Name"
+	            android:inputType="text"
+		        android:background="@drawable/components_search_background"
+		        android:selectAllOnFocus="true"
+		         />
+		</LinearLayout>
+	</RelativeLayout>
+	
+	<RelativeLayout
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.1"
+        android:gravity="right">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal">
+		    <ImageButton
+		        android:id="@+id/search_controls_prev"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:weightSum="1"
+		        android:background="@drawable/components_search_background"
+		        android:src="@drawable/components_search_backward" />
+		</LinearLayout>
+	</RelativeLayout>
+	<RelativeLayout
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.1"
+        android:gravity="left">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal">
+		    <ImageButton
+		        android:id="@+id/search_controls_next"
+		        android:weightSum="1"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginRight="4dp"
+		        android:background="@drawable/components_search_background"
+		        android:src="@drawable/components_search_forward" />
+		</LinearLayout>
+	</RelativeLayout>
+ </LinearLayout>
+	<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:orientation="horizontal"
+>
+    <SeekBar
+        android:id="@+id/seekBar2"
+		android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:layout_marginRight="4dp"
-        android:background="@drawable/components_search_background"
-        android:src="@drawable/components_search_forward" />
-
-    <ImageButton
-        android:id="@+id/search_controls_prev"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginRight="2dp"
-        android:layout_toLeftOf="@id/search_controls_next"
-        android:background="@drawable/components_search_background"
-        android:src="@drawable/components_search_backward" />
-
-    <EditText
-        android:id="@+id/search_controls_edit"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@id/search_controls_prev"
-        android:layout_alignTop="@id/search_controls_prev"
-        android:layout_centerVertical="true"
-        android:layout_marginLeft="4dp"
-        android:layout_marginRight="2dp"
-        android:layout_toLeftOf="@id/search_controls_prev"
-        android:background="@drawable/components_search_background"
-        android:gravity="center"
-        android:singleLine="true"
-        android:textColor="@color/actionbar_white" />
-
+        android:layout_gravity="center"
+        android:max="10"
+ />
+    
+</LinearLayout>
+</LinearLayout>
 </RelativeLayout>
+

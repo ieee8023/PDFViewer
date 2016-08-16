@@ -103,8 +103,7 @@ public class SettingsManager {
                 current.persistent = Boolean.parseBoolean(LengthUtils.safeString(intent.getStringExtra("persistent"),
                         "true"));
 
-                current.viewMode = DocumentViewMode.valueOf((LengthUtils.safeString(intent.getStringExtra("viewMode"),
-                        current.viewMode.toString())));
+                current.viewMode = DocumentViewMode.SINGLE_PAGE;
                 current.animationType = PageAnimationType.valueOf(LengthUtils.safeString(
                         intent.getStringExtra("animationType"), current.animationType.toString()));
                 current.pageAlign = PageAlign.valueOf(LengthUtils.safeString(intent.getStringExtra("pageAlign"),

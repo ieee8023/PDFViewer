@@ -78,6 +78,7 @@ public class CacheManager extends org.emdev.common.cache.CacheManager {
         }
         return file;
     }
+    
 
     public static PageCacheFile getPageFile(final String path) {
         final String amd5 = StringUtils.md5(path);

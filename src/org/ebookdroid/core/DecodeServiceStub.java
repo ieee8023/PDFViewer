@@ -2,6 +2,7 @@ package org.ebookdroid.core;
 
 import org.ebookdroid.common.bitmaps.ByteBufferBitmap;
 import org.ebookdroid.common.bitmaps.IBitmapRef;
+import org.ebookdroid.core.codec.CodecPage;
 import org.ebookdroid.core.codec.CodecPageInfo;
 import org.ebookdroid.core.codec.OutlineLink;
 
@@ -126,5 +127,17 @@ public class DecodeServiceStub implements DecodeService {
     public ByteBufferBitmap createPageThumbnail(int width, int height, int pageNo, RectF region) {
         return null;
     }
+
+	@Override
+	public CodecPage getPage(int pageIndex) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void regexSearchText(Page page, String pattern, SearchCallback callback) {
+		// TODO Auto-generated method stub
+		
+	}
 
 }
