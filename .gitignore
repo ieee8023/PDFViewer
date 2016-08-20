@@ -32,4 +32,4 @@ proguard/
 
 obj
 
-keystore*
+*keystore*
