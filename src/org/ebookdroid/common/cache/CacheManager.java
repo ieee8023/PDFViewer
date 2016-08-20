@@ -3,6 +3,7 @@ package org.ebookdroid.common.cache;
 import org.ebookdroid.common.settings.types.CacheLocation;
 
 import android.content.Context;
+import the.pdfviewer3.R;
 
 import java.io.File;
 import java.lang.ref.SoftReference;
@@ -17,8 +18,6 @@ import org.emdev.utils.FileUtils;
 import org.emdev.utils.LengthUtils;
 import org.emdev.utils.StringUtils;
 import org.emdev.utils.listeners.ListenerProxy;
-
-import the.pdfviewerx.R;
 
 public class CacheManager extends org.emdev.common.cache.CacheManager {
 

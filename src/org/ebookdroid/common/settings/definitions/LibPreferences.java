@@ -1,21 +1,21 @@
 package org.ebookdroid.common.settings.definitions;
 
-import static the.pdfviewerx.R.string.pref_autoscanremovable_defvalue;
-import static the.pdfviewerx.R.string.pref_autoscanremovable_id;
-import static the.pdfviewerx.R.string.pref_brautoscandir_defvalue;
-import static the.pdfviewerx.R.string.pref_brautoscandir_id;
-import static the.pdfviewerx.R.string.pref_brfiletypes;
-import static the.pdfviewerx.R.string.pref_brsearchbookquery_id;
-import static the.pdfviewerx.R.string.pref_cachelocation_defvalue;
-import static the.pdfviewerx.R.string.pref_cachelocation_id;
-import static the.pdfviewerx.R.string.pref_shownotifications_defvalue;
-import static the.pdfviewerx.R.string.pref_shownotifications_id;
-import static the.pdfviewerx.R.string.pref_showremovable_defvalue;
-import static the.pdfviewerx.R.string.pref_showremovable_id;
-import static the.pdfviewerx.R.string.pref_showscanning_defvalue;
-import static the.pdfviewerx.R.string.pref_showscanning_id;
-import static the.pdfviewerx.R.string.pref_usebookcase_defvalue;
-import static the.pdfviewerx.R.string.pref_usebookcase_id;
+import static the.pdfviewer3.R.string.pref_autoscanremovable_defvalue;
+import static the.pdfviewer3.R.string.pref_autoscanremovable_id;
+import static the.pdfviewer3.R.string.pref_brautoscandir_defvalue;
+import static the.pdfviewer3.R.string.pref_brautoscandir_id;
+import static the.pdfviewer3.R.string.pref_brfiletypes;
+import static the.pdfviewer3.R.string.pref_brsearchbookquery_id;
+import static the.pdfviewer3.R.string.pref_cachelocation_defvalue;
+import static the.pdfviewer3.R.string.pref_cachelocation_id;
+import static the.pdfviewer3.R.string.pref_shownotifications_defvalue;
+import static the.pdfviewer3.R.string.pref_shownotifications_id;
+import static the.pdfviewer3.R.string.pref_showremovable_defvalue;
+import static the.pdfviewer3.R.string.pref_showremovable_id;
+import static the.pdfviewer3.R.string.pref_showscanning_defvalue;
+import static the.pdfviewer3.R.string.pref_showscanning_id;
+import static the.pdfviewer3.R.string.pref_usebookcase_defvalue;
+import static the.pdfviewer3.R.string.pref_usebookcase_id;
 
 import org.ebookdroid.common.settings.base.FileTypeFilterPreferenceDefinition;
 import org.ebookdroid.common.settings.types.CacheLocation;

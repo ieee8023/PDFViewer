@@ -24,6 +24,7 @@ import android.graphics.Rect;
 import android.graphics.RectF;
 import android.util.FloatMath;
 import android.view.GestureDetector.SimpleOnGestureListener;
+import the.pdfviewer3.R;
 import android.view.KeyEvent;
 import android.view.MotionEvent;
 
@@ -39,8 +40,6 @@ import org.emdev.ui.actions.ActionMethod;
 import org.emdev.ui.actions.params.Constant;
 import org.emdev.ui.progress.IProgressIndicator;
 import org.emdev.utils.LengthUtils;
-
-import the.pdfviewerx.R;
 
 public abstract class AbstractViewController extends AbstractComponentController<IView> implements IViewController {
 

@@ -31,6 +31,7 @@ import android.util.TypedValue;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
+import the.pdfviewer3.R;
 import android.widget.GridView;
 
 import java.io.File;
@@ -40,8 +41,6 @@ import java.util.GregorianCalendar;
 import org.emdev.ui.drawable.SpotlightDrawable;
 import org.emdev.ui.drawable.TransitionDrawable;
 import org.emdev.utils.LayoutUtils;
-
-import the.pdfviewerx.R;
 
 public class BookshelfView extends GridView implements OnItemClickListener {
 

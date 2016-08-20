@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+import the.pdfviewer3.R;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -19,8 +20,6 @@ import java.util.Map;
 import org.emdev.common.filesystem.FileExtensionFilter;
 import org.emdev.ui.adapters.BaseViewHolder;
 import org.emdev.utils.FileUtils;
-
-import the.pdfviewerx.R;
 
 public class RecentAdapter extends BaseAdapter {
 

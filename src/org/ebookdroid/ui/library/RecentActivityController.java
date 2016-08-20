@@ -55,12 +55,12 @@ import org.emdev.utils.CompareUtils;
 import org.emdev.utils.FileUtils;
 import org.emdev.utils.LengthUtils;
 
-import the.pdfviewerx.BrowserActivity;
-import the.pdfviewerx.EBookDroidApp;
-import the.pdfviewerx.FolderDlg;
-import the.pdfviewerx.R;
-import the.pdfviewerx.RecentActivity;
-import the.pdfviewerx.ViewerActivity;
+import the.pdfviewer3.BrowserActivity;
+import the.pdfviewer3.EBookDroidApp;
+import the.pdfviewer3.FolderDlg;
+import the.pdfviewer3.R;
+import the.pdfviewer3.RecentActivity;
+import the.pdfviewer3.ViewerActivity;
 
 public class RecentActivityController extends AbstractActivityController<RecentActivity> implements IBrowserActivity,
         ILibSettingsChangeListener, IRecentBooksChangedListener, ICacheListener, MediaManager.Listener {

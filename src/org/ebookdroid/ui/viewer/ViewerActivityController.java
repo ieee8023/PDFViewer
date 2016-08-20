@@ -86,10 +86,10 @@ import org.emdev.utils.FileUtils;
 import org.emdev.utils.LengthUtils;
 import org.emdev.utils.StringUtils;
 
-import the.pdfviewerx.EBookDroidApp;
-import the.pdfviewerx.FolderDlg;
-import the.pdfviewerx.R;
-import the.pdfviewerx.ViewerActivity;
+import the.pdfviewer3.EBookDroidApp;
+import the.pdfviewer3.FolderDlg;
+import the.pdfviewer3.R;
+import the.pdfviewer3.ViewerActivity;
 
 public class ViewerActivityController extends AbstractActivityController<ViewerActivity> implements
         IActivityController, DecodingProgressListener, CurrentPageListener, IAppSettingsChangeListener,

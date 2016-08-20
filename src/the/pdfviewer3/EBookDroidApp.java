@@ -1,4 +1,4 @@
-package the.pdfviewerx;
+package the.pdfviewer3;
 
 import org.ebookdroid.EBookDroidVersion;
 import org.ebookdroid.common.bitmaps.BitmapManager;
@@ -17,6 +17,7 @@ import org.ebookdroid.ui.library.RecentActivityController;
 import android.content.Context;
 import android.util.Log;
 import android.webkit.WebView;
+import the.pdfviewer3.R;
 
 import org.emdev.BaseDroidApp;
 import org.emdev.common.backup.BackupManager;
@@ -26,8 +27,6 @@ import org.emdev.ui.actions.ActionController;
 import org.emdev.ui.actions.ActionDialogBuilder;
 import org.emdev.ui.gl.GLConfiguration;
 import org.emdev.utils.concurrent.Flag;
-
-import the.pdfviewerx.R;
 
 public class EBookDroidApp extends BaseDroidApp implements IAppSettingsChangeListener, IBackupSettingsChangeListener,
         ILibSettingsChangeListener {

@@ -11,6 +11,7 @@ import android.graphics.PointF;
 import android.graphics.RectF;
 import android.util.FloatMath;
 import android.view.GestureDetector.SimpleOnGestureListener;
+import the.pdfviewer3.R;
 import android.view.MotionEvent;
 import android.view.View;
 
@@ -20,8 +21,6 @@ import org.emdev.common.log.LogContext;
 import org.emdev.common.log.LogManager;
 import org.emdev.ui.actions.ActionController;
 import org.emdev.utils.MathUtils;
-
-import the.pdfviewerx.R;
 
 public class TouchManagerView extends View {
 

@@ -12,13 +12,12 @@ import java.io.IOException;
 import java.net.URL;
 
 import jcifs.smb.SmbFileInputStream;
+import the.pdfviewer3.R;
 
 import org.emdev.common.cache.CacheManager;
 import org.emdev.ui.progress.IProgressIndicator;
 import org.emdev.ui.progress.UIFileCopying;
 import org.emdev.utils.LengthUtils;
-
-import the.pdfviewerx.R;
 
 public enum ContentScheme {
 

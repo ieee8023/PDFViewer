@@ -1,4 +1,4 @@
-package the.pdfviewerx;
+package the.pdfviewer3;
 
 import org.ebookdroid.ui.library.adapters.BrowserAdapter;
 
@@ -11,6 +11,7 @@ import android.widget.AdapterView;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
+import the.pdfviewer3.R;
 
 import java.io.File;
 import java.io.FileFilter;
@@ -23,8 +24,6 @@ import org.emdev.ui.actions.ActionMethod;
 import org.emdev.ui.actions.IActionController;
 import org.emdev.ui.actions.params.AbstractActionParameter;
 import org.emdev.utils.LayoutUtils;
-
-import the.pdfviewerx.R;
 
 public class FolderDlg implements AdapterView.OnItemClickListener {
 

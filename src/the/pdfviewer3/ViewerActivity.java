@@ -1,4 +1,4 @@
-package the.pdfviewerx;
+package the.pdfviewer3;
 
 import org.ebookdroid.common.settings.AppSettings;
 import org.ebookdroid.common.settings.books.BookSettings;
@@ -30,6 +30,7 @@ import android.view.SubMenu;
 import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.Toast;
+import the.pdfviewer3.R;
 
 import org.emdev.common.android.AndroidVersion;
 import org.emdev.ui.AbstractActionActivity;
@@ -39,8 +40,6 @@ import org.emdev.ui.gl.GLConfiguration;
 import org.emdev.ui.uimanager.IUIManager;
 import org.emdev.utils.LayoutUtils;
 import org.emdev.utils.LengthUtils;
-
-import the.pdfviewerx.R;
 
 public class ViewerActivity extends AbstractActionActivity<ViewerActivity, ViewerActivityController> {
 

@@ -1,6 +1,6 @@
 package org.ebookdroid.common.settings.definitions;
 
-import static the.pdfviewerx.R.string.*;
+import static the.pdfviewer3.R.string.*;
 
 import org.ebookdroid.common.settings.books.BookBackupType;
 import org.emdev.common.settings.base.BooleanPreferenceDefinition;

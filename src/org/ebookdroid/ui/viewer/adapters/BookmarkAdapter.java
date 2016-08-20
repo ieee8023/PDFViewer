@@ -14,12 +14,11 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+import the.pdfviewer3.R;
 
 import java.util.Collections;
 
 import org.emdev.ui.actions.IActionController;
-
-import the.pdfviewerx.R;
 
 public final class BookmarkAdapter extends BaseAdapter {
 

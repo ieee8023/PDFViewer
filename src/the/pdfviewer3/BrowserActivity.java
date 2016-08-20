@@ -1,4 +1,4 @@
-package the.pdfviewerx;
+package the.pdfviewer3;
 
 import org.ebookdroid.common.settings.SettingsManager;
 import org.ebookdroid.common.settings.books.BookSettings;
@@ -22,6 +22,7 @@ import android.widget.AdapterView.AdapterContextMenuInfo;
 import android.widget.ExpandableListAdapter;
 import android.widget.ExpandableListView;
 import android.widget.ExpandableListView.ExpandableListContextMenuInfo;
+import the.pdfviewer3.R;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.ViewFlipper;
@@ -37,8 +38,6 @@ import org.emdev.ui.actions.ActionMenuHelper;
 import org.emdev.ui.uimanager.IUIManager;
 import org.emdev.utils.LayoutUtils;
 import org.emdev.utils.LengthUtils;
-
-import the.pdfviewerx.R;
 
 public class BrowserActivity extends AbstractActionActivity<BrowserActivity, BrowserActivityController> {
 

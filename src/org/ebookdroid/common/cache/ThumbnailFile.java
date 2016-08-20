@@ -8,6 +8,7 @@ import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Rect;
+import the.pdfviewer3.R;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -16,8 +17,6 @@ import java.util.concurrent.atomic.AtomicReference;
 
 import org.emdev.ui.tasks.AsyncTask;
 import org.emdev.ui.tasks.AsyncTaskExecutor;
-
-import the.pdfviewerx.R;
 
 public class ThumbnailFile extends File {
 

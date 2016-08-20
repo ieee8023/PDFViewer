@@ -14,6 +14,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
+import the.pdfviewer3.R;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -26,8 +27,6 @@ import org.emdev.ui.actions.ActionEx;
 import org.emdev.ui.actions.ActionMethod;
 import org.emdev.utils.LayoutUtils;
 import org.emdev.utils.LengthUtils;
-
-import the.pdfviewerx.R;
 
 public class BackupDlg extends Dialog implements TextWatcher, ListView.OnItemLongClickListener,
         ListView.OnItemClickListener {

@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+import the.pdfviewer3.R;
 
 import java.io.File;
 import java.io.FileFilter;
@@ -21,8 +22,6 @@ import java.util.Set;
 import org.emdev.ui.adapters.BaseViewHolder;
 import org.emdev.utils.FileUtils;
 import org.emdev.utils.LengthUtils;
-
-import the.pdfviewerx.R;
 
 public class BrowserAdapter extends BaseAdapter implements Comparator<File> {
 

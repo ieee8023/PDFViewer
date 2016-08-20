@@ -5,10 +5,9 @@ import android.annotation.TargetApi;
 import android.app.Notification;
 import android.content.Intent;
 import android.support.v4.app.NotificationCompat;
+import the.pdfviewer3.R;
 
 import org.emdev.BaseDroidApp;
-
-import the.pdfviewerx.R;
 
 @TargetApi(4)
 class CompatibilityNotificationManager extends AbstractNotificationManager {

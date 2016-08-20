@@ -4,10 +4,9 @@ package org.ebookdroid.common.notifications;
 import android.annotation.TargetApi;
 import android.app.Notification;
 import android.content.Intent;
+import the.pdfviewer3.R;
 
 import org.emdev.BaseDroidApp;
-
-import the.pdfviewerx.R;
 
 @TargetApi(11)
 class ModernNotificationManager extends AbstractNotificationManager {

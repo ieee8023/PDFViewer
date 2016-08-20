@@ -12,8 +12,8 @@ import org.emdev.ui.actions.ActionEx;
 import org.emdev.ui.actions.params.Constant;
 import org.emdev.ui.actions.params.EditableValue;
 
-import the.pdfviewerx.R;
-import the.pdfviewerx.ViewerActivity;
+import the.pdfviewer3.R;
+import the.pdfviewer3.ViewerActivity;
 
 public class SearchControls extends LinearLayout {
 

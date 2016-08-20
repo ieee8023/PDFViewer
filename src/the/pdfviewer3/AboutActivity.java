@@ -1,4 +1,4 @@
-package the.pdfviewerx;
+package the.pdfviewer3;
 
 
 import android.app.Activity;
@@ -15,6 +15,7 @@ import android.webkit.WebView;
 import android.widget.BaseExpandableListAdapter;
 import android.widget.ExpandableListView;
 import android.widget.TextView;
+import the.pdfviewer3.R;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -24,8 +25,6 @@ import org.emdev.utils.CompareUtils;
 import org.emdev.utils.LayoutUtils;
 import org.emdev.utils.LengthUtils;
 import org.emdev.utils.wiki.Wiki;
-
-import the.pdfviewerx.R;
 
 public class AboutActivity extends Activity {
 

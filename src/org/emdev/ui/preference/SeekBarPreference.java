@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
+import the.pdfviewer3.R;
 import android.widget.TextView;
 
 import java.util.IllegalFormatException;
@@ -16,8 +17,6 @@ import org.emdev.ui.widget.IViewContainer;
 import org.emdev.ui.widget.SeekBarIncrementHandler;
 import org.emdev.utils.LengthUtils;
 import org.emdev.utils.WidgetUtils;
-
-import the.pdfviewerx.R;
 
 public final class SeekBarPreference extends DialogPreference implements OnSeekBarChangeListener {
 

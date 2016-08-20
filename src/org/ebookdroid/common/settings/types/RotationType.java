@@ -6,8 +6,8 @@ import android.content.pm.ActivityInfo;
 import org.emdev.common.android.AndroidVersion;
 import org.emdev.utils.enums.ResourceConstant;
 
-import the.pdfviewerx.EBookDroidApp;
-import the.pdfviewerx.R;
+import the.pdfviewer3.EBookDroidApp;
+import the.pdfviewer3.R;
 
 public enum RotationType implements ResourceConstant {
 

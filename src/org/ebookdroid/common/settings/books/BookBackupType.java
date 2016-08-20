@@ -4,7 +4,7 @@ package org.ebookdroid.common.settings.books;
 import org.emdev.BaseDroidApp;
 import org.emdev.utils.enums.ResourceConstant;
 
-import the.pdfviewerx.R;
+import the.pdfviewer3.R;
 
 public enum BookBackupType implements ResourceConstant {
 

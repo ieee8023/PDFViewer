@@ -1,4 +1,4 @@
-package the.pdfviewerx;
+package the.pdfviewer3;
 
 import org.ebookdroid.common.settings.AppSettings;
 import org.ebookdroid.common.settings.SettingsManager;
@@ -9,10 +9,9 @@ import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
+import the.pdfviewer3.R;
 
 import org.emdev.common.filesystem.PathFromUri;
-
-import the.pdfviewerx.R;
 
 public class BookSettingsActivity extends BaseSettingsActivity {
 

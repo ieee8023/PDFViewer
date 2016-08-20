@@ -3,6 +3,7 @@ package org.ebookdroid.common.keysbinding;
 import org.ebookdroid.common.settings.AppSettings;
 
 import android.view.KeyEvent;
+import the.pdfviewer3.R;
 
 import java.lang.reflect.Field;
 
@@ -14,8 +15,6 @@ import org.emdev.utils.collections.SparseArrayEx;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-
-import the.pdfviewerx.R;
 
 public class KeyBindingsManager {
 

@@ -21,11 +21,10 @@ import android.widget.BaseAdapter;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.RelativeLayout.LayoutParams;
+import the.pdfviewer3.R;
 import android.widget.TextView;
 
 import java.util.List;
-
-import the.pdfviewerx.R;
 
 public class OutlineAdapter extends BaseAdapter {
 
