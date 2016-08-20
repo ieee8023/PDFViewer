@@ -32,6 +32,12 @@ import android.view.Window;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
+import free.pdfviewer.BrowserActivity;
+import free.pdfviewer.EBookDroidApp;
+import free.pdfviewer.FolderDlg;
+import free.pdfviewer.R;
+import free.pdfviewer.RecentActivity;
+import free.pdfviewer.ViewerActivity;
 
 import java.io.File;
 import java.util.Collection;
@@ -54,13 +60,6 @@ import org.emdev.ui.uimanager.IUIManager;
 import org.emdev.utils.CompareUtils;
 import org.emdev.utils.FileUtils;
 import org.emdev.utils.LengthUtils;
-
-import the.pdfviewerx.BrowserActivity;
-import the.pdfviewerx.EBookDroidApp;
-import the.pdfviewerx.FolderDlg;
-import the.pdfviewerx.R;
-import the.pdfviewerx.RecentActivity;
-import the.pdfviewerx.ViewerActivity;
 
 public class RecentActivityController extends AbstractActivityController<RecentActivity> implements IBrowserActivity,
         ILibSettingsChangeListener, IRecentBooksChangedListener, ICacheListener, MediaManager.Listener {

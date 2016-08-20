@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="the.pdfviewerx"
+          package="free.pdfviewer"
           android:installLocation="auto"
           android:versionName="1.2" 
-          android:versionCode="6">
+          android:versionCode="7">
     <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="16"/>
     <uses-feature android:glEsVersion="0x00010001" android:required="true" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.INTERNET"/>
-    <application android:icon="@drawable/logo" android:label="@string/app_name" android:name=".EBookDroidApp" android:largeHeap="true">
-        <activity android:name=".ViewerActivity" android:configChanges="orientation|keyboardHidden">
+    <application android:icon="@drawable/logo" android:label="@string/app_name" android:name="free.pdfviewer.EBookDroidApp" android:largeHeap="true">
+        <activity android:name="free.pdfviewer.ViewerActivity" android:configChanges="orientation|keyboardHidden">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"/>
                 <category android:name="android.intent.category.DEFAULT"/>
@@ -47,18 +47,18 @@
                 <data android:pathPattern=".*\\.fb2\\.zip" />
             </intent-filter>
         </activity>
-        <activity android:name=".RecentActivity" android:label="@string/app_name" android:configChanges="keyboardHidden|orientation">
+        <activity android:name="free.pdfviewer.RecentActivity" android:label="@string/app_name" android:configChanges="keyboardHidden|orientation">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
         <!--  <activity android:name="org.ebookdroid.ui.opds.OPDSActivity" android:label="@string/opds" android:configChanges="keyboardHidden|orientation" android:launchMode="singleTask" />-->
-        <activity android:name=".SettingsActivity" android:configChanges="keyboardHidden|orientation" />
-        <activity android:name=".FragmentedSettingsActivity"/>
-        <activity android:name=".BookSettingsActivity" android:configChanges="keyboardHidden|orientation" android:launchMode="singleTask"/>
-        <activity android:name=".BrowserActivity" android:configChanges="keyboardHidden|orientation" android:launchMode="singleTask"/>
-        <activity android:name=".AboutActivity" android:icon="@drawable/logo" android:theme="@android:style/Theme.Dialog"/>
-        <activity android:name=".FolderDlg" android:icon="@drawable/logo" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name="free.pdfviewer.SettingsActivity" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="free.pdfviewer.FragmentedSettingsActivity"/>
+        <activity android:name="free.pdfviewer.BookSettingsActivity" android:configChanges="keyboardHidden|orientation" android:launchMode="singleTask"/>
+        <activity android:name="free.pdfviewer.BrowserActivity" android:configChanges="keyboardHidden|orientation" android:launchMode="singleTask"/>
+        <activity android:name="free.pdfviewer.AboutActivity" android:icon="@drawable/logo" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name="free.pdfviewer.FolderDlg" android:icon="@drawable/logo" android:theme="@android:style/Theme.Dialog"/>
     </application>
 </manifest>

@@ -2,7 +2,7 @@ package org.ebookdroid.ui.settings.fragments;
 
 
 import android.annotation.TargetApi;
-import the.pdfviewerx.R;
+import free.pdfviewer.R;
 
 @TargetApi(11)
 public class BrowserFragment extends BasePreferenceFragment {

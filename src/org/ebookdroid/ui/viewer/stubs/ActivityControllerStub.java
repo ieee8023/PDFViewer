@@ -12,12 +12,11 @@ import org.ebookdroid.ui.viewer.IViewController;
 
 import android.app.Activity;
 import android.content.Context;
+import free.pdfviewer.EBookDroidApp;
+import free.pdfviewer.ViewerActivity;
 
 import org.emdev.ui.actions.ActionController;
 import org.emdev.ui.actions.IActionController;
-
-import the.pdfviewerx.EBookDroidApp;
-import the.pdfviewerx.ViewerActivity;
 
 public class ActivityControllerStub extends ActionController<ViewerActivity> implements IActivityController {
 

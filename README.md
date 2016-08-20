@@ -5,7 +5,7 @@ PDF Viewer for Android source code
 
 It's on the market here: 
 
-https://play.google.com/store/apps/details?id=the.pdfviewerx
+https://play.google.com/store/apps/details?id=free.pdfviewer
 
 Or download the apk for github here: 
 

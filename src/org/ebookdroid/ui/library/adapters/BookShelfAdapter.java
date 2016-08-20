@@ -7,6 +7,7 @@ import android.database.DataSetObserver;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import free.pdfviewer.R;
 
 import java.util.ArrayList;
 import java.util.IdentityHashMap;
@@ -15,8 +16,6 @@ import java.util.List;
 import org.emdev.ui.adapters.BaseViewHolder;
 import org.emdev.utils.FileUtils;
 import org.emdev.utils.StringUtils;
-
-import the.pdfviewerx.R;
 
 public class BookShelfAdapter extends BaseAdapter {
 

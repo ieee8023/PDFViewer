@@ -19,6 +19,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewGroup.LayoutParams;
+import free.pdfviewer.R;
 
 import org.emdev.ui.actions.ActionController;
 import org.emdev.ui.actions.ActionDialogBuilder;
@@ -26,8 +27,6 @@ import org.emdev.ui.actions.ActionEx;
 import org.emdev.ui.actions.ActionMethod;
 import org.emdev.ui.actions.IActionController;
 import org.emdev.utils.MathUtils;
-
-import the.pdfviewerx.R;
 
 public class ManualCropView extends View {
 

@@ -27,11 +27,10 @@ import android.text.TextPaint;
 import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.View;
+import free.pdfviewer.R;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import the.pdfviewerx.R;
 
 /**
  * Provides a simple TextView-like control which allows us to set a max number

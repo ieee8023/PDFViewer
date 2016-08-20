@@ -8,14 +8,13 @@ import android.view.ViewGroup;
 import android.widget.BaseExpandableListAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+import free.pdfviewer.EBookDroidApp;
+import free.pdfviewer.R;
 
 import java.io.File;
 
 import org.emdev.ui.adapters.BaseViewHolder;
 import org.emdev.utils.FileUtils;
-
-import the.pdfviewerx.EBookDroidApp;
-import the.pdfviewerx.R;
 
 public class LibraryAdapter extends BaseExpandableListAdapter {
 

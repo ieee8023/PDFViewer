@@ -7,12 +7,11 @@ import android.util.AttributeSet;
 import android.view.GestureDetector.SimpleOnGestureListener;
 import android.view.MotionEvent;
 import android.widget.TextView;
+import free.pdfviewer.R;
 
 import org.emdev.common.log.LogContext;
 import org.emdev.common.log.LogManager;
 import org.emdev.ui.actions.IActionController;
-
-import the.pdfviewerx.R;
 
 public class BookmarkView extends TextView {
 

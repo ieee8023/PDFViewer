@@ -3,11 +3,10 @@ package org.ebookdroid.core.codec;
 import org.ebookdroid.common.settings.AppSettings;
 
 import android.graphics.Bitmap;
+import free.pdfviewer.ViewerActivity;
 
 import java.lang.reflect.Field;
 import java.util.concurrent.atomic.AtomicLong;
-
-import the.pdfviewerx.ViewerActivity;
 
 public abstract class AbstractCodecContext implements CodecContext {
 

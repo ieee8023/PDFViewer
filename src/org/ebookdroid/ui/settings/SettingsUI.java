@@ -3,14 +3,13 @@ package org.ebookdroid.ui.settings;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
+import free.pdfviewer.BookSettingsActivity;
+import free.pdfviewer.FragmentedSettingsActivity;
+import free.pdfviewer.SettingsActivity;
 
 import java.io.File;
 
 import org.emdev.common.android.AndroidVersion;
-
-import the.pdfviewerx.BookSettingsActivity;
-import the.pdfviewerx.FragmentedSettingsActivity;
-import the.pdfviewerx.SettingsActivity;
 
 public class SettingsUI {
 

@@ -4,6 +4,7 @@ package org.emdev.ui.preference;
 import android.content.Context;
 import android.preference.ListPreference;
 import android.util.AttributeSet;
+import free.pdfviewer.R;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,8 +15,6 @@ import org.emdev.common.fonts.data.FontFamilyType;
 import org.emdev.common.fonts.data.FontPack;
 import org.emdev.utils.WidgetUtils;
 import org.emdev.utils.enums.EnumUtils;
-
-import the.pdfviewerx.R;
 
 public class FontPickerPreference extends ListPreference {
 

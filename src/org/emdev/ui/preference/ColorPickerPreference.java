@@ -26,13 +26,12 @@ import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.LinearLayout;
+import free.pdfviewer.R;
 
 import org.afzkl.colorpicker.views.ColorPanelView;
 import org.afzkl.colorpicker.views.ColorPickerView;
 import org.afzkl.colorpicker.views.ColorPickerView.OnColorChangedListener;
 import org.emdev.utils.LengthUtils;
-
-import the.pdfviewerx.R;
 
 public class ColorPickerPreference extends DialogPreference implements ColorPickerView.OnColorChangedListener {
 

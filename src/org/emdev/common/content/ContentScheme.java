@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.database.Cursor;
 import android.net.Uri;
 import android.provider.MediaStore;
+import free.pdfviewer.R;
 
 import java.io.File;
 import java.io.IOException;
@@ -17,8 +18,6 @@ import org.emdev.common.cache.CacheManager;
 import org.emdev.ui.progress.IProgressIndicator;
 import org.emdev.ui.progress.UIFileCopying;
 import org.emdev.utils.LengthUtils;
-
-import the.pdfviewerx.R;
 
 public enum ContentScheme {
 

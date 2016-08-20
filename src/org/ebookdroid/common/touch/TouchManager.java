@@ -4,6 +4,7 @@ import org.ebookdroid.common.settings.AppSettings;
 
 import android.graphics.Rect;
 import android.graphics.RectF;
+import free.pdfviewer.R;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -20,8 +21,6 @@ import org.emdev.utils.LengthUtils;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-
-import the.pdfviewerx.R;
 
 public class TouchManager {
 

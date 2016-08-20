@@ -10,6 +10,7 @@ import android.graphics.Paint;
 import android.graphics.Paint.Align;
 import android.graphics.RectF;
 import android.text.TextPaint;
+import free.pdfviewer.R;
 
 import java.util.List;
 import java.util.Queue;
@@ -20,8 +21,6 @@ import org.emdev.common.log.LogManager;
 import org.emdev.ui.gl.GLCanvas;
 import org.emdev.ui.gl.StringTexture;
 import org.emdev.utils.LengthUtils;
-
-import the.pdfviewerx.R;
 
 public class EventGLDraw implements IEvent {
 

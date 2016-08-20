@@ -17,6 +17,7 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
+import free.pdfviewer.R;
 import android.widget.Toast;
 
 import org.emdev.ui.actions.ActionDialogBuilder;
@@ -30,8 +31,6 @@ import org.emdev.ui.uimanager.IUIManager;
 import org.emdev.ui.widget.IViewContainer;
 import org.emdev.ui.widget.SeekBarIncrementHandler;
 import org.emdev.utils.LayoutUtils;
-
-import the.pdfviewerx.R;
 
 public class GoToPageDialog extends Dialog {
 

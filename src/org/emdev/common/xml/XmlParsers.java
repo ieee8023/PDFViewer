@@ -4,7 +4,7 @@ package org.emdev.common.xml;
 import org.emdev.BaseDroidApp;
 import org.emdev.utils.enums.ResourceConstant;
 
-import the.pdfviewerx.R;
+import free.pdfviewer.R;
 
 public enum XmlParsers implements ResourceConstant {
 

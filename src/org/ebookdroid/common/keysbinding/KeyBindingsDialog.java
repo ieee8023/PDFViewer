@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemSelectedListener;
+import free.pdfviewer.R;
 import android.widget.BaseExpandableListAdapter;
 import android.widget.ExpandableListView;
 import android.widget.Spinner;
@@ -24,8 +25,6 @@ import org.emdev.ui.actions.ActionEx;
 import org.emdev.ui.adapters.ActionsAdapter;
 import org.emdev.utils.LayoutUtils;
 import org.emdev.utils.LengthUtils;
-
-import the.pdfviewerx.R;
 
 public class KeyBindingsDialog extends Dialog {
 

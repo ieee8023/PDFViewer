@@ -21,6 +21,11 @@ import android.view.KeyEvent;
 import android.view.Window;
 import android.widget.EditText;
 import android.widget.ImageView;
+import free.pdfviewer.BrowserActivity;
+import free.pdfviewer.FolderDlg;
+import free.pdfviewer.R;
+import free.pdfviewer.RecentActivity;
+import free.pdfviewer.ViewerActivity;
 
 import java.io.File;
 import java.io.FileFilter;
@@ -41,12 +46,6 @@ import org.emdev.ui.actions.params.EditableValue;
 import org.emdev.utils.CompareUtils;
 import org.emdev.utils.FileUtils;
 import org.emdev.utils.LengthUtils;
-
-import the.pdfviewerx.BrowserActivity;
-import the.pdfviewerx.FolderDlg;
-import the.pdfviewerx.R;
-import the.pdfviewerx.RecentActivity;
-import the.pdfviewerx.ViewerActivity;
 
 public class BrowserActivityController extends AbstractActivityController<BrowserActivity> implements IBrowserActivity {
 

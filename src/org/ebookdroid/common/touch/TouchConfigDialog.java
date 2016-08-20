@@ -12,6 +12,7 @@ import android.graphics.Rect;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemSelectedListener;
+import free.pdfviewer.R;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 
@@ -22,8 +23,6 @@ import org.emdev.ui.actions.ActionEx;
 import org.emdev.ui.actions.ActionMethod;
 import org.emdev.ui.actions.DialogController;
 import org.emdev.ui.adapters.ActionsAdapter;
-
-import the.pdfviewerx.R;
 
 public class TouchConfigDialog extends Dialog {
 

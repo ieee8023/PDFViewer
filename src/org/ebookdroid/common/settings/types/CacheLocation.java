@@ -3,8 +3,8 @@ package org.ebookdroid.common.settings.types;
 
 import org.emdev.utils.enums.ResourceConstant;
 
-import the.pdfviewerx.EBookDroidApp;
-import the.pdfviewerx.R;
+import free.pdfviewer.EBookDroidApp;
+import free.pdfviewer.R;
 
 public enum CacheLocation implements ResourceConstant {
 

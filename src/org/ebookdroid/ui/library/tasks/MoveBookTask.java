@@ -7,6 +7,7 @@ import org.ebookdroid.ui.library.adapters.BookNode;
 import org.ebookdroid.ui.library.adapters.RecentAdapter;
 
 import android.content.Context;
+import free.pdfviewer.R;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -15,8 +16,6 @@ import java.io.IOException;
 import org.emdev.ui.progress.UIFileCopying;
 import org.emdev.ui.tasks.BaseFileAsyncTask;
 import org.emdev.ui.tasks.BaseFileAsyncTask.FileTaskResult;
-
-import the.pdfviewerx.R;
 
 public class MoveBookTask extends BaseFileAsyncTask<BookNode, FileTaskResult> {
 

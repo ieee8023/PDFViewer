@@ -1,6 +1,6 @@
 package org.ebookdroid.common.settings.definitions;
 
-import static the.pdfviewerx.R.string.*;
+import static free.pdfviewer.R.string.*;
 
 import org.ebookdroid.common.settings.types.DocumentViewMode;
 import org.ebookdroid.common.settings.types.FontSize;

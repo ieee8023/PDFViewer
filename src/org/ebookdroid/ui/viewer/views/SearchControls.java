@@ -7,13 +7,12 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
+import free.pdfviewer.R;
+import free.pdfviewer.ViewerActivity;
 
 import org.emdev.ui.actions.ActionEx;
 import org.emdev.ui.actions.params.Constant;
 import org.emdev.ui.actions.params.EditableValue;
-
-import the.pdfviewerx.R;
-import the.pdfviewerx.ViewerActivity;
 
 public class SearchControls extends LinearLayout {
 

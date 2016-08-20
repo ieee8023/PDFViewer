@@ -5,13 +5,12 @@ import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
+import free.pdfviewer.EBookDroidApp;
+import free.pdfviewer.R;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
 import org.emdev.BaseDroidApp;
-
-import the.pdfviewerx.EBookDroidApp;
-import the.pdfviewerx.R;
 
 abstract class AbstractNotificationManager implements INotificationManager {
 

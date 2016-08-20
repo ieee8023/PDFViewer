@@ -2,12 +2,11 @@ package org.ebookdroid.common.settings.types;
 
 
 import android.content.pm.ActivityInfo;
+import free.pdfviewer.EBookDroidApp;
+import free.pdfviewer.R;
 
 import org.emdev.common.android.AndroidVersion;
 import org.emdev.utils.enums.ResourceConstant;
-
-import the.pdfviewerx.EBookDroidApp;
-import the.pdfviewerx.R;
 
 public enum RotationType implements ResourceConstant {
 

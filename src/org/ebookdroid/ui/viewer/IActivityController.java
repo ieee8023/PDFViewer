@@ -9,10 +9,9 @@ import org.ebookdroid.core.models.ZoomModel;
 
 import android.app.Activity;
 import android.content.Context;
+import free.pdfviewer.ViewerActivity;
 
 import org.emdev.ui.actions.IActionController;
-
-import the.pdfviewerx.ViewerActivity;
 
 public interface IActivityController extends IActionController<ViewerActivity> {
 

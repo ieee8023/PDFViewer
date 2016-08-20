@@ -13,8 +13,8 @@ import org.emdev.common.log.LogContext;
 import org.emdev.common.log.LogManager;
 import org.emdev.utils.enums.ResourceConstant;
 
-import the.pdfviewerx.EBookDroidApp;
-import the.pdfviewerx.R;
+import free.pdfviewer.EBookDroidApp;
+import free.pdfviewer.R;
 
 public enum DocumentViewMode implements ResourceConstant {
 

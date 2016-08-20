@@ -2,6 +2,7 @@ package org.emdev.ui.actions;
 
 
 import android.view.View;
+import free.pdfviewer.R;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -9,8 +10,6 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 import org.emdev.common.log.LogContext;
 import org.emdev.common.log.LogManager;
-
-import the.pdfviewerx.R;
 
 /**
  * This class defines base features for action controller.

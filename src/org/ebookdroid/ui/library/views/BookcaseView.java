@@ -10,7 +10,7 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-import the.pdfviewerx.R;
+import free.pdfviewer.R;
 
 public class BookcaseView extends RelativeLayout {
 

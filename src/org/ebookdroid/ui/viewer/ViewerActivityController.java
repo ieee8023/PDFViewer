@@ -54,6 +54,10 @@ import android.view.View;
 import android.view.Window;
 import android.widget.EditText;
 import android.widget.Toast;
+import free.pdfviewer.EBookDroidApp;
+import free.pdfviewer.FolderDlg;
+import free.pdfviewer.R;
+import free.pdfviewer.ViewerActivity;
 
 import java.io.File;
 import java.io.IOException;
@@ -85,11 +89,6 @@ import org.emdev.ui.uimanager.IUIManager;
 import org.emdev.utils.FileUtils;
 import org.emdev.utils.LengthUtils;
 import org.emdev.utils.StringUtils;
-
-import the.pdfviewerx.EBookDroidApp;
-import the.pdfviewerx.FolderDlg;
-import the.pdfviewerx.R;
-import the.pdfviewerx.ViewerActivity;
 
 public class ViewerActivityController extends AbstractActivityController<ViewerActivity> implements
         IActivityController, DecodingProgressListener, CurrentPageListener, IAppSettingsChangeListener,

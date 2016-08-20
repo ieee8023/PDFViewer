@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import free.pdfviewer.AboutActivity;
+import free.pdfviewer.R;
 
 import java.util.concurrent.atomic.AtomicLong;
 
@@ -15,9 +17,6 @@ import org.emdev.common.log.LogManager;
 import org.emdev.ui.actions.ActionEx;
 import org.emdev.ui.actions.ActionMenuHelper;
 import org.emdev.ui.actions.ActionMethod;
-
-import the.pdfviewerx.AboutActivity;
-import the.pdfviewerx.R;
 
 public abstract class AbstractActionActivity<A extends Activity, C extends AbstractActivityController<A>> extends
         Activity implements ActivityEvents {

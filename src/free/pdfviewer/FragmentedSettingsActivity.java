@@ -1,12 +1,11 @@
-package the.pdfviewerx;
+package free.pdfviewer;
 
 
 import android.annotation.TargetApi;
 import android.content.res.Configuration;
+import free.pdfviewer.R;
 
 import java.util.List;
-
-import the.pdfviewerx.R;
 
 @TargetApi(11)
 public class FragmentedSettingsActivity extends SettingsActivity {

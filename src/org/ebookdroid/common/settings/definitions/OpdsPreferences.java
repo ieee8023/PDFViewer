@@ -5,7 +5,7 @@ import org.emdev.common.settings.base.BooleanPreferenceDefinition;
 import org.emdev.common.settings.base.JsonArrayPreferenceDefinition;
 import org.emdev.common.settings.base.StringPreferenceDefinition;
 
-import the.pdfviewerx.R;
+import free.pdfviewer.R;
 
 public interface OpdsPreferences {
 

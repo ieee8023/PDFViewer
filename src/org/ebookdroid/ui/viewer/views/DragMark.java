@@ -8,12 +8,11 @@ import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.Rect;
+import free.pdfviewer.R;
 
 import org.emdev.BaseDroidApp;
 import org.emdev.ui.gl.BitmapTexture;
 import org.emdev.ui.gl.GLCanvas;
-
-import the.pdfviewerx.R;
 
 public enum DragMark {
 

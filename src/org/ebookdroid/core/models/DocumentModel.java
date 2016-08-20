@@ -27,6 +27,7 @@ import org.ebookdroid.ui.viewer.IView;
 
 import android.graphics.PointF;
 import android.graphics.RectF;
+import free.pdfviewer.R;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -39,8 +40,6 @@ import org.emdev.utils.CompareUtils;
 import org.emdev.utils.LengthUtils;
 import org.emdev.utils.collections.TLIterator;
 import org.emdev.utils.listeners.ListenerProxy;
-
-import the.pdfviewerx.R;
 
 public class DocumentModel extends ListenerProxy {
 

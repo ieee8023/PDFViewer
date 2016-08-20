@@ -3,10 +3,9 @@ package org.emdev.ui.actions;
 
 import android.app.AlertDialog;
 import android.content.Context;
+import free.pdfviewer.R;
 
 import org.emdev.utils.LengthUtils;
-
-import the.pdfviewerx.R;
 
 public class ActionDialogBuilder extends AlertDialog.Builder {
 
